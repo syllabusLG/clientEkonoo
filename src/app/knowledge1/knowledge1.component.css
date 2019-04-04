@@ -1,0 +1,52 @@
+.my-background-project{
+  background-image: url('../shared/images/connaissance_1.png');
+  color: white;
+  background-size: cover;
+}
+
+.projectTitle2{
+  position: center;
+  margin-left: 20px;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: white;
+}
+
+.my-project-choice-suite{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.buttonProject{
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 190pt;
+  margin-top: 20pt;
+  margin-left: 55pt;
+  height: 45pt;
+}
+
+.icon-preccedent{
+  margin-top: 25pt;
+}
+.spacer{
+  margin-top: 30px;
+}
+mat-grid-tile {
+  background: lightblue;
+}
+
+.question2{
+  padding-top: 140px;
+  margin-left: 80px;
+  color: #85c8ec;
+  border: 0;
+  background: transparent;
+}
+.btn1{
+  width: 170px;
+  height: 145px;
+  border: 0;
+}
+

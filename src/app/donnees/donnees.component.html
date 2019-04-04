@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+
+  <style>
+    #demo {
+      width:30%;
+      height:790px;
+      margin-top: 20px;
+      margin-left: 500px;
+
+    }
+  </style>
+</head>
+<body>
+
+<div id="demo" class="container my-background-data">
+  <a (click)="goToLancementB()">
+    <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+  </a>
+  <h6>
+    <input value="C'est parti !" class="robot"><br><br>
+    <input value="Commençons par vous:" class="robot2">
+    <input value="votre Prénom, votre Nom et votre." class="robot2">
+    <input value="Date de Naissance." class="robot2">
+  </h6>
+  <h4 class="h3-data">
+    Renseigner mes données
+  </h4>
+  <br>
+  <form class="example-form-data">
+    <mat-form-field class="example-full-width-data">
+      <mat-label class="my-label-data">Prénom</mat-label>
+      <input matInput >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width-data">
+      <mat-label class="my-label-data">Nom</mat-label>
+      <input matInput>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width-data" [color]="primary">
+      <mat-label class="my-label-data">Date de naissance</mat-label>
+      <input matInput [matDatepicker]="picker"  >
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker  [startAt]="startDate"></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width-data">
+      <mat-label class="my-label-data">Nationalité</mat-label>
+      <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
+      <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+          {{option.name}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+
+  </form>
+  <button class="btn btn-info btn-lg btn-block buttonData" (click)="goToAdresse()">Enregistrer</button>
+</div>
+</body>
+</html>
+

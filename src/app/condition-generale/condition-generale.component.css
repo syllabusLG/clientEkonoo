@@ -1,0 +1,76 @@
+.my-background-code{
+  background-image: url('../shared/images/generalOp.png');
+  color: white;
+  background-size: cover;
+}
+.my-title{
+  position: center;
+  color: white;
+  background-color: #30649A;
+  width: 50%;
+  margin-left: 85pt;
+  border: 0;
+  background: transparent;
+}
+.my-efficient{
+  color: white;
+  background-color: #30649A;
+  font-size: 10px;
+  width: 50%;
+  margin-left: 115px;
+  border: 0;
+  background: transparent;
+}
+.my-h3-login{
+  text-align: center;
+  width: 278pt;
+  height: 20.5pt;
+  padding-top: 130pt;
+  padding-left: 50px;
+  font-family: Roboto;
+}
+
+.paragrapheCode{
+  font-family: Roboto;
+  font-style: normal;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.buttonGoCode {
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 172.5pt;
+  margin-left: 70pt;
+  margin-top: 80px;
+  height: 45pt;
+}
+
+.my-lynk-code{
+  position: center;
+  padding-left: 80px;
+  color: white;
+}
+.example-form-code {
+  min-width: 100px;
+  max-width: 500px;
+  width: 100%;
+  padding-left: 20pt;
+  padding-right: 20pt;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.my-label{
+  color: #85c8ec;
+}
+.my-print{
+  margin-left: 150pt;
+  margin-top: 20pt;
+}
+.pdf{
+  margin-left: 20px;
+}

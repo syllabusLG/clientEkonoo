@@ -1,0 +1,57 @@
+.my-background-connect{
+  background-image: url('../shared/images/general.png');
+  color: white;
+  background-size: cover;
+}
+.my-title{
+  background-image: url('../shared/images/logo.png');
+  background-repeat: no-repeat;
+  position: center;
+  margin-left: 85pt;
+}
+.my-h3-login{
+  position: center;
+  width: 278pt;
+  height: 20.5pt;
+  padding-left: 100pt;
+  padding-top: 50pt;
+}
+.paragraphe{
+  position: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+}
+.buttonGo {
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 172.5pt;
+  margin-left: 65pt;
+  height: 45pt;
+}
+.my-lynk{
+  position: center;
+  padding-left: 180px;
+  color: white;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+
+}
+
+.example-full-width {
+  width: 100%;
+}
+.my-label{
+  color: #85c8ec;
+}
+.my-printFinger-connect{
+  margin-left: 130pt;
+  margin-top: 10pt;
+}
+
+
+

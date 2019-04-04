@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>createCompte</title>
+  <meta charset="utf-8">
+
+  <style>
+    #demo {
+      width:30%;
+      height:790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="demo" class="container my-background-code">
+  <!--<a *ngIf="notification" (click)="notification = false">
+    <mat-icon>sms</mat-icon>
+  </a>-->
+
+  <div *ngIf="notification" class="sms">
+    <h6 style="margin-left: 10px">ekonoo</h6>
+    <span style="margin-left: 10px">voici votre code de sécurité {{secureCode}}: il est déjà saisi</span>
+  </div>
+  <br><br><br><br><br><br><br>
+  <h4 class="my-h3-login">Créer mon compte</h4>
+  <br><br>
+  <p class="paragrapheCode">Insérer le code de sécurité qui vous a été envoyé par SMS sur votre téléphone portable</p>
+  <form class="example-form-code">
+    <mat-form-field class="example-full-width">
+      <mat-label class="my-label">Mon code de sécurité</mat-label>
+      <input type="password" matInput value="{{secureCode}}">
+      <mat-icon class="my-label" matSuffix>info</mat-icon>
+    </mat-form-field>
+    <br><br><br>
+    <button class="btn btn-info btn-lg btn-block buttonGoCode" (click)="goToConditionGenerale()">Go</button>
+    <br>
+    <a href="" data-toggle="collapse" class="my-lynk-code">
+      <h6><i (click)="generateCode()">Générer un nouveau code</i></h6>
+    </a>
+  </form>
+</div>
+</body>
+</html>
+

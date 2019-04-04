@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-viewLD">
+
+  <a (click)="returnToViewLicenceDriverVerso()">
+    <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+  </a>
+  <h6>
+    <input value="Assurez-vous que votre," class="robot">
+    <input value="photo est bien nette et que" class="robot2">
+    <input value="je puisse vous reconnaitre !" class="robot2">
+  </h6>
+
+  <div style="text-align: center" class="camera">
+    <div *ngIf="!showSelfie">
+      <webcam [height]="300" [width]="300" [trigger]="triggerObservable" (imageCapture)="handleImage($event)" *ngIf="showWebcam"
+              [allowCameraSwitch]="allowCameraSwitch" [switchCamera]="nextWebcamObservable"
+              [videoOptions]="videoOptions"
+              [imageQuality]="1"
+              (cameraSwitched)="cameraWasSwitched($event)"
+              (initError)="handleInitError($event)"
+      ></webcam>
+      <br>
+      <!--<a class="actionBtn" (click)="triggerSnapshot();"><mat-icon>album</mat-icon></a>-->
+      <a href="#" data-toggle="collapse" class="positionCamera" (click)="triggerSnapshot();" >
+        <img src="ios_capture_icon_wbg.png" >
+      </a>
+    </div>
+    <div *ngIf="webcamImage">
+      <img [src]="webcamImage.imageAsDataUrl" class="snapshot" />
+    </div>
+
+  </div>
+  <div *ngIf="showSelfie">
+    <button class="btn btn-info btn-lg btn-block buttonviewLD" (click)="goToIdentity()">C'est tout moi !</button>
+  </div>
+
+</div>
+</body>
+</html>

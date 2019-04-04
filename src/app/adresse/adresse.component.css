@@ -1,0 +1,47 @@
+mat-form-field {
+  margin-right: 10px;
+}
+.numeroRue{
+  width: 50px;
+}
+.rue{
+  width: 324px;
+}
+.my-background-adresse{
+  background-image: url('../shared/images/adresse.png');
+  color: white;
+  background-size: cover;
+}
+.icon-preccedent{
+  margin-top: 25pt;
+}
+.h3-adresse{
+  text-align: center;
+  font-family: Roboto;
+  width: 278pt;
+  height: 20.5pt;
+  padding-top: 200pt;
+  padding-left: 45px;
+}
+
+.buttonAdresse{
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 172.5pt;
+  margin-top: 50pt;
+  margin-left: 70pt;
+  height: 45pt;
+}
+.example-full-width-adresse {
+  width: 100%;
+}
+.my-label-adresse{
+  color: #85c8ec;
+}
+.example-form-adresse {
+  margin-top: 50px;
+  width: 90%;
+  margin-right: 15px;
+  margin-left: 15px;
+}

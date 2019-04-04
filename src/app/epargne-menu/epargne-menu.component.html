@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>epargneMenu</title>
+    <meta charset="utf-8">
+    <style>
+      #demo {
+        width:30%;
+        height:790px;
+        margin-top: 20px;
+        margin-left: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="demo" class="container my-background-epargne">
+      <h4 class="title">Mon épargne</h4>
+     <!-- <mat-tab-group class="mat-tab-group">
+        <mat-tab label="Synthèse">
+          <div class="replaceInfoDate">
+            <mat-form-field>
+              <select matNativeControl required style="text-align: center">
+                <option value="dat1">04/02/2019</option>
+                <option value="dat2">14/03/2019</option>
+                <option value="date3">01/04/2019</option>
+              </select>
+            </mat-form-field>
+          </div>
+          &lt;!&ndash;<div class="replaceInfoRadio">
+            <input type="radio" value="1" style="margin-left: 50px">  Individuel 60% <input type="radio" value="2" style="margin-left: 50px"> Collectif 40%
+          </div>&ndash;&gt;
+          <div style="text-align:center">
+
+          </div>
+        </mat-tab>
+        <mat-tab label="Dispositifs">
+          Dispositif
+        </mat-tab>
+        <mat-tab label="Instruments">
+          Instruments
+        </mat-tab>
+      </mat-tab-group>-->
+      <div class="replaceMenu1 menu-separator">
+        <h5>Synthèse</h5>
+      </div>
+      <div class="replaceMenu2">
+        <h5>Dispositifs</h5>
+      </div>
+      <div class="replaceMenu3">
+        <h5>Instruments</h5>
+      </div>
+      <div class="replaceSelected selected-separator">
+        <select class="selected">
+          <option value="dat1">04/02/2019</option>
+          <option value="dat2">14/03/2019</option>
+          <option value="date3">01/04/2019</option>
+        </select>
+      </div>
+
+
+      <div style="margin-top: 100px">
+        <canvas id="pieChart" width="300px" height="300px"></canvas>
+      </div>
+
+      <div class="replaceDivChart">
+        22500,00 €
+      </div>
+      <div class="replaceDivChart2">
+        +/- value latente
+      </div>
+      <div class="replaceDivChart3">
+        457,00 €
+      </div>
+      <div class="replaceDivChart4">
+        +7.47%
+      </div>
+      <div style="margin-top: 50px; margin-left: 20px">
+        <label class="container">Plan d'épargne retraite collectif 35%
+          <input type="radio" name="legende"(click)="goToEpargneRetraiteCollectif()">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div style="margin-left: 20px">
+        <label class="container">Plan d'épargne d'entreprise 35%
+          <input type="radio" name="legende"(click)="goToEpargneEntreprise()">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div style="margin-left: 20px">
+        <label class="container">Plan d'épargne retraite individuel 25%
+          <input type="radio" name="legende"(click)="goToEpargneRetraiteIndividuel()">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div style="margin-left: 20px">
+        <label class="container">Plan d'épargne individuel 5%
+          <input type="radio" name="legende"(click)="goToEpargneIndividuel()">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+    </div>
+  </body>
+</html>
+

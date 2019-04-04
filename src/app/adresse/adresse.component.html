@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <style>
+      #demo {
+        width:30%;
+        height:790px;
+        margin-top: 20px;
+        margin-left: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="demo" class="container my-background-adresse">
+      <a (click)="goToDonnees()">
+        <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+      </a>
+      <h4 class="h3-adresse">
+        Renseigner mes adresses
+      </h4>
+      <br>
+      <form class="example-form-adresse">
+        <mat-form-field class="example-full-width-adresse">
+          <mat-label class="my-label-adresse">Adresse électronique</mat-label>
+          <input matInput>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width-adresse">
+          <mat-label class="my-label-adresse">Adresse physique</mat-label>
+          <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
+          <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayFn">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+              {{option.name}}
+            </mat-option>
+          </mat-autocomplete>
+          <mat-icon matSuffix class="my-label-adresse">location_on</mat-icon>
+        </mat-form-field>
+      </form>
+
+
+      <button class="btn btn-info btn-lg btn-block buttonAdresse" (click)="goToVousJoindre()">C'est tout bon</button>
+    </div>
+  </body>
+</html>
+
+
+
+

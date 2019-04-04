@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-risque1">
+  <a (click)="returnToAversionRisque2()">
+    <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+  </a>
+  <p class="robot">
+    <!--<input value="" class="robot">
+    <input value="de determiner les risques que" class="robot2">
+    <input value="Vous est prêt à prendre" class="robot2">-->
+    L'objectif maintenant est<br>
+    de determiner les risques que<br>
+    Vous est prêt à prendre
+  </p>
+  <h6 class="projectTitle">
+    Pour vous rapporter plus, vous acceptez que la valeur de votre épargne fluctue?
+  </h6>
+  <div class="my-project-choice-suite">
+    <!--<form>
+      <mat-radio-group aria-label="Select an option">
+        <mat-radio-group aria-label="Select an option">
+          <mat-radio-button value="1" class="spacer">Oui</mat-radio-button>
+          <mat-radio-button value="2" class="spacer">Peut être</mat-radio-button>
+          <mat-radio-button value="3">Non</mat-radio-button><br>
+        </mat-radio-group>
+      </mat-radio-group>
+    </form>-->
+    <div style="margin-left: 150px;">
+      <label class="container">Vrai
+        <input type="radio" name="legende">
+        <span class="checkmark"></span>
+      </label>
+    </div><br>
+    <div style="margin-left: 150px;">
+      <label class="container">Peut être
+        <input type="radio" name="legende">
+        <span class="checkmark"></span>
+      </label>
+    </div><br>
+    <div style="margin-left: 150px">
+      <label class="container">Non
+        <input type="radio" name="legende">
+        <span class="checkmark"></span>
+      </label>
+    </div>
+  </div>
+
+  <button class="btn btn-info btn-lg btn-block buttonProject" (click)="goToAversionRisque4()">Continuer</button>
+</div>
+</body>
+</html>
+
+

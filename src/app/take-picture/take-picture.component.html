@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-viewLD">
+
+  <a (click)="returnToChoixPiece()">
+    <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+  </a>
+  <h6>
+    <input value="Assurez-vous que les," class="robot">
+    <input value="données sont bien lisibles !" class="robot2">
+  </h6>
+  <div style="text-align: center" class="camera">
+    <div>
+      <webcam [height]="300" [width]="300" [trigger]="triggerObservable" (imageCapture)="handleImage($event)" *ngIf="showWebcam"
+              [allowCameraSwitch]="allowCameraSwitch" [switchCamera]="nextWebcamObservable"
+              [videoOptions]="videoOptions"
+              [imageQuality]="1"
+              (cameraSwitched)="cameraWasSwitched($event)"
+              (initError)="handleInitError($event)"
+      ></webcam>
+
+    </div>
+
+  </div>
+  <!--<button class="btn btn-info btn-lg btn-block buttonviewLD" (click)="goToViewLicenceDriver()">Prendre photo</button>-->
+  <a href="#" data-toggle="collapse" class="positionCamera" (click)="goToViewLicenceDriver();" >
+    <img src="ios_capture_icon_wbg.png">
+  </a>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.my-background-viewLD{
+  background-image: url('../shared/images/selfie.png');
+  color: white;
+  background-size: cover;
+}
+
+.buttonviewLD{
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 190pt;
+  margin-top: 50pt;
+  margin-left: 60pt;
+  height: 45pt;
+}
+.icon-preccedent{
+  margin-top: 25pt;
+}
+.selfie-title{
+  text-align: center;
+  font-family: Roboto;
+  width: 278pt;
+  height: 20.5pt;
+  padding-top: 120pt;
+  padding-left: 20px;
+}
+.h3-adresse{
+  text-align: center;
+  width: 278pt;
+  height: 20.5pt;
+  padding-top: 200pt;
+  padding-left: 20px;
+}
+.my-lynk-viewLD{
+  font-family: "Calibri";
+  font-size: 25px;
+  font-style: normal;
+  position: center;
+  padding-left: 120px;
+  color: white;
+}
+.camera{
+  margin-top: 220px;
+}
+.positionCamera{
+  margin-left: 10px;
+}
+.snapshot{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.robot {
+  border: 0;
+  background: transparent;
+  margin-left: 70px;
+  margin-top: 50px;
+  width: 100%;
+}
+.robot2 {
+  border: 0;
+  background: transparent;
+  margin-left: 70px;
+  width: 100%;
+}
+
+

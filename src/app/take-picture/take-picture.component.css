@@ -1,0 +1,48 @@
+.my-background-viewLD{
+  background-image: url('../shared/images/takePicture.png');
+  color: white;
+  background-size: cover;
+}
+.imgPhoto{
+  background-image: url("../shared/images/ios_capture_icon_wbg.png");
+}
+.positionCamera{
+  margin-left: 165px;
+}
+
+.buttonviewLD{
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 190pt;
+  margin-top: 50pt;
+  margin-left: 60pt;
+  height: 45pt;
+}
+.icon-preccedent{
+  margin-top: 25pt;
+}
+.h3-piece{
+  position: center;
+  margin-top: 480px;
+  padding-left: 70px;
+}
+
+.camera{
+  margin-top: 200px;
+}
+.robot {
+  border: 0;
+  background: transparent;
+  margin-left: 70px;
+  margin-top: 50px;
+  width: 100%;
+}
+.robot2 {
+  border: 0;
+  background: transparent;
+  margin-left: 70px;
+  width: 100%;
+}
+
+

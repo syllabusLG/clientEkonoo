@@ -3,16 +3,141 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
+import { ContentComponent } from './content/content.component';
+import { GotologinComponent } from './gotologin/gotologin.component';
+import { ConnexionComponent } from './connexion/connexion.component';
+import {
+  MAT_DATE_LOCALE, MatAutocompleteModule,
+  MatButtonModule,
+  MatDatepickerModule,
+  MatFormFieldModule, MatGridListModule,
+  MatIconModule,
+  MatInputModule,
+  MatNativeDateModule, MatRadioModule, MatSelectModule, MatTabsModule
+} from '@angular/material';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { CreateCompteComponent } from './create-compte/create-compte.component';
+import { GenerateCodeComponent } from './generate-code/generate-code.component';
+import { MenuComponent } from './menu/menu.component';
+import { LancementAComponent } from './lancement-a/lancement-a.component';
+import { ConnaissanceComponent } from './connaissance/connaissance.component';
+import { LancementBComponent } from './lancement-b/lancement-b.component';
+import { DonneesComponent } from './donnees/donnees.component';
+import { AdresseComponent } from './adresse/adresse.component';
+import { ChoixPieceComponent } from './choix-piece/choix-piece.component';
+import { ViewLicenceDriverComponent } from './view-licence-driver/view-licence-driver.component';
+import { ViewLicenceDriverVersoComponent } from './view-licence-driver-verso/view-licence-driver-verso.component';
+import {WebcamModule} from 'ngx-webcam';
+import { ConditionGeneraleComponent } from './condition-generale/condition-generale.component';
+import { TakePictureComponent } from './take-picture/take-picture.component';
+import { TakePictureVersoComponent } from './take-picture-verso/take-picture-verso.component';
+import { TakeSelfieComponent } from './take-selfie/take-selfie.component';
+import { SelfieComponent } from './selfie/selfie.component';
+import { MyProjectComponent } from './my-project/my-project.component';
+import { MyProjectSuiteComponent } from './my-project-suite/my-project-suite.component';
+import { AversionRisque1Component } from './aversion-risque1/aversion-risque1.component';
+import { AversionRisque2Component } from './aversion-risque2/aversion-risque2.component';
+import { AversionRisque3Component } from './aversion-risque3/aversion-risque3.component';
+import { AversionRisque4Component } from './aversion-risque4/aversion-risque4.component';
+import { Knowledge1Component } from './knowledge1/knowledge1.component';
+import {CountToModule} from 'angular-count-to';
+import { Knowledge2Component } from './knowledge2/knowledge2.component';
+import { Knowledge3Component } from './knowledge3/knowledge3.component';
+import { Knowledge4Component } from './knowledge4/knowledge4.component';
+import { Knowledge5Component } from './knowledge5/knowledge5.component';
+import { Knowledge6Component } from './knowledge6/knowledge6.component';
+import { Knowledge7Component } from './knowledge7/knowledge7.component';
+import { Knowledge8Component } from './knowledge8/knowledge8.component';
+import { Knowledge9Component } from './knowledge9/knowledge9.component';
+import { Knowledge10Component } from './knowledge10/knowledge10.component';
+import { ScoreComponent } from './score/score.component';
+import { EpargneMenuComponent } from './epargne-menu/epargne-menu.component';
+import { EpargneRetraiteColComponent } from './epargne-retraite-col/epargne-retraite-col.component';
+import { EpargneEntrepriseComponent } from './epargne-entreprise/epargne-entreprise.component';
+import { EpargneRetraiteIndComponent } from './epargne-retraite-ind/epargne-retraite-ind.component';
+import { EpargneIndividuelComponent } from './epargne-individuel/epargne-individuel.component';
+import { VousJoindreComponent } from './vous-joindre/vous-joindre.component';
+import { IdentityComponent } from './identity/identity.component';
+import { RisquesComponent } from './risques/risques.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    HomeComponent,
+    ContentComponent,
+    GotologinComponent,
+    ConnexionComponent,
+    CreateCompteComponent,
+    GenerateCodeComponent,
+    MenuComponent,
+    LancementAComponent,
+    ConnaissanceComponent,
+    LancementBComponent,
+    DonneesComponent,
+    AdresseComponent,
+    ChoixPieceComponent,
+    ViewLicenceDriverComponent,
+    ViewLicenceDriverVersoComponent,
+    ConditionGeneraleComponent,
+    TakePictureComponent,
+    TakePictureVersoComponent,
+    TakeSelfieComponent,
+    SelfieComponent,
+    MyProjectComponent,
+    MyProjectSuiteComponent,
+    AversionRisque1Component,
+    AversionRisque2Component,
+    AversionRisque3Component,
+    AversionRisque4Component,
+    Knowledge1Component,
+    Knowledge2Component,
+    Knowledge3Component,
+    Knowledge4Component,
+    Knowledge5Component,
+    Knowledge6Component,
+    Knowledge7Component,
+    Knowledge8Component,
+    Knowledge9Component,
+    Knowledge10Component,
+    ScoreComponent,
+    EpargneMenuComponent,
+    EpargneRetraiteColComponent,
+    EpargneEntrepriseComponent,
+    EpargneRetraiteIndComponent,
+    EpargneIndividuelComponent,
+    VousJoindreComponent,
+    IdentityComponent,
+    RisquesComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    MatButtonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatSelectModule,
+    MatRadioModule,
+    WebcamModule,
+    MatAutocompleteModule,
+    CountToModule,
+    MatGridListModule,
+    MatTabsModule
   ],
-  providers: [],
+  providers: [
+    {provide: MAT_DATE_LOCALE, useValue: 'ja-JP'},
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

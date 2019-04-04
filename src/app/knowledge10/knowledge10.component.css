@@ -1,0 +1,28 @@
+.my-background-project{
+  background-image: url('../shared/images/connaissance_10.png');
+  color: white;
+  background-size: cover;
+}
+
+
+.my-project-choice-suite{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+
+.icon-preccedent{
+  margin-top: 25pt;
+}
+.spacer{
+  margin-top: 30px;
+}
+mat-grid-tile {
+  background: lightblue;
+}
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <style>
+      #demo {
+        width:30%;
+        height:790px;
+        margin-top: 20px;
+        margin-left: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="demo" class="container my-background-project">
+      <a (click)="returnToRisques()">
+        <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+      </a>
+     <!-- <h6>
+        <input value="Maintenant que nous nous" class="robot">
+        <input value="connaissons mieux, je vais" class="robot2">
+        <input value="m'intéresser à vous et à votre" class="robot2">
+        <input value="projet," class="robot2">
+      </h6>-->
+      <p class="robot">
+        <!--<input value="" class="robot">
+        <input value="de determiner les risques que" class="robot2">
+        <input value="Vous est prêt à prendre" class="robot2">-->
+        Maintenant que nous nous<br>
+        connaissons mieux, je vais<br>
+        m'intéresser à vous et à votre<br>
+        projet
+      </p>
+      <h6 class="projectTitle">Quel est votre projet?</h6>
+      <div class="my-project-choice">
+        <!--<mat-radio-group aria-label="Select an option">
+          <mat-radio-button value="1" checked="">Constituer son épargne retraite</mat-radio-button><br>
+          <mat-radio-button value="2">Acheter ma résidence principale</mat-radio-button><br>
+          <mat-radio-button value="3">Préparer un investissement immobilier</mat-radio-button><br>
+          <mat-radio-button value="4">Financer les études des enfants</mat-radio-button><br>
+        </mat-radio-group>-->
+        <div style="margin-left: 70px;">
+          <label class="container">Constituer son épargne retraite
+            <input type="radio" name="legende">
+            <span class="checkmark"></span>
+          </label>
+        </div><br>
+        <div style="margin-left: 70px;">
+          <label class="container">Acheter ma résidence principale
+            <input type="radio" name="legende">
+            <span class="checkmark"></span>
+          </label>
+        </div><br>
+        <div style="margin-left: 70px">
+          <label class="container">Préparer un investissement immobilier
+            <input type="radio" name="legende">
+            <span class="checkmark"></span>
+          </label>
+        </div><br>
+        <div style="margin-left: 70px">
+          <label class="container">Financer les études des enfants
+            <input type="radio" name="legende">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+      <button class="btn btn-info btn-lg btn-block buttonProject" (click)="goToSuiteProjet()">Continuer</button>
+    </div>
+  </body>
+</html>
+

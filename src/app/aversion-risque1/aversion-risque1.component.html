@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-risque1">
+  <a (click)="returnToMyProjetSuite()">
+    <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+  </a>
+  <p class="robot">
+    <!--<input value="" class="robot">
+    <input value="de determiner les risques que" class="robot2">
+    <input value="Vous est prêt à prendre" class="robot2">-->
+    L'objectif maintenant est<br>
+    de determiner les risques que<br>
+    Vous est prêt à prendre
+  </p>
+  <h6 class="projectTitle">
+    une perspective de gain élévé implique t-elle un risque de perte en capital fort?
+  </h6>
+  <div class="my-project-choice-suite">
+    <!--<form>
+      <mat-radio-group aria-label="Select an option">
+        <mat-radio-group aria-label="Select an option">
+          <mat-radio-button value="1" class="spacer" (click)="affiche()">Vrai</mat-radio-button>
+          <mat-radio-button value="2" class="spacer" (click)="afficheFaux()">Faux</mat-radio-button>
+          <mat-radio-button value="3" (click)="afficheSaisPas()">Je ne sais pas</mat-radio-button><br>
+        </mat-radio-group>
+      </mat-radio-group>
+    </form>-->
+    <div style="margin-left: 150px;">
+    <label class="container">Vrai
+      <input type="radio" name="legende" (click)="affiche()">
+      <span class="checkmark"></span>
+    </label>
+  </div><br>
+    <div style="margin-left: 150px;">
+      <label class="container">Faux
+        <input type="radio" name="legende" (click)="afficheFaux()">
+        <span class="checkmark"></span>
+      </label>
+    </div><br>
+    <div style="margin-left: 150px">
+      <label class="container">Je ne sais pas
+        <input type="radio" name="legende" (click)="afficheSaisPas()">
+        <span class="checkmark"></span>
+      </label>
+    </div>
+
+  </div>
+  <div *ngIf="response">
+    <p class="response">Excellente réponse, plus vous cherchez un rendement élevé, plus vous devez prendre des risques sur votre placement</p>
+  </div>
+
+  <button class="btn btn-info btn-lg btn-block buttonProject" (click)="goToAversionRisque2()">Continuer</button>
+</div>
+</body>
+</html>
+
+

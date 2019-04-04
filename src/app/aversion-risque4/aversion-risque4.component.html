@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-risque1">
+  <a (click)="returnToAversionRisque3()">
+    <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+  </a>
+  <p class="robot">
+    <!--<input value="" class="robot">
+    <input value="de determiner les risques que" class="robot2">
+    <input value="Vous est prêt à prendre" class="robot2">-->
+    L'objectif maintenant est<br>
+    de determiner les risques que<br>
+    Vous est prêt à prendre
+  </p>
+  <h6 class="projectTitle">
+    Quelle part de votre capital accepteriez-vous de perdre momentanément?
+  </h6>
+  <div class="my-project-choice-suite">
+    <!--<form>
+      <mat-radio-group aria-label="Select an option">
+        <mat-radio-group aria-label="Select an option">
+          <mat-radio-button value="1" class="spacer">Oui</mat-radio-button>
+          <mat-radio-button value="2" class="spacer">Peut être</mat-radio-button>
+          <mat-radio-button value="3">Non</mat-radio-button><br>
+        </mat-radio-group>
+      </mat-radio-group>
+    </form>-->
+    <mat-form-field class="example-full-width-adresse">
+      <mat-label class="my-label-adresse">Pourcentage de capital à perdre</mat-label>
+      <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
+      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayFn">
+        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+          {{option.name}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </div>
+
+  <button class="btn btn-info btn-lg btn-block buttonProject" (click)="goToRisques()">Continuer</button>
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,111 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@font-face {
+  font-family: lato;
+  src: url("assets/Lato2OFLWeb/Lato/latofonts.css") format("opentype");
+}
+.timer{
+  position: absolute;
+  top: 320px;
+  left: 880px;
+}
+.replaceDiv1{
+  position: absolute;
+  top: 430px;
+  left: 550px;
+}
+.replaceDiv2{
+  position: absolute;
+  top: 430px;
+  left: 730px;
+}
+.replaceDiv3{
+  position: absolute;
+  top: 585px;
+  left: 550px;
+}
+.replaceDiv4{
+  position: absolute;
+  top: 585px;
+  left: 730px;
+}
+.replaceRadio1{
+  position: absolute;
+  top: 520px;
+  left: 620px;
+}
+.replaceRadio2{
+  position: absolute;
+  top: 520px;
+  left: 805px;
+}
+.replaceRadio3{
+  position: absolute;
+  top: 680px;
+  left: 620px;
+}
+.replaceRadio4{
+  position: absolute;
+  top: 680px;
+  left: 805px;
+}
+.input{
+  border: 0;
+  background: transparent;
+  color: #85c8ec;
+}
+.question{
+  font-family: Roboto;
+  text-align: center;
+  color: #85c8ec;
+  padding-top: 140px;
+}
+.projectTitle{
+  font-family: Roboto;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+}
+$md-mdbluecolor: (
+  50 : #e8f0f8,
+  100 : #c5daee,
+  200 : #9ec2e3,
+  300 : #77aad7,
+  400 : #5a97cf,
+  500 : #3d85c6,
+  600 : #377dc0,
+  700 : #2f72b9,
+  800 : #2768b1,
+  900 : #1a55a4,
+  A100 : #dae9ff,
+  A200 : #a7caff,
+  A400 : #74abff,
+  A700 : #5b9cff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+
+$primary: mat-palette($md-mdbluecolor);
+$accent: mat-palette($md-mdbluecolor);
+
+$theme: mat-light-theme($primary, $accent);
+
+@include angular-material-theme($theme);
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+
+  <style>
+    #demo {
+      width:30%;
+      height:730px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="demo" class="container my-background-connect">
+  <br><br><br><br><br><br><br>
+ <h1 class="my-title"><img></h1>
+  <h3 class="my-h3-login">Login</h3>
+  <br>
+
+   <form class="example-form">
+     <mat-form-field class="example-full-width">
+       <mat-label class="my-label">Mon identifiant</mat-label>
+       <input matInput value="Martin">
+       <mat-icon class="my-label" matSuffix>info</mat-icon>
+     </mat-form-field>
+
+
+     <mat-form-field class="example-full-width">
+       <mat-label class="my-label">Mon mot de passe</mat-label>
+       <input type="password" matInput value="angularmatarial">
+       <mat-icon class="my-label" matSuffix>info</mat-icon>
+     </mat-form-field>
+     <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToLancementA()">Go</button>
+   </form>
+   <div class="my-printFinger-connect">
+     <img src="touchId.png">
+   </div>
+</div>
+</body>
+</html>
