@@ -1,0 +1,34 @@
+.my-background-project{
+    background-image: url('../shared/images/onBoard2.png');
+    color: white;
+    background-size: cover;
+  }
+  
+.my-menu-icon {
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.my-clear-icon {
+    margin: 85px 0px 0px 310px;
+    color: #85c8ec;
+    position: fixed;
+    font-size: 30px;
+}
+
+.my-button-group {
+    margin: 550px 0px 0px 0px;
+    text-align: center;
+}
+
+.btn {
+    width: 160px;
+    height: 140px;
+    background-color: #85c8ec;
+    border-color: #85c8ec;
+    font-weight: 500;
+}
+
+.btn:last-child {
+    margin-left: 20px;
+}

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Chart} from 'chart.js';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-score',
   templateUrl: './score.component.html',
@@ -10,11 +11,15 @@ export class ScoreComponent implements OnInit {
   canvas: any;
   ctx: any;
 
-  constructor() {
+  constructor(private router: Router) {
 
   }
 
   ngOnInit(): void {
+  }
+
+  goToOnBoard1(){
+    this.router.navigateByUrl('home/(contentOutlet:onBoard1)');
   }
 
 }
