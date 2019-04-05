@@ -26,6 +26,7 @@
 
   <div style="text-align: center" class="camera">
     <div *ngIf="!showSelfie">
+      <div style="height: 230px;">
       <webcam [height]="300" [width]="300" [trigger]="triggerObservable" (imageCapture)="handleImage($event)" *ngIf="showWebcam"
               [allowCameraSwitch]="allowCameraSwitch" [switchCamera]="nextWebcamObservable"
               [videoOptions]="videoOptions"
@@ -33,6 +34,7 @@
               (cameraSwitched)="cameraWasSwitched($event)"
               (initError)="handleInitError($event)"
       ></webcam>
+    </div>
       <br>
       <!--<a class="actionBtn" (click)="triggerSnapshot();"><mat-icon>album</mat-icon></a>-->
       <a href="#" data-toggle="collapse" class="positionCamera" (click)="triggerSnapshot();" >
