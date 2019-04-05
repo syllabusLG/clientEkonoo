@@ -63,6 +63,8 @@ import { VousJoindreComponent } from './vous-joindre/vous-joindre.component';
 import { IdentityComponent } from './identity/identity.component';
 import { RisquesComponent } from './risques/risques.component';
 import { ProjectComponent } from './project/project.component';
+import { Rachat1Component } from './rachat1/rachat1.component';
+import { Rachat2Component } from './rachat2/rachat2.component';
 
 @NgModule({
   declarations: [
@@ -113,7 +115,9 @@ import { ProjectComponent } from './project/project.component';
     VousJoindreComponent,
     IdentityComponent,
     RisquesComponent,
-    ProjectComponent
+    ProjectComponent,
+    Rachat1Component,
+    Rachat2Component
   ],
   imports: [
     BrowserModule,

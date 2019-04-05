@@ -14,8 +14,8 @@ export class LoginComponent implements OnInit {
 
   }
 
-  goToLogin(){
-    this.router.navigateByUrl('home/(contentOutlet:gotologin)');
+  goToCreateCompte(){
+    this.router.navigateByUrl('home/(contentOutlet:createCompte)');
   }
 
 }

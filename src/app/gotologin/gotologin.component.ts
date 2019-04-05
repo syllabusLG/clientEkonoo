@@ -17,8 +17,8 @@ export class GotologinComponent implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:connexion)');
   }
 
-  goToCreateCompte(){
-    this.router.navigateByUrl('home/(contentOutlet:createCompte)');
+  goToLancementA(){
+    this.router.navigateByUrl('home/(contentOutlet:lancementA)');
   }
 
 }
