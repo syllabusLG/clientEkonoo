@@ -13,8 +13,8 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
   }
 
-  goToLancementA(){
-    this.router.navigateByUrl('home/(contentOutlet:lancementA)');
+  goToRachat(){
+    this.router.navigateByUrl('home/(contentOutlet:rachat1)');
   }
   goToEpargneMenu(){
     this.router.navigateByUrl('home/(contentOutlet:epargneMenu)');

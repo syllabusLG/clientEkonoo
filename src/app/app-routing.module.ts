@@ -50,6 +50,8 @@ import { OnBoard2Component } from './on-board2/on-board2.component';
 import { OnBoard3Component } from './on-board3/on-board3.component';
 import { OnBoard4Component } from './on-board4/on-board4.component';
 import { OnBoard5Component } from './on-board5/on-board5.component';
+import {Rachat1Component} from './rachat1/rachat1.component';
+import {Rachat2Component} from './rachat2/rachat2.component';
 
 const routes: Routes = [
   {
@@ -298,6 +300,16 @@ const routes: Routes = [
       {
         path: 'onBoard5',
         component: OnBoard5Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'rachat1',
+        component: Rachat1Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'rachat2',
+        component: Rachat2Component,
         outlet: 'contentOutlet'
       }
     ]

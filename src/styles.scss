@@ -108,4 +108,35 @@ $theme: mat-light-theme($primary, $accent);
 
 @include angular-material-theme($theme);
 
-
+.replaceRachat{
+  position: absolute;
+  top: 810px;
+  left: 770px;
+  color: #7f3776;
+  font-family: Roboto;
+  font-size: 13px;
+}
+.replaceVerser{
+  position: absolute;
+  top: 810px;
+  left: 645px;
+  color: #7f3776;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.replaceLister{
+  position: absolute;
+  top: 810px;
+  left: 520px;
+  color: #7f3776;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.replaceTransferer{
+  position: absolute;
+  top: 810px;
+  left: 880px;
+  color: #7f3776;
+  font-family: Roboto;
+  font-size: 14px;
+}

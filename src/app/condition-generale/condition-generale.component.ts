@@ -15,8 +15,8 @@ export class ConditionGeneraleComponent implements OnInit {
   ngOnInit() {
   }
 
-  goToLancementA(){
-    this.router.navigateByUrl('home/(contentOutlet:lancementA)');
+  goToLogin(){
+    this.router.navigateByUrl('home/(contentOutlet:gotologin)');
   }
 
   downloadPDF(){

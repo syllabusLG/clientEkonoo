@@ -68,6 +68,8 @@ import { OnBoard2Component } from './on-board2/on-board2.component';
 import { OnBoard3Component } from './on-board3/on-board3.component';
 import { OnBoard4Component } from './on-board4/on-board4.component';
 import { OnBoard5Component } from './on-board5/on-board5.component';
+import { Rachat1Component } from './rachat1/rachat1.component';
+import { Rachat2Component } from './rachat2/rachat2.component';
 
 @NgModule({
   declarations: [
@@ -123,7 +125,9 @@ import { OnBoard5Component } from './on-board5/on-board5.component';
     OnBoard2Component,
     OnBoard3Component,
     OnBoard4Component,
-    OnBoard5Component
+    OnBoard5Component,
+    Rachat1Component,
+    Rachat2Component
   ],
   imports: [
     BrowserModule,
