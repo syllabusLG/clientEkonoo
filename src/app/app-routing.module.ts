@@ -45,6 +45,11 @@ import {VousJoindreComponent} from './vous-joindre/vous-joindre.component';
 import {IdentityComponent} from './identity/identity.component';
 import {RisquesComponent} from './risques/risques.component';
 import {ProjectComponent} from './project/project.component';
+import { OnBoard1Component } from './on-board1/on-board1.component';
+import { OnBoard2Component } from './on-board2/on-board2.component';
+import { OnBoard3Component } from './on-board3/on-board3.component';
+import { OnBoard4Component } from './on-board4/on-board4.component';
+import { OnBoard5Component } from './on-board5/on-board5.component';
 import {Rachat1Component} from './rachat1/rachat1.component';
 import {Rachat2Component} from './rachat2/rachat2.component';
 import {Rachat3Component} from './rachat3/rachat3.component';
@@ -274,6 +279,31 @@ const routes: Routes = [
       {
         path: 'project',
         component: ProjectComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'onBoard1',
+        component: OnBoard1Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'onBoard2',
+        component: OnBoard2Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'onBoard3',
+        component: OnBoard3Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'onBoard4',
+        component: OnBoard4Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'onBoard5',
+        component: OnBoard5Component,
         outlet: 'contentOutlet'
       },
       {

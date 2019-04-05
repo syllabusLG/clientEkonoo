@@ -14,13 +14,13 @@
 </head>
 <body>
 <div id="demo" class="container my-background-project">
-  <!--<a (click)="returnToMyProjet()">
-    <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
-  </a>-->
-  <p class="my-paragraphe1">
-    i
-  </p>
-  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToOnBoard1()">C'est parti!</button>
+
+  <mat-icon class="my-menu-icon">menu</mat-icon>
+  <mat-icon (click)="navigateToOnBoard5()" class="my-clear-icon">clear</mat-icon>
+  <div class="my-button-group d-flex justify-content-center">
+      <button class="btn btn1 btn-info btn-lg"></button>
+      <button class="btn btn2 btn-info btn-lg"></button>
+    </div>
 </div>
 </body>
 </html>

@@ -63,6 +63,11 @@ import { VousJoindreComponent } from './vous-joindre/vous-joindre.component';
 import { IdentityComponent } from './identity/identity.component';
 import { RisquesComponent } from './risques/risques.component';
 import { ProjectComponent } from './project/project.component';
+import { OnBoard1Component } from './on-board1/on-board1.component';
+import { OnBoard2Component } from './on-board2/on-board2.component';
+import { OnBoard3Component } from './on-board3/on-board3.component';
+import { OnBoard4Component } from './on-board4/on-board4.component';
+import { OnBoard5Component } from './on-board5/on-board5.component';
 import { Rachat1Component } from './rachat1/rachat1.component';
 import { Rachat2Component } from './rachat2/rachat2.component';
 import { Rachat3Component } from './rachat3/rachat3.component';
@@ -120,6 +125,11 @@ import { RachatGraphe3Component } from './rachat-graphe3/rachat-graphe3.componen
     IdentityComponent,
     RisquesComponent,
     ProjectComponent,
+    OnBoard1Component,
+    OnBoard2Component,
+    OnBoard3Component,
+    OnBoard4Component,
+    OnBoard5Component,
     Rachat1Component,
     Rachat2Component,
     Rachat3Component,
