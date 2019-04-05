@@ -21,14 +21,20 @@
     text-align: center;
 }
 
-.btn {
+.btn1 {
     width: 160px;
     height: 140px;
-    background-color: #85c8ec;
     border-color: #85c8ec;
-    font-weight: 500;
+    margin-left: 20px;
+    background-image: url('../shared/images/onBoardButton2.png');
+    background-size: 160px 140px;
 }
 
-.btn:last-child {
+.btn2 {
+    width: 160px;
+    height: 140px;
+    border-color: #85c8ec;
     margin-left: 20px;
+    background-image: url('../shared/images/onBoardButton1.png');
+    background-size: 160px 140px;
 }
