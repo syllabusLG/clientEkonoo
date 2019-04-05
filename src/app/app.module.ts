@@ -65,6 +65,10 @@ import { RisquesComponent } from './risques/risques.component';
 import { ProjectComponent } from './project/project.component';
 import { Rachat1Component } from './rachat1/rachat1.component';
 import { Rachat2Component } from './rachat2/rachat2.component';
+import { Rachat3Component } from './rachat3/rachat3.component';
+import { RachatGraphe1Component } from './rachat-graphe1/rachat-graphe1.component';
+import { RachatGraphe2Component } from './rachat-graphe2/rachat-graphe2.component';
+import { RachatGraphe3Component } from './rachat-graphe3/rachat-graphe3.component';
 
 @NgModule({
   declarations: [
@@ -117,7 +121,11 @@ import { Rachat2Component } from './rachat2/rachat2.component';
     RisquesComponent,
     ProjectComponent,
     Rachat1Component,
-    Rachat2Component
+    Rachat2Component,
+    Rachat3Component,
+    RachatGraphe1Component,
+    RachatGraphe2Component,
+    RachatGraphe3Component
   ],
   imports: [
     BrowserModule,

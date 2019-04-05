@@ -1,0 +1,247 @@
+.my-background-project{
+  background-image: url('../shared/images/rachatGraphe_3.png');
+  color: white;
+  background-size: cover;
+}
+.my-project-choice-suite{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.icon-preccedent{
+  margin-top: 25pt;
+}
+.spacer{
+  margin-top: 30px;
+}
+mat-grid-tile {
+  background: lightblue;
+}
+
+.buttonGo {
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 172.5pt;
+  margin-left: 80pt;
+  margin-top: 650px;
+  height: 45pt;
+}
+.my-paragraphe1{
+  color: transparent;
+
+}
+.example-full-width-adresse {
+  margin-left: 40px;
+  margin-top: 350px;
+  width: 80%;
+}
+.my-label-adresse{
+  color: #85c8ec;
+}
+::ng-deep .mat-form-field-underline {
+
+  background-color: #85c8ec!important;
+
+}
+.replaceInput1{
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+  text-align: left;
+  position: absolute;
+  top: 340px;
+  left: 545px;
+  color: white;
+  width: 200px;
+}
+.replaceInput2{
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 20pt;
+  position: absolute;
+  top: 360px;
+  left: 545px;
+  color: white;
+  width: 250pt;
+}
+.replaceInput3{
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+  position: absolute;
+  top: 400px;
+  left: 545px;
+  color: white;
+  width: 250pt;
+}
+.replaceInput4{
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 14pt;
+  position: absolute;
+  top: 439px;
+  left: 570px;
+  color: white;
+  width: 250pt;
+}
+.replaceInput5{
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+  position: absolute;
+  top: 490px;
+  left: 545px;
+  color: white;
+  width: 250pt;
+}
+.replaceInput6{
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 20pt;
+  position: absolute;
+  top: 520px;
+  left: 545px;
+  color: white;
+  width: 250pt;
+}
+.replaceInput7{
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+  position: absolute;
+  top: 560px;
+  left: 545px;
+  color: white;
+  width: 250pt;
+}
+.replaceInput8{
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 14pt;
+  position: absolute;
+  top: 595px;
+  left: 570px;
+  color: white;
+  width: 250pt;
+}
+.replaceInput9{
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 16pt;
+  text-align: center;
+  position: absolute;
+  top: 620px;
+  left: 530px;
+  color: white;
+  width: 308pt;
+}
+.replaceDefaultRadio{
+  position: absolute;
+  top: 390px;
+  left: 900px;
+}
+.replaceAnotherRadio{
+  position: absolute;
+  top: 550px;
+  left: 900px;
+}
+
+.btnEdit{
+  border-color: #85c8ec;
+  color: white;
+}
+.replaceEditBtn{
+  position: absolute;
+  top: 440px;
+  left: 845px;
+}
+.replaceCapital{
+  border: 0;
+  background: transparent;
+  position: absolute;
+  top: 490px;
+  left: 575px;
+  font-family: Roboto;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+}
+.replaceMontantCapital{
+  border: 0;
+  background: transparent;
+  position: absolute;
+  top: 490px;
+  left: 830px;
+  width: 80px;
+  font-family: Roboto;
+  text-align: right;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+}
+.replaceViagere{
+  border: 0;
+  background: transparent;
+  position: absolute;
+  top: 560px;
+  left: 575px;
+  font-family: Roboto;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+}
+.replaceMontantViagere{
+  border: 0;
+  background: transparent;
+  position: absolute;
+  top: 560px;
+  left: 760px;
+  width: 80px;
+  font-family: Roboto;
+  text-align: right;
+  font-size: 12pt;
+  color: white;
+  width: 150px;
+  font-weight: bold;
+}
+.replaceFinanciere{
+  border: 0;
+  background: transparent;
+  position: absolute;
+  top: 630px;
+  left: 575px;
+  font-family: Roboto;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+  width: 140px;
+}
+.replaceMontantFinanciere{
+  border: 0;
+  background: transparent;
+  position: absolute;
+  top: 630px;
+  left: 710px;
+  font-family: Roboto;
+  text-align: right;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+}
+
+
+
+
+
+

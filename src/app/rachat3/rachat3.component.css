@@ -1,5 +1,5 @@
 .my-background-project{
-  background-image: url('../shared/images/rachat2.png');
+  background-image: url('../shared/images/rachat3.png');
   color: white;
   background-size: cover;
 }
@@ -34,8 +34,8 @@ mat-grid-tile {
   background-color: #85c8ec;
   border-radius: 4pt;
   width: 172.5pt;
-  margin-left: 70pt;
-  margin-top: 650px;
+  margin-left: 80pt;
+  margin-top: 620px;
   height: 45pt;
 }
 .my-paragraphe1{
@@ -59,11 +59,11 @@ mat-grid-tile {
   border: 0;
   background: transparent;
   font-family: Roboto;
-  font-size: 30pt;
-  text-align: center;
+  font-size: 12pt;
+  text-align: left;
   position: absolute;
-  top: 380px;
-  left: 640px;
+  top: 340px;
+  left: 545px;
   color: white;
   width: 200px;
 }
@@ -71,84 +71,78 @@ mat-grid-tile {
   border: 0;
   background: transparent;
   font-family: Roboto;
-  font-size: 14pt;
+  font-size: 20pt;
   position: absolute;
-  top: 445px;
-  left: 570px;
+  top: 360px;
+  left: 545px;
   color: white;
-  width: 128pt;
+  width: 250pt;
 }
 .replaceInput3{
   border: 0;
   background: transparent;
   font-family: Roboto;
-  font-size: 14pt;
-  text-align: right;
+  font-size: 12pt;
   position: absolute;
-  top: 445px;
-  left: 745px;
+  top: 400px;
+  left: 545px;
   color: white;
-  width: 128pt;
+  width: 250pt;
 }
 .replaceInput4{
   border: 0;
   background: transparent;
   font-family: Roboto;
   font-size: 14pt;
-  text-align: left;
   position: absolute;
-  top: 490px;
+  top: 439px;
   left: 570px;
   color: white;
-  width: 128pt;
+  width: 250pt;
 }
 .replaceInput5{
   border: 0;
   background: transparent;
   font-family: Roboto;
-  font-size: 14pt;
-  text-align: right;
+  font-size: 12pt;
   position: absolute;
   top: 490px;
-  left: 745px;
+  left: 545px;
   color: white;
-  width: 128pt;
+  width: 250pt;
 }
 .replaceInput6{
   border: 0;
   background: transparent;
   font-family: Roboto;
-  font-size: 14pt;
-  text-align: left;
+  font-size: 20pt;
   position: absolute;
-  top: 535px;
-  left: 570px;
+  top: 520px;
+  left: 545px;
   color: white;
-  width: 128pt;
+  width: 250pt;
 }
 .replaceInput7{
   border: 0;
   background: transparent;
   font-family: Roboto;
-  font-size: 14pt;
-  text-align: right;
+  font-size: 12pt;
   position: absolute;
-  top: 535px;
-  left: 745px;
+  top: 560px;
+  left: 545px;
   color: white;
-  width: 128pt;
+  width: 250pt;
 }
 .replaceInput8{
   border: 0;
   background: transparent;
   font-family: Roboto;
   font-size: 14pt;
-  text-align: left;
   position: absolute;
-  top: 590px;
-  left: 545px;
-  color: #85c8ec;
-  width: 308pt;
+  top: 595px;
+  left: 570px;
+  color: white;
+  width: 250pt;
 }
 .replaceInput9{
   border: 0;
@@ -162,7 +156,76 @@ mat-grid-tile {
   color: white;
   width: 308pt;
 }
+.replaceDefaultRadio{
+  position: absolute;
+  top: 390px;
+  left: 900px;
+}
+.replaceAnotherRadio{
+  position: absolute;
+  top: 550px;
+  left: 900px;
+}
 
+/* Customize the label (the container) */
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #4fd7b9;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
 
 
 

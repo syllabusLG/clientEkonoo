@@ -13,23 +13,23 @@
   </style>
 </head>
 <body>
-<div id="demo" class="container my-background-project">
+<div id="demo" class=" my-background-project">
   <!--<a (click)="returnToMyProjet()">
     <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
   </a>-->
   <p class="my-paragraphe1">
     i
   </p>
-  <input type="text" value="200 000 €" class="replaceInput1">
-  <input type="text" value="En Capital" class="replaceInput2">
-  <input type="text" value="100 000 €" class="replaceInput3">
-  <input type="text" value="Montants réguliers" class="replaceInput4">
-  <input type="text" value="75 000 €" class="replaceInput5">
-  <input type="text" value="Rente Viagère" class="replaceInput6">
-  <input type="text" value="200 000 €" class="replaceInput7">
-  <input type="text" value="Quel est votre montant en euros ?" class="replaceInput8">
-  <input type="text" value="200.000" class="replaceInput9">
-  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToRachatGraphe1()">Valider</button>
+  <div class="replaceEditBtn">
+    <button class="btn btn-outline-info btnEdit" (click)="goToRachatGraphe2()">Editer</button>
+  </div>
+  <input type="text" value="Capital" class="replaceCapital">
+  <input type="text" value="100%" class="replaceMontantCapital">
+  <input type="text" value="Rente viagère" class="replaceViagere" disabled>
+  <input type="text" value="0%" class="replaceMontantViagere" disabled>
+  <input type="text" value="Rente financière" class="replaceFinanciere" disabled>
+  <input type="text" value="0%" class="replaceMontantFinanciere" disabled>
+  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToRachat3()">Je valide</button>
   <div class="replaceRachat">
     <a href="" data-toggle="collapse" style="color: #7f3776"><b>Racheter</b></a>
   </div>
