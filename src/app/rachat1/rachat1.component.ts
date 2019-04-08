@@ -45,5 +45,9 @@ export class Rachat1Component implements OnInit {
   goToRachat2(){
     this.router.navigateByUrl('home/(contentOutlet:rachat2)');
   }
+  goToDispositif(){
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
+  }
+
 
 }

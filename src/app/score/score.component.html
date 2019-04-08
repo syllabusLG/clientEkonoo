@@ -20,7 +20,25 @@
   <p class="my-paragraphe1">
     i
   </p>
-  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToOnBoard1()">C'est parti!</button>
+  <div class="replacePrudent">
+    <label class="container">
+      <input type="radio" name="legende">
+      <span class="checkmark"></span>
+    </label>
+  </div>
+  <div class="replaceBalanced">
+    <label class="container">
+      <input type="radio" name="legende">
+      <span class="checkmark"></span>
+    </label>
+  </div>
+  <div class="replaceDynamic">
+    <label class="container">
+      <input type="radio" name="legende" checked>
+      <span class="checkmark"></span>
+    </label>
+  </div>
+  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToOnBoard1()">C'est bien ça !</button>
 </div>
 </body>
 </html>

@@ -56,6 +56,13 @@ import {Rachat3Component} from './rachat3/rachat3.component';
 import {RachatGraphe1Component} from './rachat-graphe1/rachat-graphe1.component';
 import {RachatGraphe2Component} from './rachat-graphe2/rachat-graphe2.component';
 import {RachatGraphe3Component} from './rachat-graphe3/rachat-graphe3.component';
+import {Dispositif1Component} from './dispositif1/dispositif1.component';
+import {Dispositif2Component} from './dispositif2/dispositif2.component';
+import {Dispositif3Component} from './dispositif3/dispositif3.component';
+import {Dispositif4Component} from './dispositif4/dispositif4.component';
+import {Dispositif5Component} from './dispositif5/dispositif5.component';
+import {Dispositif6Component} from './dispositif6/dispositif6.component';
+import {Dispositif7Component} from './dispositif7/dispositif7.component';
 
 const routes: Routes = [
   {
@@ -334,6 +341,41 @@ const routes: Routes = [
       {
         path: 'rachatGraphe3',
         component: RachatGraphe3Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'dispositif1',
+        component: Dispositif1Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'dispositif2',
+        component: Dispositif2Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'dispositif3',
+        component: Dispositif3Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'dispositif4',
+        component: Dispositif4Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'dispositif5',
+        component: Dispositif5Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'dispositif6',
+        component: Dispositif6Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'dispositif7',
+        component: Dispositif7Component,
         outlet: 'contentOutlet'
       }
     ]

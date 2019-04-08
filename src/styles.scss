@@ -140,3 +140,7 @@ $theme: mat-light-theme($primary, $accent);
   font-family: Roboto;
   font-size: 14px;
 }
+.iconMenuColor{
+  color: white;
+}
+@import "../node_modules/angular-signature-pad/styles";

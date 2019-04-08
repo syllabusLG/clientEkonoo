@@ -16,4 +16,6 @@ export class RachatGraphe2Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:rachatGraphe3)');
   }
 
+
+
 }

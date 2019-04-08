@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-on-board5',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OnBoard5Component implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+  goToMenu(){
+    this.router.navigateByUrl("home/(contentOutlet:menu)");
   }
 
 }

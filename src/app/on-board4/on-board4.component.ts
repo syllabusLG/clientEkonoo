@@ -16,5 +16,8 @@ export class OnBoard4Component implements OnInit {
   navigateToOnBoard5() {
     this.router.navigateByUrl("home/(contentOutlet:onBoard5)");
   }
+  goToMenu(){
+    this.router.navigateByUrl("home/(contentOutlet:menu)");
+  }
 
 }

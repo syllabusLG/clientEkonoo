@@ -20,6 +20,10 @@ export class RachatGraphe1Component implements OnInit {
   goToRachatGraphe2(){
     this.router.navigateByUrl('home/(contentOutlet:rachatGraphe2)');
   }
+  goToDispositif(){
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
+  }
+
 
 
 }
