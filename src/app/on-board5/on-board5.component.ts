@@ -16,4 +16,8 @@ export class OnBoard5Component implements OnInit {
     this.router.navigateByUrl("home/(contentOutlet:menu)");
   }
 
+  gotoRedeemComponent() {
+    this.router.navigateByUrl("home/(contentOutlet:redeem)");
+  }
+
 }

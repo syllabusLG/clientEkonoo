@@ -1,0 +1,63 @@
+.my-background-project{
+    background-image: url('../shared/images/dispositif2.png');
+    color: white;
+    background-size: cover;
+  }
+
+.my-menu-icon {
+    margin-top: 30px;
+    font-size: 35px;
+    position: fixed;
+}
+
+.my-heading {
+    position: fixed;
+    margin: 30px 0px 0px 160px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.my-card-text {
+    color: black;
+    margin: 120px 0px 0px 70px;
+    position: fixed;
+    font-size: 18px;
+    width: 270px;
+}
+
+.my-sub-heading {
+    position: fixed;
+    margin: 320px 0px 0px 100px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.user-input {
+    position: fixed;
+    margin-top: 355px;
+    margin-left: 10px;
+    width: 395px;
+    font-size: 19px;
+}
+
+.my-label-adresse{
+    color: #85c8ec;
+  }
+
+.my-btn {
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 172.5pt;
+  margin-left: 70pt;
+  margin-top: 650px;
+  height: 45pt;
+  color: white;
+  font-weight: 600;
+}
+
+::ng-deep .mat-form-field-underline {
+    background-color: #85c8ec!important;
+  }
