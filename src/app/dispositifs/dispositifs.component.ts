@@ -21,4 +21,8 @@ export class DispositifsComponent implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:epargneMenu)');
   }
 
+  gotoDispositifsDetails() {
+    this.router.navigateByUrl('home/(contentOutlet:dispositif-details)');
+  }
+
 }

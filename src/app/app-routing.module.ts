@@ -64,6 +64,7 @@ import {Dispositif5Component} from './dispositif5/dispositif5.component';
 import {Dispositif6Component} from './dispositif6/dispositif6.component';
 import {Dispositif7Component} from './dispositif7/dispositif7.component';
 import { DispositifsComponent } from './dispositifs/dispositifs.component';
+import { DispositifDetailsComponent } from './dispositif-details/dispositif-details.component';
 
 const routes: Routes = [
   {
@@ -382,6 +383,11 @@ const routes: Routes = [
       {
         path: 'dispositifs',
         component: DispositifsComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'dispositif-details',
+        component: DispositifDetailsComponent,
         outlet: 'contentOutlet'
       }
     ]

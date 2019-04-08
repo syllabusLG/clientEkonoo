@@ -85,6 +85,7 @@ import {AngularSignaturePadModule} from 'angular-signature-pad/public_api';
 
 import { RedeemComponent } from './redeem/redeem.component';
 import { DispositifsComponent } from './dispositifs/dispositifs.component';
+import { DispositifDetailsComponent } from './dispositif-details/dispositif-details.component';
 
 @NgModule({
   declarations: [
@@ -155,7 +156,8 @@ import { DispositifsComponent } from './dispositifs/dispositifs.component';
     Dispositif6Component,
     Dispositif7Component,
     RedeemComponent,
-    DispositifsComponent
+    DispositifsComponent,
+    DispositifDetailsComponent
   ],
   imports: [
     BrowserModule,
