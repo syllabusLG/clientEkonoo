@@ -70,6 +70,7 @@ import { OnBoard4Component } from './on-board4/on-board4.component';
 import { OnBoard5Component } from './on-board5/on-board5.component';
 import { Rachat1Component } from './rachat1/rachat1.component';
 import { Rachat2Component } from './rachat2/rachat2.component';
+import { RedeemComponent } from './redeem/redeem.component';
 
 @NgModule({
   declarations: [
@@ -127,7 +128,8 @@ import { Rachat2Component } from './rachat2/rachat2.component';
     OnBoard4Component,
     OnBoard5Component,
     Rachat1Component,
-    Rachat2Component
+    Rachat2Component,
+    RedeemComponent
   ],
   imports: [
     BrowserModule,

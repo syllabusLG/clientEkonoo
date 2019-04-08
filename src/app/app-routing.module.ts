@@ -52,6 +52,7 @@ import { OnBoard4Component } from './on-board4/on-board4.component';
 import { OnBoard5Component } from './on-board5/on-board5.component';
 import {Rachat1Component} from './rachat1/rachat1.component';
 import {Rachat2Component} from './rachat2/rachat2.component';
+import { RedeemComponent } from './redeem/redeem.component';
 
 const routes: Routes = [
   {
@@ -310,6 +311,11 @@ const routes: Routes = [
       {
         path: 'rachat2',
         component: Rachat2Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'redeem',
+        component: RedeemComponent,
         outlet: 'contentOutlet'
       }
     ]
