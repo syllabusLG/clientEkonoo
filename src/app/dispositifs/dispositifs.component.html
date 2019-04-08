@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>epargneMenu</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width: 30%;
+      height: 790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="demo" class="container my-background-epargne">
+    <div class="inactive-link">
+      <a [routerLink]="" (click)="gotoSynthese()">Synthèse</a>
+    </div>
+    <div class="active-link">
+      <a [routerLink]="" (click)="doNothing()">Dispositifs</a>
+    </div>
+    <div class="inactive-link menu3">
+      <a href="#">Produits</a>
+    </div>
+
+    <div class="replaceSelected selected-separator">
+      <select class="selected">
+        <option value="dat1">au 04/02/2019</option>
+        <option value="dat2">au 14/03/2019</option>
+        <option value="date3">au 01/04/2019</option>
+      </select>
+    </div>
+    <div class="my-input-boxes">
+      <input type="text" class="input-1a" value="Fev 04" />
+      <input type="text" class="input-1b" value="3 500,00 €" />
+      <input type="text" class="input-1c" value="Plan d´épargne retraite collectif"/>
+      <input type="text" class="input-1d" value="500,00 €" style="color: lightgreen;"/>
+
+      <input type="text" class="input-2a" value="Fev 04" />
+      <input type="text" class="input-2b" value="3 500,00 €" />
+      <input type="text" class="input-2c" value="Plan d´épargne collectif"/>
+      <input type="text" class="input-2d" value="500,00 €" style="color: lightgreen;"/>
+
+      <input type="text" class="input-3a" value="Fev 04" />
+      <input type="text" class="input-3b" value="3 500,00 €" />
+      <input type="text" class="input-3c" value="Plan d´épargne retraite collectif"/>
+      <input type="text" class="input-3d" value="500,00 €" style="color: lightgreen;"/>
+
+      <input type="text" class="input-4a" value="Fev 04" />
+      <input type="text" class="input-4b" value="3 500,00 €" />
+      <input type="text" class="input-4c" value="Plan d´épargne collectif"/>
+      <input type="text" class="input-4d" value="500,00 €" style="color: lightgreen;"/>
+    </div>
+  </div>
+</body>
+
+</html>

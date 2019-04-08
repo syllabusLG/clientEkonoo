@@ -63,6 +63,7 @@ import {Dispositif4Component} from './dispositif4/dispositif4.component';
 import {Dispositif5Component} from './dispositif5/dispositif5.component';
 import {Dispositif6Component} from './dispositif6/dispositif6.component';
 import {Dispositif7Component} from './dispositif7/dispositif7.component';
+import { DispositifsComponent } from './dispositifs/dispositifs.component';
 
 const routes: Routes = [
   {
@@ -376,6 +377,11 @@ const routes: Routes = [
       {
         path: 'dispositif7',
         component: Dispositif7Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'dispositifs',
+        component: DispositifsComponent,
         outlet: 'contentOutlet'
       }
     ]
