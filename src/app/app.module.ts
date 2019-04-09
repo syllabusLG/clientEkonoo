@@ -86,6 +86,10 @@ import {AngularSignaturePadModule} from 'angular-signature-pad/public_api';
 import { RedeemComponent } from './redeem/redeem.component';
 import {SignaturePadModule} from 'angular2-signaturepad';
 import { ListerComponent } from './lister/lister.component';
+import { DispositifsComponent } from './dispositifs/dispositifs.component';
+import { DispositifDetailsComponent } from './dispositif-details/dispositif-details.component';
+import { DetailItemComponent } from './dispositif-details/detail-item/detail-item.component';
+import { DispositifItemDetailsComponent } from './dispositif-item-details/dispositif-item-details.component';
 
 @NgModule({
   declarations: [
@@ -156,7 +160,12 @@ import { ListerComponent } from './lister/lister.component';
     Dispositif6Component,
     Dispositif7Component,
     RedeemComponent,
-    ListerComponent
+    ListerComponent,
+    RedeemComponent,
+    DispositifsComponent,
+    DispositifDetailsComponent,
+    DetailItemComponent,
+    DispositifItemDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>epargneMenu</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width: 30%;
+      height: 790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="demo" class="container my-background-epargne">
+    <mat-icon class="icon-back" (click)="goBack()">keyboard_backspace</mat-icon>
+    <input type="text" value="Mon épargne" class="my-heading" />
+    <div class="inactive-link">
+      <a [routerLink]="" (click)="gotoSynthese()">Synthèse</a>
+    </div>
+    <div class="active-link">
+      <a [routerLink]="" (click)="doNothing()">Dispositifs</a>
+    </div>
+    <div class="inactive-link menu3">
+      <a [routerLink]="" (click)="doNothing()">Produits</a>
+    </div>
+
+    <div class="replaceSelected selected-separator">
+      <select class="selected">
+        <option value="dat1">au 04/02/2019</option>
+        <option value="dat2">au 14/03/2019</option>
+        <option value="date3">au 01/04/2019</option>
+      </select>
+    </div>
+    <div class="my-input-boxes">
+      <input type="text" class="input-1a" value="Fev 04" />
+      <input type="text" class="input-1b" value="3 500,00 €" />
+      <input type="text" class="input-1c" value="Plan d´épargne retraite collectif" />
+      <input type="text" class="input-1d" value="500,00 €" style="color: #4fd7b9;" />
+      <mat-icon class="icon-1" (click)="gotoDispositifs()">keyboard_arrow_up</mat-icon>
+
+      <dispositif-detail-item class="detail-item-1" [myColor]="red" [details]="details1"></dispositif-detail-item>
+      <dispositif-detail-item class="detail-item-2" [myColor]="green" [details]="details1"></dispositif-detail-item>
+      <dispositif-detail-item class="detail-item-3" [myColor]="red" [details]="details1"></dispositif-detail-item>
+
+      <input type="text" class="input-4a" value="Fev 04" />
+      <input type="text" class="input-4b" value="3 500,00 €" />
+      <input type="text" class="input-4c" value="Plan d´épargne collectif" />
+      <input type="text" class="input-4d" value="500,00 €" style="color: #4fd7b9;" />
+      <mat-icon class="icon-4">keyboard_arrow_down</mat-icon>
+    </div>
+  </div>
+</body>
+
+</html>

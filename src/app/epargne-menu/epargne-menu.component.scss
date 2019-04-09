@@ -1,0 +1,125 @@
+.my-background-epargne{
+  background-image: url('../shared/images/mon-epargne.png');
+  color: white;
+  background-size: cover;
+}
+.active-link {
+  margin-top: 74px;
+  margin-left: 20px;
+  font-size: 21px;
+  position: fixed;
+  font-weight: 500;
+}
+.inactive-link {
+  margin-top: 74px;
+  margin-left: 165px;
+  font-size: 21px;
+  position: fixed;
+  font-weight: 500;
+}
+.menu3 {
+  margin-left: 320px;
+}
+.active-link > a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.active-link > a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.active-link > a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.active-link > a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.inactive-link > a:link {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.inactive-link > a:visited {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.inactive-link > a:hover {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.inactive-link > a:active {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.replaceSelected{
+  position: fixed;
+  margin-top: 135px;
+  margin-left: 160px;
+  
+}
+.selected{
+  border: 0;
+  background-color: transparent;
+  color: white;
+}
+
+.my-input-boxes > input {
+  position: fixed;
+  background-color: transparent;
+  color: lightblue;
+  font-weight: 500;
+  border: none;
+} 
+
+.input-1a {
+  margin-top: 615px;
+  margin-left: 50px;
+}
+.input-1b {
+  margin-top: 615px;
+  margin-left: 261px;
+  text-align:right;
+  width: 130px;
+}
+
+.input-2a {
+  margin-top: 655px;
+  margin-left: 50px;
+}
+.input-2b {
+  margin-top: 655px;
+  margin-left: 261px;
+  text-align:right;
+  width: 130px;
+}
+
+.input-3a {
+  margin-top: 693px;
+  margin-left: 50px;
+}
+.input-3b {
+  margin-top: 693px;
+  margin-left: 261px;
+  text-align:right;
+  width: 130px;
+}
+
+.input-4a {
+  margin-top: 730px;
+  margin-left: 50px;
+}
+.input-4b {
+  margin-top: 730px;
+  margin-left: 261px;
+  text-align:right;
+  width: 130px;
+}

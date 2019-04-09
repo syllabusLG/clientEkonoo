@@ -1,0 +1,170 @@
+.my-background-epargne{
+    background-image: url('../shared/images/dispositif-details.png');
+    color: white;
+    background-size: cover;
+  }
+  .icon-back {
+    margin-top: 35px;
+    margin-left: 12px;
+    position: fixed;
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+  }
+  .my-heading {
+    margin-left: 139px;
+    margin-top: 23px;
+    font-size: 24px;
+  }
+  .active-link {
+    margin-top: 74px;
+    margin-left: 165px;
+    font-size: 21px;
+    position: fixed;
+    font-weight: 500;
+  }
+  .inactive-link {
+    margin-top: 74px;
+    margin-left: 20px;
+    font-size: 21px;
+    position: fixed;
+    font-weight: 500;
+  }
+  .menu3 {
+    margin-left: 320px;
+  }
+  .active-link > a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .active-link > a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .active-link > a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .active-link > a:active {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .inactive-link > a:link {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  .inactive-link > a:visited {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  .inactive-link > a:hover {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  .inactive-link > a:active {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  .replaceSelected{
+    position: fixed;
+    margin-top: 135px;
+    margin-left: 160px;
+    
+  }
+  .selected{
+    border: 0;
+    background-color: transparent;
+    color: white;
+  }
+  
+  input {
+    position: fixed;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border: none;
+  } 
+  
+  .input-1a {
+    font-weight: 100 !important;
+    margin-top: 180px;
+    margin-left: 30px;
+  }
+  .input-1b {
+    margin-top: 200px;
+    margin-left: 30px;
+    font-size: 35px;
+    width: 180px;
+  }
+  .input-1c {
+    margin-top: 280px;
+    margin-left: 55px;
+    width: 240px;
+    font-weight: 400 !important;
+  }
+  .input-1d {
+    margin-top: 220px;
+    margin-left: 262px;
+    text-align:right;
+    font-weight: 200 !important;
+    width: 130px;
+  }
+  .icon-1 {
+      position: fixed;
+      margin-top: 223px;
+      margin-left: 400px;
+  }
+
+  .detail-item-1 {
+    position: fixed;
+    margin-top: 330px;
+    margin-left: 30px;
+  }
+  .detail-item-2 {
+    position: fixed;
+    margin-top: 420px;
+    margin-left: 30px;
+  }
+  .detail-item-3 {
+    position: fixed;
+    margin-top: 510px;
+    margin-left: 30px;
+  }
+
+  .input-4a {
+    font-weight: 100 !important;
+    margin-top: 610px;
+    margin-left: 30px;
+  }
+  .input-4b {
+    margin-top: 630px;
+    margin-left: 30px;
+    font-size: 35px;
+    width: 180px;
+  }
+  .input-4c {
+    margin-top: 705px;
+    margin-left: 55px;
+    width: 240px;
+    font-weight: 400 !important;
+  }
+  .input-4d {
+    margin-top: 645px;
+    margin-left: 262px;
+    text-align:right;
+    font-weight: 200 !important;
+    width: 130px;
+  }
+  .icon-4 {
+    position: fixed;
+    margin-top: 647px;
+    margin-left: 400px;
+}
