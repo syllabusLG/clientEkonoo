@@ -7,6 +7,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./dispositif-details.component.scss']
 })
 export class DispositifDetailsComponent implements OnInit {
+  red : string = "red";
+  green : string = "#4fd7b9";
+  details1 : any[] = ["3 500,00 €", "Code ISIN :", "FR0010270033", "Libellé fonds 1", "-500,00 €", "Horizon :", "8 ans", "Risque :", "5/7"];
 
   constructor(private router:Router) { }
 
