@@ -67,6 +67,7 @@ import {ListerComponent} from './lister/lister.component';
 import { DispositifsComponent } from './dispositifs/dispositifs.component';
 import { DispositifDetailsComponent } from './dispositif-details/dispositif-details.component';
 import { DispositifItemDetailsComponent } from './dispositif-item-details/dispositif-item-details.component';
+import {ContactComponent} from './contact/contact.component';
 
 const routes: Routes = [
   {
@@ -400,6 +401,11 @@ const routes: Routes = [
       {
         path: 'dispositif-item-details',
         component: DispositifItemDetailsComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'contact',
+        component: ContactComponent,
         outlet: 'contentOutlet'
       }
     ]

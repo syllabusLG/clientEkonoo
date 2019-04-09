@@ -12,8 +12,8 @@ export class ConnaissanceComponent implements OnInit {
 
   ngOnInit() {
   }
-  returnToRisque(){
-    this.router.navigateByUrl('home/(contentOutlet:risques)');
+  returnToProject(){
+    this.router.navigateByUrl('home/(contentOutlet:project)');
   }
   goToKnowledge(){
     this.router.navigateByUrl('home/(contentOutlet:knowledge)');

@@ -13,8 +13,8 @@ export class GotologinComponent implements OnInit {
   ngOnInit() {
   }
 
-  goToConnexion(){
-    this.router.navigateByUrl('home/(contentOutlet:connexion)');
+  returnToConditionGenerale(){
+    this.router.navigateByUrl('home/(contentOutlet:conditionGenerale)');
   }
 
   goToLancementA(){

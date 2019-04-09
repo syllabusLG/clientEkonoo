@@ -21,5 +21,8 @@ export class ScoreComponent implements OnInit {
   goToOnBoard1(){
     this.router.navigateByUrl('home/(contentOutlet:onBoard1)');
   }
+  returnToKnowledge5(){
+    this.router.navigateByUrl('home/(contentOutlet:knowledge5)');
+  }
 
 }

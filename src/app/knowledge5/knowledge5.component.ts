@@ -38,4 +38,8 @@ export class Knowledge5Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:score)');
   }
 
+  returnToKnowledge4(){
+    this.router.navigateByUrl('home/(contentOutlet:knowledge4)');
+  }
+
 }

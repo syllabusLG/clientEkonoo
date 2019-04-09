@@ -39,5 +39,9 @@ export class Knowledge4Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:knowledge5)');
   }
 
+  returnToKnowledge3(){
+    this.router.navigateByUrl('home/(contentOutlet:knowledge3)');
+  }
+
 
 }

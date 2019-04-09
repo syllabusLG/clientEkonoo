@@ -13,8 +13,8 @@ export class LancementAComponent implements OnInit {
   ngOnInit() {
   }
 
-  afficheMenu(){
-    this.router.navigateByUrl('home/(contentOutlet:menu)');
+  returnToGoToLogin(){
+    this.router.navigateByUrl('home/(contentOutlet:gotologin)');
   }
   goToLancementB(){
     this.router.navigateByUrl('home/(contentOutlet:lancementB)');

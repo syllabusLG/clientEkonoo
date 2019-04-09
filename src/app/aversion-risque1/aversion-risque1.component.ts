@@ -24,8 +24,8 @@ export class AversionRisque1Component implements OnInit {
     this.response = false;
   }
 
-  returnToMyProjetSuite(){
-    this.router.navigateByUrl('home/(contentOutlet:myProjectSuite)');
+  returnToIdentity(){
+    this.router.navigateByUrl('home/(contentOutlet:identity)');
   }
 
   goToAversionRisque2(){

@@ -90,6 +90,7 @@ import { DispositifsComponent } from './dispositifs/dispositifs.component';
 import { DispositifDetailsComponent } from './dispositif-details/dispositif-details.component';
 import { DetailItemComponent } from './dispositif-details/detail-item/detail-item.component';
 import { DispositifItemDetailsComponent } from './dispositif-item-details/dispositif-item-details.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -165,7 +166,8 @@ import { DispositifItemDetailsComponent } from './dispositif-item-details/dispos
     DispositifsComponent,
     DispositifDetailsComponent,
     DetailItemComponent,
-    DispositifItemDetailsComponent
+    DispositifItemDetailsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

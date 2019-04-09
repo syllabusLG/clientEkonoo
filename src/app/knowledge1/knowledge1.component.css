@@ -3,7 +3,12 @@
   color: white;
   background-size: cover;
 }
-
+.projectTitle1{
+  font-family: Roboto;
+  margin-top: 140px;
+  text-align: center;
+  color: white;
+}
 .projectTitle2{
   position: center;
   margin-left: 20px;

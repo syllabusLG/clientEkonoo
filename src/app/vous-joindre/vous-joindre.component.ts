@@ -17,4 +17,8 @@ export class VousJoindreComponent implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:choixPiece)');
   }
 
+  returnToAdresse(){
+    this.router.navigateByUrl('home/(contentOutlet:adresse)');
+  }
+
 }

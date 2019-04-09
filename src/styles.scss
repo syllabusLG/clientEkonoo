@@ -59,7 +59,7 @@
   font-family: Roboto;
   text-align: center;
   color: #85c8ec;
-  padding-top: 140px;
+  padding-top: 100px;
 }
 .projectTitle{
   font-family: Roboto;
@@ -147,4 +147,7 @@ $theme: mat-light-theme($primary, $accent);
 .iconMenuAll{
   position: absolute;
   top: 30px;
+}
+.icon-preccedent-global{
+  margin-top: 25pt;
 }

@@ -21,5 +21,8 @@ export class GenerateCodeComponent implements OnInit {
     this.secureCode = 10000 * Math.floor(Math.random() * 90000);
     this.notification = true;
   }
+  returnToCreateCompte(){
+    this.router.navigateByUrl('home/(contentOutlet:createCompte)');
+  }
 
 }

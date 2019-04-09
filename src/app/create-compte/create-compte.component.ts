@@ -16,4 +16,7 @@ export class CreateCompteComponent implements OnInit {
   goToGenerateCode(){
     this.router.navigateByUrl('home/(contentOutlet:generateCode)');
   }
+  returnToLogin(){
+    this.router.navigateByUrl('login)');
+  }
 }

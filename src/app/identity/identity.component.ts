@@ -15,5 +15,8 @@ export class IdentityComponent implements OnInit {
   goToAversionRisque(){
     this.router.navigateByUrl('home/(contentOutlet:aversionRisque1)');
   }
+  returnToTakeSelfie(){
+    this.router.navigateByUrl('home/(contentOutlet:takeSelfie)');
+  }
 
 }

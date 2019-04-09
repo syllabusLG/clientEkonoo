@@ -17,4 +17,8 @@ export class RisquesComponent implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:myProject)');
   }
 
+  returnToAversionRisque(){
+    this.router.navigateByUrl('home/(contentOutlet:aversionRisque4)');
+  }
+
 }

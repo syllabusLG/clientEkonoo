@@ -16,4 +16,8 @@ export class ProjectComponent implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:connaissance)');
   }
 
+  returnToMyProjectSuite(){
+    this.router.navigateByUrl('home/(contentOutlet:myProjectSuite)');
+  }
+
 }

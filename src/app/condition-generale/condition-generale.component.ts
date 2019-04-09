@@ -38,4 +38,8 @@ export class ConditionGeneraleComponent implements OnInit {
     doc.save('condition_general.pdf');
   }
 
+  returnToGenerateCode(){
+    this.router.navigateByUrl('home/(contentOutlet:generateCode)');
+  }
+
 }
