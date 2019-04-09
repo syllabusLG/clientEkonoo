@@ -20,13 +20,18 @@
   <p class="my-paragraphe1">
     i
   </p>
+  <div class="iconMenuAll">
+    <a (click)="returnToMenu()" href="" data-toggle="collapse" style="color: white">
+      <mat-icon class="icon-preccedent">menu</mat-icon>
+    </a>
+  </div>
   <input value="Veuillez choisir l'etablissement" class="robot">
-  <input value="teneur des comptes où est hébergé" class="robot2">
+  <input value="teneur de comptes où est hébergé" class="robot2">
   <input value="le dispositif que vous souhaitez" class="robot2">
   <input value="importer" class="robot2">
-  <h5 class="my-h3-login">Choisir le teneur des comptes</h5>
+  <h5 class="my-h3-login">Choisir le Teneur de Comptes</h5>
   <mat-form-field class="example-full-width-adresse">
-    <mat-label class="my-label-adresse">Teneur des comptes</mat-label>
+    <mat-label class="my-label-adresse">Teneur de comptes</mat-label>
     <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
     <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayFn">
       <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
@@ -36,13 +41,13 @@
   </mat-form-field>
   <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToDispositif2()">Suivant</button>
   <div class="replaceRachat">
-    <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Racheter</b></a>
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToRachat()"><b>Racheter</b></a>
   </div>
   <div class="replaceVerser">
     <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Verser</b></a>
   </div>
   <div class="replaceLister">
-    <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Lister</b></a>
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToLister()"><b>Historique</b></a>
   </div>
   <div class="replaceTransferer">
     <a href="" data-toggle="collapse" style="color: #7f3776"><b>Importer</b></a>

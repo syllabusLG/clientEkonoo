@@ -39,7 +39,7 @@
       </mat-radio-group>
     </form>-->
     <mat-form-field class="example-full-width-adresse">
-      <mat-label class="my-label-adresse">Pourcentage de capital à perdre</mat-label>
+      <mat-label class="my-label-adresse">Perte max acceptable </mat-label>
       <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
       <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayFn">
         <mat-option *ngFor="let option of filteredOptions | async" [value]="option">

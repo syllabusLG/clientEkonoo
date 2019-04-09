@@ -16,5 +16,13 @@ export class Dispositif4Component implements OnInit {
   goToDispositif5(){
     this.router.navigateByUrl('home/(contentOutlet:dispositif5)');
   }
-
+  goToLister(){
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+  goToRachat(){
+    this.router.navigateByUrl('home/(contentOutlet:rachat1)');
+  }
+  returnToMenu(){
+    this.router.navigateByUrl('home/(contentOutlet:menu)');
+  }
 }

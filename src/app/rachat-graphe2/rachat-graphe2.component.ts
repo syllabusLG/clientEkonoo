@@ -15,7 +15,12 @@ export class RachatGraphe2Component implements OnInit {
   goToRachatGraphe3(){
     this.router.navigateByUrl('home/(contentOutlet:rachatGraphe3)');
   }
-
+  goToLister(){
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+  returnToMenu(){
+    this.router.navigateByUrl('home/(contentOutlet:menu)');
+  }
 
 
 }

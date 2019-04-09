@@ -84,6 +84,8 @@ import { Dispositif7Component } from './dispositif7/dispositif7.component';
 import {AngularSignaturePadModule} from 'angular-signature-pad/public_api';
 
 import { RedeemComponent } from './redeem/redeem.component';
+import {SignaturePadModule} from 'angular2-signaturepad';
+import { ListerComponent } from './lister/lister.component';
 
 @NgModule({
   declarations: [
@@ -153,7 +155,8 @@ import { RedeemComponent } from './redeem/redeem.component';
     Dispositif5Component,
     Dispositif6Component,
     Dispositif7Component,
-    RedeemComponent
+    RedeemComponent,
+    ListerComponent
   ],
   imports: [
     BrowserModule,
@@ -174,6 +177,7 @@ import { RedeemComponent } from './redeem/redeem.component';
     CountToModule,
     MatGridListModule,
     MatTabsModule,
+    SignaturePadModule
     //AngularSignaturePadModule.forRoot()
   ],
   providers: [

@@ -15,8 +15,8 @@ export class Dispositif1Component implements OnInit {
   position: string = 'Societe Générale';
   myControl = new FormControl();
   options: Adresse[] = [
-    {name: 'Amundi Tenu des comptes'},
-    {name: 'AXA Tenue des comptes'},
+    {name: 'Amundi Tenue de comptes'},
+    {name: 'AXA Tenue de comptes'},
     {name: 'BNP Paribas'},
     {name: 'HSBC'},
     {name: 'Pro BTP'},
@@ -46,6 +46,15 @@ export class Dispositif1Component implements OnInit {
   }
   goToDispositif2(){
     this.router.navigateByUrl('home/(contentOutlet:dispositif2)');
+  }
+  goToLister(){
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+  goToRachat(){
+    this.router.navigateByUrl('home/(contentOutlet:rachat1)');
+  }
+  returnToMenu(){
+    this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
 
 }

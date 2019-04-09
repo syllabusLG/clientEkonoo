@@ -18,5 +18,11 @@ export class RachatGraphe3Component implements OnInit {
   goToDispositif(){
     this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
   }
+  goToLister(){
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+  returnToMenu(){
+    this.router.navigateByUrl('home/(contentOutlet:menu)');
+  }
 
 }

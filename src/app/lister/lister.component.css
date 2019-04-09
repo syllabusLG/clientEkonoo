@@ -1,0 +1,234 @@
+.my-background-project{
+  background-image: url('../shared/images/lister.png');
+  color: white;
+  background-size: cover;
+}
+.title{
+  font-family: Roboto;
+  text-align: center;
+  padding-top: 10px;
+}
+.menuIcon{
+  position: absolute;
+  top: 30px;
+}
+.replaceMenu1{
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 550px;
+}
+.replaceMenu2{
+  color: lightskyblue;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 680px;
+}
+.replaceMenu3{
+  color: lightskyblue;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  right: 570px;
+}
+.replaceDate1{
+  position: absolute;
+  top: 160px;
+  left: 680px;
+  border: 0;
+  background-color: transparent;
+  color: white;
+}
+.replaceDate2{
+  position: absolute;
+  top: 690px;
+  left: 680px;
+  border: 0;
+  background-color: transparent;
+  color: white;
+}
+.selected{
+  border: 0;
+  background-color: transparent;
+  color: #85c8ec;
+}
+.replaceInput1{
+  position: absolute;
+  left: 520px;
+  top: 240px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+}
+.replaceInput2{
+  position: absolute;
+  left: 620px;
+  top: 225px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 28pt;
+  color: #ff4954;
+  width: 150px;
+}
+.replaceInput3{
+  position: absolute;
+  left: 790px;
+  top: 240px;
+  border: 0;
+  color: #4fd7b9;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+
+}
+.replaceInput4{
+  position: absolute;
+  left: 640px;
+  top: 283px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.replaceInput5{
+  position: absolute;
+  left: 848px;
+  top: 283px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+}
+.replaceInput6{
+  position: absolute;
+  left: 520px;
+  top: 395px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+}
+.replaceInput7{
+  position: absolute;
+  left: 620px;
+  top: 380px;
+  border: 0;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 28pt;
+  color: #4fd7b9;
+  width: 170px;
+}
+.replaceInput8{
+  position: absolute;
+  left: 824px;
+  top: 395px;
+  border: 0;
+  color: #f3901d;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+}
+.replaceInput9{
+  position: absolute;
+  left: 640px;
+  top: 440px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.replaceInput10{
+  position: absolute;
+  left: 832px;
+  top: 440px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+}
+.replaceInput11{
+  position: absolute;
+  left: 520px;
+  top: 550px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+}
+.replaceInput12{
+  position: absolute;
+  left: 620px;
+  top: 535px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 28pt;
+  color: #ff4954;
+  width: 150px;
+}
+.replaceInput13{
+  position: absolute;
+  left: 790px;
+  top: 550px;
+  border: 0;
+  color: #4fd7b9;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+}
+.replaceInput14{
+  position: absolute;
+  left: 640px;
+  top: 595px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.replaceInput15{
+  position: absolute;
+  left: 848px;
+  top: 595px;
+  border: 0;
+  color: white;
+  background: transparent;
+  font-family: Roboto;
+  font-size: 12pt;
+}
+.replaceArrow1{
+  position: absolute;
+  left: 900px;
+  top: 260px;
+}
+.replaceArrow2{
+  position: absolute;
+  left: 900px;
+  top: 420px;
+}
+.replaceArrow3{
+  position: absolute;
+  left: 900px;
+  top: 570px;
+}

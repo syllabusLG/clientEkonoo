@@ -20,6 +20,11 @@
   <p class="my-paragraphe1">
     i
   </p>
+  <div class="iconMenu">
+    <a (click)="returnToMenu()" href="" data-toggle="collapse" style="color: white">
+      <mat-icon class="icon-preccedent">menu</mat-icon>
+    </a>
+  </div>
   <div class="replaceEditBtn">
     <button class="btn btn-outline-info btnEdit" (click)="goToRachatGraphe2()">Editer</button>
   </div>
@@ -37,7 +42,7 @@
     <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Verser</b></a>
   </div>
   <div class="replaceLister">
-    <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Lister</b></a>
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToLister()"><b>Historique</b></a>
   </div>
   <div class="replaceTransferer">
     <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToDispositif()"><b>Importer</b></a>

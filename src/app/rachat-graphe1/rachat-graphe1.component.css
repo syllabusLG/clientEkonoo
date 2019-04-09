@@ -16,6 +16,11 @@
 mat-grid-tile {
   background: lightblue;
 }
+.iconMenu{
+  position: absolute;
+  top: 25px;
+  left: 520px;
+}
 
 .buttonGo {
   position: center;

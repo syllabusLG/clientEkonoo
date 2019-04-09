@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:820px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-project">
+  <div class="menuIcon">
+    <a (click)="returnToMenu()">
+      <mat-icon class="icon-preccedent">menu</mat-icon>
+    </a>
+  </div>
+  <h4 class="title">Mes opérations</h4>
+  <div class="replaceMenu1">
+    <h5><a href="" data-toggle="collapse" style="color: white">Toutes</a></h5>
+  </div>
+  <div class="replaceMenu2">
+    <h5><a href="" data-toggle="collapse" style="color: lightskyblue">En cours</a></h5>
+  </div>
+  <div class="replaceMenu3">
+    <h5><a href="" data-toggle="collapse" style="color: lightskyblue">Comptabilisées</a></h5>
+  </div>
+
+  <input type="text" value="Dec 2018" class="replaceDate1">
+  <div class="replaceArrow1">
+    <a href="" data-toggle="collapse" style="color: white">
+      <mat-icon>keyboard_arrow_right</mat-icon>
+    </a>
+  </div>
+  <div class="replaceArrow2">
+    <a href="" data-toggle="collapse" style="color: white">
+      <mat-icon>keyboard_arrow_right</mat-icon>
+    </a>
+  </div>
+  <div class="replaceArrow3">
+    <a href="" data-toggle="collapse" style="color: white">
+      <mat-icon>keyboard_arrow_right</mat-icon>
+    </a>
+  </div>
+
+  <input type="text" value="Dec 18" class="replaceInput1">
+  <input type="text" value="-500 €" class="replaceInput2">
+  <input type="text" value="Comptabilisée" class="replaceInput3">
+  <input type="text" value="Rachat" class="replaceInput4">
+  <input type="text" value="Affilié" class="replaceInput5">
+  <input type="text" value="Dec 16" class="replaceInput6">
+  <input type="text" value="+1500 €" class="replaceInput7">
+  <input type="text" value="En cours" class="replaceInput8">
+  <input type="text" value="Opération sur titre(2)" class="replaceInput9">
+  <input type="text" value="Externe" class="replaceInput10">
+  <input type="text" value="Dec 05" class="replaceInput11">
+  <input type="text" value="-500 €" class="replaceInput12">
+  <input type="text" value="Comptabilisée" class="replaceInput13">
+  <input type="text" value="Transfert out" class="replaceInput14">
+  <input type="text" value="Affilié" class="replaceInput15">
+
+  <input type="text" value="Nov 2018" class="replaceDate2">
+  <!--<button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToRachat2()">C'est bien ça !</button>-->
+  <div class="replaceRachat">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToRachat()"><b>Racheter</b></a>
+  </div>
+  <div class="replaceVerser">
+    <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Verser</b></a>
+  </div>
+  <div class="replaceLister">
+    <a href="" data-toggle="collapse" style="color: #7f3776"><b>Historique</b></a>
+  </div>
+  <div class="replaceTransferer">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToDispositif()"><b>Importer</b></a>
+  </div>
+
+
+</div>
+</body>
+</html>
+

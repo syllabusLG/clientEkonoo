@@ -20,6 +20,11 @@
   <p class="my-paragraphe1">
     i
   </p>
+  <div class="iconMenuAll">
+    <a (click)="returnToMenu()" href="" data-toggle="collapse" style="color: white">
+      <mat-icon class="icon-preccedent">menu</mat-icon>
+    </a>
+  </div>
   <input type="text" value="200 000 €" class="replaceInput1">
   <input type="text" value="En Capital" class="replaceInput2">
   <input type="text" value="100 000 €" class="replaceInput3">
@@ -37,7 +42,7 @@
     <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Verser</b></a>
   </div>
   <div class="replaceLister">
-    <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Lister</b></a>
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToLister()"><b>Historique</b></a>
   </div>
   <div class="replaceTransferer">
     <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToDispositif()"><b>Importer</b></a>

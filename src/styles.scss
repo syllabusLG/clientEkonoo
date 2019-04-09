@@ -144,3 +144,7 @@ $theme: mat-light-theme($primary, $accent);
   color: white;
 }
 @import "../node_modules/angular-signature-pad/styles";
+.iconMenuAll{
+  position: absolute;
+  top: 30px;
+}

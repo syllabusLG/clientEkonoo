@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-dispositif5',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Dispositif5Component implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  goToDispositif6(){
+    this.router.navigateByUrl('home/(contentOutlet:dispositif6)');
+  }
+  goToLister(){
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+  goToRachat(){
+    this.router.navigateByUrl('home/(contentOutlet:rachat1)');
+  }
+  returnToMenu(){
+    this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
 
 }
