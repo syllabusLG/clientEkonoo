@@ -3,6 +3,19 @@
     color: white;
     background-size: cover;
   }
+  .icon-back {
+    margin-top: 35px;
+    margin-left: 12px;
+    position: fixed;
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+  }
+  .my-heading {
+    margin-left: 139px;
+    margin-top: 23px;
+    font-size: 24px;
+  }
   .active-link {
     margin-top: 74px;
     margin-left: 165px;
@@ -72,7 +85,7 @@
     color: white;
   }
   
-  .my-input-boxes > input {
+  input {
     position: fixed;
     background-color: transparent;
     color: white;

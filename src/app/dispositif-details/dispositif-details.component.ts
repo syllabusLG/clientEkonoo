@@ -20,4 +20,14 @@ export class DispositifDetailsComponent implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:dispositifs)');
   }
 
+  goBack() {
+    this.router.navigateByUrl('home/(contentOutlet:epargneMenu)');
+  }
+
+  doNothing() {}
+
+  gotoSynthese() {
+    this.router.navigateByUrl('home/(contentOutlet:epargneMenu)');
+  }
+
 }
