@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width: 30%;
+      height: 790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="demo" class="container my-background">
+    <input type="text" value="Mes produits" class="my-heading"/>
+    <mat-icon class="icon-menu" (click)="returnToMenu()">menu</mat-icon>
+    
+    <img src="http://localhost:4200/filterIcon.png" class="icon-2 my-setting-icon"/>
+    <div class="menu-items">
+      <span class="menu-item-active active">
+        <a [routerLink]="" (click)="doNothing()">Tous</a>
+      </span>
+      <span class="menu-item inactive">
+        <a [routerLink]="" (click)="gotoDispositifs()">Actions</a>
+      </span>
+      <span class="menu-item inactive">
+        <a [routerLink]="">Obligations</a>
+      </span>
+      <span class="inactive">
+        <a [routerLink]="">Monétaire</a>
+      </span>
+    </div>
+    <div class="badge-1">(12)</div>
+    <div class="badge-2">(6)</div>
+    <div class="badge-3">(1)</div>
+
+    <div class="my-date-1">Dec 2018</div>
+
+    <mes-produit-item></mes-produit-item>
+    <mes-produit-item class="produit-item-1"></mes-produit-item>
+    <mes-produit-item class="produit-item-2"></mes-produit-item>
+
+    <div class="my-date-2">Nov 2018</div>
+  </div>
+</body>
+
+</html>

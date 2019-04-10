@@ -68,6 +68,8 @@ import { DispositifsComponent } from './dispositifs/dispositifs.component';
 import { DispositifDetailsComponent } from './dispositif-details/dispositif-details.component';
 import { DispositifItemDetailsComponent } from './dispositif-item-details/dispositif-item-details.component';
 import {ContactComponent} from './contact/contact.component';
+import { MesProduitsComponent } from './mes-produits/mes-produits.component';
+import {MesProduitDetailsComponent} from "./mes-produit-details/mes-produit-details.component";
 
 const routes: Routes = [
   {
@@ -406,6 +408,16 @@ const routes: Routes = [
       {
         path: 'contact',
         component: ContactComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'mes-produits',
+        component: MesProduitsComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'mes-produit-details',
+        component: MesProduitDetailsComponent,
         outlet: 'contentOutlet'
       }
     ]
