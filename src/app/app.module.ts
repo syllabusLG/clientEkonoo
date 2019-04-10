@@ -95,6 +95,7 @@ import { MesProduitsComponent } from './mes-produits/mes-produits.component';
 import { ProduitItemComponent } from './mes-produits/produit-item/produit-item.component';
 import { MesProduitDetailsComponent } from './mes-produit-details/mes-produit-details.component';
 import { MesProduitObjectifComponent } from './mes-produit-objectif/mes-produit-objectif.component';
+import { MesProduitHistoriqueNavComponent } from './mes-produit-historique-nav/mes-produit-historique-nav.component';
 
 @NgModule({
   declarations: [
@@ -175,7 +176,8 @@ import { MesProduitObjectifComponent } from './mes-produit-objectif/mes-produit-
     MesProduitsComponent,
     ProduitItemComponent,
     MesProduitDetailsComponent,
-    MesProduitObjectifComponent
+    MesProduitObjectifComponent,
+    MesProduitHistoriqueNavComponent
   ],
   imports: [
     BrowserModule,
