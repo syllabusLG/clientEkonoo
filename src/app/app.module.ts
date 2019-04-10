@@ -94,6 +94,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MesProduitsComponent } from './mes-produits/mes-produits.component';
 import { ProduitItemComponent } from './mes-produits/produit-item/produit-item.component';
 import { MesProduitDetailsComponent } from './mes-produit-details/mes-produit-details.component';
+import { MesProduitObjectifComponent } from './mes-produit-objectif/mes-produit-objectif.component';
 
 @NgModule({
   declarations: [
@@ -173,7 +174,8 @@ import { MesProduitDetailsComponent } from './mes-produit-details/mes-produit-de
     ContactComponent,
     MesProduitsComponent,
     ProduitItemComponent,
-    MesProduitDetailsComponent
+    MesProduitDetailsComponent,
+    MesProduitObjectifComponent
   ],
   imports: [
     BrowserModule,

@@ -70,6 +70,7 @@ import { DispositifItemDetailsComponent } from './dispositif-item-details/dispos
 import {ContactComponent} from './contact/contact.component';
 import { MesProduitsComponent } from './mes-produits/mes-produits.component';
 import {MesProduitDetailsComponent} from "./mes-produit-details/mes-produit-details.component";
+import {MesProduitObjectifComponent} from "./mes-produit-objectif/mes-produit-objectif.component";
 
 const routes: Routes = [
   {
@@ -418,6 +419,11 @@ const routes: Routes = [
       {
         path: 'mes-produit-details',
         component: MesProduitDetailsComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'mes-produit-objectif',
+        component: MesProduitObjectifComponent,
         outlet: 'contentOutlet'
       }
     ]

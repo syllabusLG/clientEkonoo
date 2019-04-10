@@ -1,0 +1,51 @@
+.my-background{
+  background-image: url('../shared/images/produit_3.png');
+  color: white;
+  background-size: cover;
+}
+.icon-back {
+  margin-top: 35px;
+  margin-left: 12px;
+  position: fixed;
+  color: white;
+  background-color: transparent;
+  font-size: 30px;
+}
+input {
+  position: fixed;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+.input_1 {
+  margin-top: 29px;
+  margin-left: 86px;
+  font-size: 23px;
+}
+.input_2 {
+  margin-top: 95px;
+  margin-left: 39px;
+  font-weight: 400 !important;
+}
+.input_3 {
+  margin-top: 109px;
+  margin-left: 39px;
+  font-size: 38px;
+}
+.input_4 {
+  margin-top: 190px;
+  margin-left: 39px;
+  font-weight: 400 !important;
+  width: 200px;
+}
+.input_5 {
+  margin-top: 160px;
+  margin-left: 280px;
+  font-weight: 400 !important;
+}
+.input_6 {
+  margin-top: 190px;
+  margin-left: 302px;
+  font-weight: 400 !important;
+}
