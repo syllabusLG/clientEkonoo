@@ -1,0 +1,19 @@
+.my-background{
+  background-image: url('../shared/images/contact.png');
+  color: white;
+  background-size: cover;
+}
+
+::ng-deep .mat-form-field-underline {
+  background-color: #85c8ec!important;
+}
+.tel{
+  margin-top: 350px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12pt;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+

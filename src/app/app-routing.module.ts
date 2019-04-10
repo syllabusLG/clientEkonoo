@@ -68,6 +68,11 @@ import { DispositifsComponent } from './dispositifs/dispositifs.component';
 import { DispositifDetailsComponent } from './dispositif-details/dispositif-details.component';
 import { DispositifItemDetailsComponent } from './dispositif-item-details/dispositif-item-details.component';
 import {ContactComponent} from './contact/contact.component';
+import {Fiscalit1Component} from './fiscalit1/fiscalit1.component';
+import {SlideFiscalityComponent} from './slide-fiscality/slide-fiscality.component';
+import {Fiscality2Component} from './fiscality2/fiscality2.component';
+import {Fiscality3Component} from './fiscality3/fiscality3.component';
+import {Fiscality4Component} from './fiscality4/fiscality4.component';
 
 const routes: Routes = [
   {
@@ -406,6 +411,31 @@ const routes: Routes = [
       {
         path: 'contact',
         component: ContactComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'fiscalite1',
+        component: Fiscalit1Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'fiscalite2',
+        component: Fiscality2Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'slideFiscality',
+        component: SlideFiscalityComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'fiscalite3',
+        component: Fiscality3Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'fiscalite4',
+        component: Fiscality4Component,
         outlet: 'contentOutlet'
       }
     ]

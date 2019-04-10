@@ -19,5 +19,11 @@ export class MenuComponent implements OnInit {
   goToEpargneMenu(){
     this.router.navigateByUrl('home/(contentOutlet:epargneMenu)');
   }
+  goToContact(){
+    this.router.navigateByUrl('home/(contentOutlet:contact)');
+  }
+  goToFiscalite(){
+    this.router.navigateByUrl('home/(contentOutlet:fiscalite1)');
+  }
 
 }
