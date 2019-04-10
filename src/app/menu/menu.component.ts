@@ -25,5 +25,8 @@ export class MenuComponent implements OnInit {
   goToFiscalite(){
     this.router.navigateByUrl('home/(contentOutlet:fiscalite1)');
   }
+  gotoMesProduits() {
+    this.router.navigateByUrl('home/(contentOutlet:mes-produits)');
+  }
 
 }

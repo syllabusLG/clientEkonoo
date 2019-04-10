@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>epargneMenu</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width: 30%;
+      height: 790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+
+<body>
+<div id="demo" class="container my-background">
+  <mat-icon class="icon-back" (click)="goBack()">keyboard_backspace</mat-icon>
+  <div class="my-heading">Historique NAV</div>
+  <div class="menu-items">
+      <span class="menu-item-active active">
+        <a [routerLink]="" (click)="doNothing()">Intraday</a>
+      </span>
+    <span class="menu-item inactive">
+        <a [routerLink]="" (click)="doNothing()">5 jours</a>
+      </span>
+    <span class="menu-item inactive">
+        <a [routerLink]="" (click)="doNothing()">6 mois</a>
+      </span>
+    <span class="menu-item inactive">
+        <a [routerLink]="" (click)="doNothing()">1 an</a>
+      </span>
+    <span class="inactive">
+        <a [routerLink]="" (click)="doNothing()">3 ans</a>
+      </span>
+  </div>
+</div>
+</body>
+
+</html>

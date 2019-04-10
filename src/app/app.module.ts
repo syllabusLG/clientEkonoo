@@ -96,6 +96,11 @@ import { SlideFiscalityComponent } from './slide-fiscality/slide-fiscality.compo
 import { Fiscality2Component } from './fiscality2/fiscality2.component';
 import { Fiscality3Component } from './fiscality3/fiscality3.component';
 import { Fiscality4Component } from './fiscality4/fiscality4.component';
+import { MesProduitsComponent } from './mes-produits/mes-produits.component';
+import { ProduitItemComponent } from './mes-produits/produit-item/produit-item.component';
+import { MesProduitDetailsComponent } from './mes-produit-details/mes-produit-details.component';
+import { MesProduitObjectifComponent } from './mes-produit-objectif/mes-produit-objectif.component';
+import { MesProduitHistoriqueNavComponent } from './mes-produit-historique-nav/mes-produit-historique-nav.component';
 
 @NgModule({
   declarations: [
@@ -177,7 +182,13 @@ import { Fiscality4Component } from './fiscality4/fiscality4.component';
     SlideFiscalityComponent,
     Fiscality2Component,
     Fiscality3Component,
-    Fiscality4Component
+    Fiscality4Component,
+    ContactComponent,
+    MesProduitsComponent,
+    ProduitItemComponent,
+    MesProduitDetailsComponent,
+    MesProduitObjectifComponent,
+    MesProduitHistoriqueNavComponent
   ],
   imports: [
     BrowserModule,

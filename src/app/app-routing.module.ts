@@ -73,6 +73,10 @@ import {SlideFiscalityComponent} from './slide-fiscality/slide-fiscality.compone
 import {Fiscality2Component} from './fiscality2/fiscality2.component';
 import {Fiscality3Component} from './fiscality3/fiscality3.component';
 import {Fiscality4Component} from './fiscality4/fiscality4.component';
+import { MesProduitsComponent } from './mes-produits/mes-produits.component';
+import {MesProduitDetailsComponent} from "./mes-produit-details/mes-produit-details.component";
+import {MesProduitObjectifComponent} from "./mes-produit-objectif/mes-produit-objectif.component";
+import {MesProduitHistoriqueNavComponent} from "./mes-produit-historique-nav/mes-produit-historique-nav.component";
 
 const routes: Routes = [
   {
@@ -436,6 +440,26 @@ const routes: Routes = [
       {
         path: 'fiscalite4',
         component: Fiscality4Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'mes-produits',
+        component: MesProduitsComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'mes-produit-details',
+        component: MesProduitDetailsComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'mes-produit-objectif',
+        component: MesProduitObjectifComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'mes-produit-historique-nav',
+        component: MesProduitHistoriqueNavComponent,
         outlet: 'contentOutlet'
       }
     ]
