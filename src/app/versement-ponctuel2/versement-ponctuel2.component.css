@@ -1,0 +1,87 @@
+.my-background-project{
+  background-image: url('../shared/images/verser3.png');
+  color: white;
+  background-size: cover;
+}
+
+.my-project-choice-suite{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.icon-preccedent{
+  margin-top: 25pt;
+}
+.spacer{
+  margin-top: 30px;
+}
+mat-grid-tile {
+  background: lightblue;
+}
+
+.buttonGo {
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 272.5pt;
+  margin-left: 20pt;
+  margin-top: 250px;
+  height: 45pt;
+}
+.buttonGo2 {
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 272.5pt;
+  margin-left: 20pt;
+  height: 45pt;
+}
+.my-paragraphe1{
+  text-align: center;
+  padding-top: 40px;;
+  margin-left: 50px;
+  color: white;
+  font-family: Roboto;
+  font-size: 14pt;
+  font-weight: bold;
+
+}
+.example-full-width-adresse {
+  margin-left: 40px;
+  margin-top: 350px;
+  width: 80%;
+}
+.my-label-adresse{
+  color: #85c8ec;
+}
+::ng-deep .mat-form-field-underline {
+
+  background-color: #85c8ec!important;
+
+}
+.robot {
+  border: 0;
+  font-family: Roboto;
+  font-size: 12pt;
+  background: transparent;
+  margin-left: 70px;
+  margin-top: 50px;
+  width: 100%;
+}
+.robot2 {
+  font-family: Roboto;
+  font-size: 12pt;
+  border: 0;
+  background: transparent;
+  margin-left: 70px;
+  width: 100%;
+}
+.my-h3-login{
+  text-align: center;
+  width: 278pt;
+  height: 20.5pt;
+  padding-top: 140pt;
+  padding-left: 40px;
+  font-family: Roboto;
+}
+
