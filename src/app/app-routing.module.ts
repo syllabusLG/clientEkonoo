@@ -72,6 +72,7 @@ import { MesProduitsComponent } from './mes-produits/mes-produits.component';
 import {MesProduitDetailsComponent} from "./mes-produit-details/mes-produit-details.component";
 import {MesProduitObjectifComponent} from "./mes-produit-objectif/mes-produit-objectif.component";
 import {MesProduitHistoriqueNavComponent} from "./mes-produit-historique-nav/mes-produit-historique-nav.component";
+import {MesProduitSettingComponent} from "./mes-produit-setting/mes-produit-setting.component";
 
 const routes: Routes = [
   {
@@ -430,6 +431,11 @@ const routes: Routes = [
       {
         path: 'mes-produit-historique-nav',
         component: MesProduitHistoriqueNavComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'mes-produit-setting',
+        component: MesProduitSettingComponent,
         outlet: 'contentOutlet'
       }
     ]

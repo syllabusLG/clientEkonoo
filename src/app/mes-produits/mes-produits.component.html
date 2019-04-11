@@ -19,7 +19,7 @@
     <input type="text" value="Mes produits" class="my-heading"/>
     <mat-icon class="icon-menu" (click)="returnToMenu()">menu</mat-icon>
     
-    <img src="http://localhost:4200/filterIcon.png" class="icon-2 my-setting-icon"/>
+    <img src="http://localhost:4200/filterIcon.png" class="icon-2 my-setting-icon" (click)="gotoSettings()"/>
     <div class="menu-items">
       <span class="menu-item-active active">
         <a [routerLink]="" (click)="doNothing()">Tous</a>

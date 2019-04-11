@@ -1,0 +1,160 @@
+.my-background{
+  background-image: url('../shared/images/produit_5.png');
+  color: white;
+  background-size: cover;
+}
+.my-heading {
+  position: fixed;
+  margin: 30px 0px 0px 110px;
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+}
+.my-sub-heading {
+  position: fixed;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+.sub-heading-1 {
+  margin-top: 140px;
+  margin-left: 77px;
+}
+.sub-heading-2 {
+  margin-top: 213px;
+  margin-left: 75px;
+}
+.sub-heading-3 {
+   margin-top: 370px;
+   margin-left: 75px;
+ }
+.sub-heading-4 {
+  margin-top: 470px;
+  margin-left: 75px;
+}
+
+button:disabled {
+  border-color: lightgray !important;
+  border-width: 2px !important;
+  box-shadow: none;
+}
+.my-btn-outline {
+  border-color: lightblue !important;
+  border-width: 2px !important;
+}
+.btn-group-1 {
+  position: fixed;
+  margin-top: 170px;
+  margin-left: 75px;
+  width: 270px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-group-1 > button {
+  border-radius: 7px;
+  padding: 0.05rem .5rem !important;
+}
+
+.btn-group-1 > button:focus{
+  border-color: purple !important;
+  border-width: 2px !important;
+  box-shadow: none;
+}
+
+.btn-group-2 {
+  position: fixed;
+  margin-top: 240px;
+  margin-left: 65px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 236px;
+  height: 53px;
+}
+.btn-group-2 > button {
+  width: 95px;
+  border-radius: 7px;
+}
+.btn-group-2 > button:focus{
+  border-color: purple !important;
+  border-width: 2px !important;
+  box-shadow: none;
+}
+.btn-group-3 {
+   position: fixed;
+   margin-top: 297px;
+   margin-left: 65px;
+   display: flex;
+   justify-content: space-evenly;
+   width: 236px;
+   height: 53px;
+ }
+.btn-group-3 > button {
+  width: 95px;
+  border-radius: 7px;
+}
+.btn-group-3 > button:focus{
+  border-color: purple !important;
+  border-width: 2px !important;
+  box-shadow: none;
+}
+.btn-group-4 {
+  position: fixed;
+  margin-top: 397px;
+  margin-left: 65px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 275px;
+}
+.btn-group-4 > button {
+   border-radius: 7px;
+   padding: 0.05rem .5rem !important;
+ }
+.btn-group-4 > button:focus {
+  border-color: purple !important;
+  border-width: 2px !important;
+  box-shadow: none;
+}
+.btn-group-5 {
+  position: fixed;
+  margin-top: 431px;
+  margin-left: 69px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 275px;
+}
+.btn-group-5 > button {
+  border-radius: 7px;
+  padding: 0.05rem .5rem !important;
+}
+.btn-group-5 > button:focus {
+  border-color: purple !important;
+  border-width: 2px !important;
+  box-shadow: none;
+}
+.btn-group-6 {
+  position: fixed;
+  margin-top: 495px;
+  margin-left: 69px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 275px;
+}
+.btn-group-6 > button {
+  border-radius: 7px;
+  padding: 0.05rem .5rem !important;
+}
+.btn-group-6 > button:focus {
+  border-color: purple !important;
+  border-width: 2px !important;
+  box-shadow: none;
+}
+.main-button {
+  margin-top: 640px;
+  margin-left: 110px;
+  background-color: lightblue;
+  border-color: lightblue;
+  width: 200px;
+  height: 55px;
+  font-weight: 500;
+  font-size: 20px;
+}

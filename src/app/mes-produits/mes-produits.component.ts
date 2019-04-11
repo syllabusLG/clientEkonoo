@@ -27,4 +27,8 @@ export class MesProduitsComponent implements OnInit {
 
   }
 
+  gotoSettings() {
+    this.router.navigateByUrl('home/(contentOutlet:mes-produit-setting)');
+  }
+
 }
