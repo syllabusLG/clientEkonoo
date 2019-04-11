@@ -1,4 +1,5 @@
 import {AfterViewInit, Component, ElementRef, ViewChild} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-mes-produit-setting',
@@ -8,10 +9,14 @@ import {AfterViewInit, Component, ElementRef, ViewChild} from '@angular/core';
 export class MesProduitSettingComponent implements AfterViewInit {
   @ViewChild('buttonOne') buttonOne : ElementRef;
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngAfterViewInit() {
     this.buttonOne.nativeElement.focus();
+  }
+
+  closeModal() {
+    this.router.navigateByUrl('home/(contentOutlet:mes-produits)');
   }
 
 }

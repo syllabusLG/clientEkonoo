@@ -35,9 +35,13 @@
     height: 140px;
     border-color: #85c8ec;
     margin-left: 20px;
-  background-color: lightblue;
+    background-color: lightblue;
     background-size: 160px 140px;
 }
 .button-image {
-  height: 35px;
+   height: 35px;
+ }
+.callImage{
+  background-image: url("../shared/images/euro.png");
+  background-image: url("../shared/images/arrows.png");
 }

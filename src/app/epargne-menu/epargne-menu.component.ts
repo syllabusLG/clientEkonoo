@@ -22,20 +22,7 @@ export class EpargneMenuComponent {
   gotoDispositifs() {
     this.router.navigateByUrl('home/(contentOutlet:dispositifs)');
   }
-
-  
-  goToEpargneRetraiteCollectif(){
-    this.router.navigateByUrl('home/(contentOutlet:epargneRetraiteCol)');
+  gotoMenu() {
+    this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
-  goToEpargneEntreprise(){
-    this.router.navigateByUrl('home/(contentOutlet:epargneEntreprise)');
-  }
-  goToEpargneRetraiteIndividuel(){
-    this.router.navigateByUrl('home/(contentOutlet:epargneRetraiteInd)');
-  }
-  goToEpargneIndividuel(){
-    this.router.navigateByUrl('home/(contentOutlet:epargneIndividuel)');
-  }
-
-
 }

@@ -7,25 +7,15 @@ import {Router} from "@angular/router";
   templateUrl: './mes-produits.component.html',
   styleUrls: ['./mes-produits.component.scss']
 })
-export class MesProduitsComponent implements OnInit {
+export class MesProduitsComponent {
 
   constructor(private router: Router) { }
-
-  ngOnInit() {
-    console.log("test");
-  }
 
   returnToMenu(){
     this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
 
-  doNothing() {
-
-  }
-
-  gotoDispositifs() {
-
-  }
+  doNothing() { }
 
   gotoSettings() {
     this.router.navigateByUrl('home/(contentOutlet:mes-produit-setting)');

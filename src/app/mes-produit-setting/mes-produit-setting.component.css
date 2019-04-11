@@ -5,7 +5,7 @@
 }
 .my-heading {
   position: fixed;
-  margin: 30px 0px 0px 110px;
+  margin: 87px 0px 0px 110px;
   color: black;
   font-size: 25px;
   font-weight: 600;
@@ -157,4 +157,14 @@ button:disabled {
   height: 55px;
   font-weight: 500;
   font-size: 20px;
+}
+.call-image {
+  background-image: url("../shared/images/filterIcon.png");
+}
+.clear-icon {
+  margin-top: 38px;
+  margin-left: 372px;
+  position: fixed;
+  color: lightblue;
+  font-size: xx-large;
 }
