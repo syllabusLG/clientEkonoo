@@ -107,6 +107,7 @@ import { VersementPonctuel2Component } from './versement-ponctuel2/versement-pon
 import { VersementPonctuel3Component } from './versement-ponctuel3/versement-ponctuel3.component';
 import { VersementPonctuel4Component } from './versement-ponctuel4/versement-ponctuel4.component';
 import { VersementPonctuel5Component } from './versement-ponctuel5/versement-ponctuel5.component';
+import { MesProduitSettingComponent } from './mes-produit-setting/mes-produit-setting.component';
 
 @NgModule({
   declarations: [
@@ -200,7 +201,9 @@ import { VersementPonctuel5Component } from './versement-ponctuel5/versement-pon
     VersementPonctuel2Component,
     VersementPonctuel3Component,
     VersementPonctuel4Component,
-    VersementPonctuel5Component
+    VersementPonctuel5Component,
+    MesProduitHistoriqueNavComponent,
+    MesProduitSettingComponent
   ],
   imports: [
     BrowserModule,

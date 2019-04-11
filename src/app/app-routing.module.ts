@@ -83,6 +83,7 @@ import {VersementPonctuel2Component} from './versement-ponctuel2/versement-ponct
 import {VersementPonctuel3Component} from './versement-ponctuel3/versement-ponctuel3.component';
 import {VersementPonctuel4Component} from './versement-ponctuel4/versement-ponctuel4.component';
 import {VersementPonctuel5Component} from './versement-ponctuel5/versement-ponctuel5.component';
+import {MesProduitSettingComponent} from "./mes-produit-setting/mes-produit-setting.component";
 
 const routes: Routes = [
   {
@@ -496,6 +497,11 @@ const routes: Routes = [
       {
         path: 'versementPonctuel5',
         component: VersementPonctuel5Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'mes-produit-setting',
+        component: MesProduitSettingComponent,
         outlet: 'contentOutlet'
       }
     ]

@@ -19,19 +19,19 @@
     <input type="text" value="Mes produits" class="my-heading"/>
     <mat-icon class="icon-menu" (click)="returnToMenu()">menu</mat-icon>
     
-    <img src="http://localhost:4200/filterIcon.png" class="icon-2 my-setting-icon"/>
+    <img src="http://localhost:4200/filterIcon.png" class="icon-2 my-setting-icon" (click)="gotoSettings()"/>
     <div class="menu-items">
       <span class="menu-item-active active">
         <a [routerLink]="" (click)="doNothing()">Tous</a>
       </span>
       <span class="menu-item inactive">
-        <a [routerLink]="" (click)="gotoDispositifs()">Actions</a>
+        <a [routerLink]="" (click)="doNothing()">Actions</a>
       </span>
       <span class="menu-item inactive">
-        <a [routerLink]="">Obligations</a>
+        <a [routerLink]="" (click)="doNothing()">Obligations</a>
       </span>
       <span class="inactive">
-        <a [routerLink]="">Monétaire</a>
+        <a [routerLink]="" (click)="doNothing()">Monétaire</a>
       </span>
     </div>
     <div class="badge-1">(12)</div>
