@@ -91,6 +91,11 @@ import { DispositifDetailsComponent } from './dispositif-details/dispositif-deta
 import { DetailItemComponent } from './dispositif-details/detail-item/detail-item.component';
 import { DispositifItemDetailsComponent } from './dispositif-item-details/dispositif-item-details.component';
 import { ContactComponent } from './contact/contact.component';
+import { Fiscalit1Component } from './fiscalit1/fiscalit1.component';
+import { SlideFiscalityComponent } from './slide-fiscality/slide-fiscality.component';
+import { Fiscality2Component } from './fiscality2/fiscality2.component';
+import { Fiscality3Component } from './fiscality3/fiscality3.component';
+import { Fiscality4Component } from './fiscality4/fiscality4.component';
 import { MesProduitsComponent } from './mes-produits/mes-produits.component';
 import { ProduitItemComponent } from './mes-produits/produit-item/produit-item.component';
 import { MesProduitDetailsComponent } from './mes-produit-details/mes-produit-details.component';
@@ -173,6 +178,12 @@ import { MesProduitSettingComponent } from './mes-produit-setting/mes-produit-se
     DispositifDetailsComponent,
     DetailItemComponent,
     DispositifItemDetailsComponent,
+    ContactComponent,
+    Fiscalit1Component,
+    SlideFiscalityComponent,
+    Fiscality2Component,
+    Fiscality3Component,
+    Fiscality4Component,
     ContactComponent,
     MesProduitsComponent,
     ProduitItemComponent,

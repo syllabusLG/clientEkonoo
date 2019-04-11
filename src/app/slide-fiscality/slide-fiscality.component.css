@@ -1,0 +1,128 @@
+.imgcontainer1 {
+  background-image: url('../shared/images/fisc1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 200px;
+  width: 500px;
+  height: 300px;
+}
+.imgcontainer2 {
+  background-image: url('../shared/images/fisc2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 500px;
+  height: 300px;
+}
+.imgcontainer3 {
+  background-image: url('../shared/images/fisc3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 500px;
+  height: 300px;
+}
+.imgcontainer4 {
+   background-image: url('../shared/images/fisc4.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-left: 200px;
+   margin-top: 20px;
+   width: 500px;
+   height: 300px;
+ }
+.imgcontainer5 {
+  background-image: url('../shared/images/fisc5.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 500px;
+  height: 300px;
+}
+/*.my-epargne-img{
+  background-image: url('../shared/images/monepargne.png');
+  background-repeat: no-repeat;
+}*/
+/*.my-projet-img{
+  background-image: url('../shared/images/mesprojets.png');
+  background-repeat: no-repeat;
+}*/
+/*.my-performance-img{
+  background-image: url('../shared/images/maperformance.png');
+  background-repeat: no-repeat;
+}*/
+/*.my-operation-img{
+  background-image: url('../shared/images/mesoperations.png');
+  background-repeat: no-repeat;
+}*/
+.contain {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 70px;
+  height: 70px;
+}
+
+/* resize images */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.submitbtn {
+  background-color: #12899e;
+  position: center;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #a7bae8;
+}
+.btnCreerCompte{
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 125pt;
+  height: 45pt;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.my-carousel-caption {
+  top: 200px;
+  bottom: auto;
+}
+
+.my-second-title{
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 150px;
+  font-family: Roboto;
+  font-size: 17pt;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 0;
+  background: transparent;
+}
+.my-second-titleP{
+  color: white;
+  width: 340px;
+  margin-top: 150px;
+  font-family: Roboto;
+  font-size: 17pt;
+  margin-right: 100px;
+  border: 0;
+  background: transparent;
+}
+
+.my-second-title-bis{
+  text-align: center;
+  font-size: 17pt;
+  font-family: Roboto;
+  color: white;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 5px;
+  border: 0;
+  background: transparent;
+}
+

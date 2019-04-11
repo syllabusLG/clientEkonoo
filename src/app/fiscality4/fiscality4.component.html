@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-risque1">
+  <a (click)="returnToFiscality3()">
+    <mat-icon class="backIcon">keyboard_backspace</mat-icon>
+  </a>
+  <p class="robot">
+
+    Voilà, c'est fait !<br>
+  </p>
+  <div class="fiscaliteLynk">
+    Votre <b>Taux Marginal d'imposition</b>(TMI) est <input type="text" value="30%" class="fiscaliteInput"><br>
+    votre plafond de déduction fiscale est <input type="text" value="32678 €" class="fiscaliteInput"><br>
+    Donc si vous investissez <input type="text" value="32678 €" class="fiscaliteInput">, cela ne vous coûtera<br>
+    réellement que <input type="text" value="22874,6 €" class="fiscaliteInput"><br>
+    Vous économisez donc: <input type="text" value="9803,4 €" class="fiscaliteInput"><br>
+    Si vous avez pour objectif d'acquérir une résidence<br>
+    principale, vous pourrez tout débloquer !
+  </div>
+
+  <button class="btn btn-info btn-lg btn-block btnDeclarant" >Modifier mon TMI</button><br>
+  <button class="btn btn-info btn-lg btn-block btnDeclarant2" (click)="returnToMenu()">Bien compris</button>
+</div>
+</body>
+</html>
+
+
