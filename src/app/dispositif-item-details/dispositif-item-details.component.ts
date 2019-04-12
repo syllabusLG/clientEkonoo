@@ -16,5 +16,11 @@ export class DispositifItemDetailsComponent implements OnInit {
   goBack() {
     this.router.navigateByUrl('home/(contentOutlet:dispositif-details)');
   }
+  gotoObjectif() {
+    this.router.navigateByUrl('home/(contentOutlet:mes-produit-objectif)');
+  }
+  gotoHistoriqueNav() {
+    this.router.navigateByUrl('home/(contentOutlet:mes-produit-historique-nav)');
+  }
 
 }
