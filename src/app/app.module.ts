@@ -101,6 +101,12 @@ import { ProduitItemComponent } from './mes-produits/produit-item/produit-item.c
 import { MesProduitDetailsComponent } from './mes-produit-details/mes-produit-details.component';
 import { MesProduitObjectifComponent } from './mes-produit-objectif/mes-produit-objectif.component';
 import { MesProduitHistoriqueNavComponent } from './mes-produit-historique-nav/mes-produit-historique-nav.component';
+import { VerserComponent } from './verser/verser.component';
+import { VersementPonctuelComponent } from './versement-ponctuel/versement-ponctuel.component';
+import { VersementPonctuel2Component } from './versement-ponctuel2/versement-ponctuel2.component';
+import { VersementPonctuel3Component } from './versement-ponctuel3/versement-ponctuel3.component';
+import { VersementPonctuel4Component } from './versement-ponctuel4/versement-ponctuel4.component';
+import { VersementPonctuel5Component } from './versement-ponctuel5/versement-ponctuel5.component';
 import { MesProduitSettingComponent } from './mes-produit-setting/mes-produit-setting.component';
 
 @NgModule({
@@ -189,6 +195,13 @@ import { MesProduitSettingComponent } from './mes-produit-setting/mes-produit-se
     ProduitItemComponent,
     MesProduitDetailsComponent,
     MesProduitObjectifComponent,
+    MesProduitHistoriqueNavComponent,
+    VerserComponent,
+    VersementPonctuelComponent,
+    VersementPonctuel2Component,
+    VersementPonctuel3Component,
+    VersementPonctuel4Component,
+    VersementPonctuel5Component,
     MesProduitHistoriqueNavComponent,
     MesProduitSettingComponent
   ],

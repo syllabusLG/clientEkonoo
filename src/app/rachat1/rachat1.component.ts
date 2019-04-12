@@ -56,5 +56,9 @@ export class Rachat1Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
 
+  goToVerser(){
+    this.router.navigateByUrl('home/(contentOutlet:verser)');
+  }
+
 
 }

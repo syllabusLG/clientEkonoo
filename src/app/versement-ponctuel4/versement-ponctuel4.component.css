@@ -1,5 +1,5 @@
 .my-background-project{
-  background-image: url('../shared/images/rachat3.png');
+  background-image: url('../shared/images/verser_5.png');
   color: white;
   background-size: cover;
 }
@@ -8,22 +8,33 @@
   margin-left: 20px;
 }
 .icon-preccedent{
-  margin-top: 25pt;
+  position: absolute;
+  top: 60px;
+  left: 520px;
 }
+
 .spacer{
   margin-top: 30px;
 }
 mat-grid-tile {
   background: lightblue;
 }
-.buttonLancementA {
-  position: center;
-  background-color: #85c8ec;
-  border-radius: 4pt;
-  width: 172.5pt;
-  margin-top: 400pt;
-  margin-left: 65pt;
-  height: 45pt;
+.robot {
+  border: 0;
+  font-family: Roboto;
+  font-size: 12pt;
+  background: transparent;
+  margin-left: 90px;
+  margin-top: 50px;
+  width: 100%;
+}
+.robot2 {
+  font-family: Roboto;
+  font-size: 12pt;
+  border: 0;
+  background: transparent;
+  margin-left: 90px;
+  width: 100%;
 }
 .buttonGo {
   position: center;
@@ -31,11 +42,17 @@ mat-grid-tile {
   border-radius: 4pt;
   width: 172.5pt;
   margin-left: 80pt;
-  margin-top: 620px;
+  margin-top: 480px;
   height: 45pt;
 }
 .my-paragraphe1{
-  color: transparent;
+  text-align: center;
+  padding-top: 40px;;
+  margin-left: 50px;
+  color: white;
+  font-family: Roboto;
+  font-size: 14pt;
+  font-weight: bold;
 
 }
 .example-full-width-adresse {
@@ -222,7 +239,3 @@ mat-grid-tile {
   border-radius: 50%;
   background: white;
 }
-
-
-
-

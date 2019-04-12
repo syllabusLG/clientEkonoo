@@ -77,6 +77,12 @@ import { MesProduitsComponent } from './mes-produits/mes-produits.component';
 import {MesProduitDetailsComponent} from "./mes-produit-details/mes-produit-details.component";
 import {MesProduitObjectifComponent} from "./mes-produit-objectif/mes-produit-objectif.component";
 import {MesProduitHistoriqueNavComponent} from "./mes-produit-historique-nav/mes-produit-historique-nav.component";
+import {VerserComponent} from './verser/verser.component';
+import {VersementPonctuelComponent} from './versement-ponctuel/versement-ponctuel.component';
+import {VersementPonctuel2Component} from './versement-ponctuel2/versement-ponctuel2.component';
+import {VersementPonctuel3Component} from './versement-ponctuel3/versement-ponctuel3.component';
+import {VersementPonctuel4Component} from './versement-ponctuel4/versement-ponctuel4.component';
+import {VersementPonctuel5Component} from './versement-ponctuel5/versement-ponctuel5.component';
 import {MesProduitSettingComponent} from "./mes-produit-setting/mes-produit-setting.component";
 
 const routes: Routes = [
@@ -461,6 +467,36 @@ const routes: Routes = [
       {
         path: 'mes-produit-historique-nav',
         component: MesProduitHistoriqueNavComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'verser',
+        component: VerserComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementPonctuel1',
+        component: VersementPonctuelComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementPonctuel2',
+        component: VersementPonctuel2Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementPonctuel3',
+        component: VersementPonctuel3Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementPonctuel4',
+        component: VersementPonctuel4Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementPonctuel5',
+        component: VersementPonctuel5Component,
         outlet: 'contentOutlet'
       },
       {

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:820px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class=" my-background-project">
+  <!--<a (click)="returnToMyProjet()">
+    <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+  </a>-->
+  <p class="my-paragraphe1">
+    Versement Ponctuel
+  </p>
+
+  <div class="icon-preccedent">
+    <mat-icon (click)="returnToVersementPonctuel3()">keyboard_backspace</mat-icon>
+  </div>
+
+
+
+  <input value="Choisissez le compte bancaire sur" class="robot">
+  <input value="lequel sera prélevé votre versement" class="robot2">
+
+  <input type="text" value="Compte par défaut" class="replaceInput1">
+  <input type="text" value="LU14 1414 XXXX 1414" class="replaceInput2">
+  <input type="text" value="BCEE" class="replaceInput3">
+  <input type="text" value="Nom du compte" class="replaceInput4">
+  <input type="text" value="Autre compte" class="replaceInput5">
+  <input type="text" value="LU20 2014 XXXX 2014" class="replaceInput6">
+  <input type="text" value="BNP Paribas" class="replaceInput7">
+  <input type="text" value="Nom du compte" class="replaceInput8">
+  <div class="replaceDefaultRadio">
+    <label class="container">
+      <input type="radio" name="legende" checked>
+      <span class="checkmark"></span>
+    </label>
+  </div>
+  <div class="replaceAnotherRadio">
+    <label class="container">
+      <input type="radio" name="legende">
+      <span class="checkmark"></span>
+    </label>
+  </div>
+  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToVersementPonctuel5()">Valider</button>
+  <div class="replaceRachat">
+    <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Racheter</b></a>
+  </div>
+  <div class="replaceVerser">
+    <a href="" data-toggle="collapse" style="color: #7f3776"><b>Verser</b></a>
+  </div>
+  <div class="replaceLister">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToLister()"><b>Historique</b></a>
+  </div>
+  <div class="replaceTransferer">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToDispositif()"><b>Importer</b></a>
+  </div>
+
+
+
+</div>
+</body>
+</html>
+
