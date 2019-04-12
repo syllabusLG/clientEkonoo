@@ -18,5 +18,20 @@ export class VersementPonctuel3Component implements OnInit {
   goToVersementPonctuel4(){
     this.router.navigateByUrl('home/(contentOutlet:versementPonctuel4)');
   }
+  goToVersementPonctuelCarte(){
+    this.router.navigateByUrl('home/(contentOutlet:versementPonctuelCarte)');
+  }
+
+  goToLister() {
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+
+  goToRachat() {
+    this.router.navigateByUrl('home/(contentOutlet:rachat1)');
+  }
+
+  goToDispositif() {
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
+  }
 
 }

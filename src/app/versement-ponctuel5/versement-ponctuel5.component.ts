@@ -12,11 +12,23 @@ export class VersementPonctuel5Component implements OnInit {
 
   ngOnInit() {
   }
-  returnToVersementPonctuel4(){
-    this.router.navigateByUrl('home/(contentOutlet:versementPonctuel4)');
+  returnToMenu(){
+    this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
   returnToVerser(){
     this.router.navigateByUrl('home/(contentOutlet:verser)');
   }
+  goToLister() {
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+
+  goToRachat() {
+    this.router.navigateByUrl('home/(contentOutlet:rachat1)');
+  }
+
+  goToDispositif() {
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
+  }
+
 
 }

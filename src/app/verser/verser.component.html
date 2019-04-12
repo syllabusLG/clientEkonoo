@@ -29,12 +29,12 @@
   <input value="vous effectuer" class="robot2">
   <h5 class="my-h3-login">Choisir votre type de versement</h5>
   <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToVersementPonctuel1()">Ponctuel</button><br>
-  <button class="btn btn-info btn-lg btn-block buttonGo2" (click)="goToRachat2()">Régulier</button>
+  <button class="btn btn-info btn-lg btn-block buttonGo2" (click)="goToVersementRegulier1()">Régulier</button>
   <div class="replaceRachat">
-    <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Racheter</b></a>
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToRachat()"><b>Racheter</b></a>
   </div>
   <div class="replaceVerser">
-    <a href="" data-toggle="collapse" style="color: #7f3776" (click)="goToVerser()"><b>Verser</b></a>
+    <a href="" data-toggle="collapse" style="color: #7f3776" ><b>Verser</b></a>
   </div>
   <div class="replaceLister">
     <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToLister()"><b>Historique</b></a>
