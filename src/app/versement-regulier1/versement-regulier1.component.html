@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:820px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-project">
+  <div class="iconMenuAll">
+    <a (click)="returnToVerser()">
+      <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+    </a>
+  </div>
+  <p class="my-paragraphe1">
+    Versement Régulier
+  </p>
+  <!--<div class="iconMenuAll">
+    <a (click)="returnToMenu()" href="" data-toggle="collapse" style="color: white">
+      <mat-icon class="icon-preccedent">menu</mat-icon>
+    </a>
+  </div>-->
+  <input value="Quel Montant souhaitez-vous verser?" class="robot">
+
+<!--  <h5 class="my-h3-login">Montant à verser</h5>-->
+  <mat-form-field class="example-full-width-adresse">
+    <mat-label class="my-label-data">Montant</mat-label>
+    <input matInput type="text" value="150 €">
+  </mat-form-field>
+  <mat-form-field class="example-full-width-adresse2">
+    <mat-label class="my-label-adresse">Périodicité</mat-label>
+    <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayFn">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+        {{option.name}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToVersementRegulier2()">C'est tout bon !</button>
+  <div class="replaceRachat">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToRachat()"><b>Racheter</b></a>
+  </div>
+  <div class="replaceVerser">
+    <a href="" data-toggle="collapse" style="color: #7f3776"><b>Verser</b></a>
+  </div>
+  <div class="replaceLister">
+    <a href="" data-toggle="collapse" style="color: #85c8ec"(click)="goToLister()"><b>Historique</b></a>
+  </div>
+  <div class="replaceTransferer">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToDispositif()"><b>Importer</b></a>
+  </div>
+
+
+</div>
+</body>
+</html>
+
+

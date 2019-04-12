@@ -21,6 +21,4 @@ export class RachatGraphe2Component implements OnInit {
   returnToMenu(){
     this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
-
-
 }

@@ -32,20 +32,20 @@
   <h5 class="my-h3-login">Montant à verser</h5>
   <mat-form-field class="example-full-width-adresse">
     <mat-label class="my-label-data">Montant</mat-label>
-    <input matInput type="number">
+    <input matInput type="text" value="3500 €">
   </mat-form-field>
   <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToVersementPonctuel2()">Suivant</button>
   <div class="replaceRachat">
     <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToRachat()"><b>Racheter</b></a>
   </div>
   <div class="replaceVerser">
-    <a href="" data-toggle="collapse" style="color: #7f3776"><b>Verser</b></a>
+    <a href="" data-toggle="collapse" style="color: #7f3776" ><b>Verser</b></a>
   </div>
   <div class="replaceLister">
     <a href="" data-toggle="collapse" style="color: #85c8ec"(click)="goToLister()"><b>Historique</b></a>
   </div>
   <div class="replaceTransferer">
-    <a href="" data-toggle="collapse" style="color: #85c8ec"><b>Importer</b></a>
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToDispositif()"><b>Importer</b></a>
   </div>
 
 

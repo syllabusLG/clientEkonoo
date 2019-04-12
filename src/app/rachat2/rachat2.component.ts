@@ -25,6 +25,9 @@ export class Rachat2Component implements OnInit {
   returnToMenu(){
     this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
+  goToVerser(){
+    this.router.navigateByUrl('home/(contentOutlet:verser)');
+  }
 
 
 }

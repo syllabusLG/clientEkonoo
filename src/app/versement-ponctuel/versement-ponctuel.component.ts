@@ -8,15 +8,29 @@ import {Router} from '@angular/router';
 })
 export class VersementPonctuelComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+  }
 
   ngOnInit() {
   }
 
-  returnToVerser(){
+  returnToVerser() {
     this.router.navigateByUrl('home/(contentOutlet:verser)');
   }
-  goToVersementPonctuel2(){
+
+  goToVersementPonctuel2() {
     this.router.navigateByUrl('home/(contentOutlet:versementPonctuel2)');
+  }
+
+  goToLister() {
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+
+  goToRachat() {
+    this.router.navigateByUrl('home/(contentOutlet:rachat1)');
+  }
+
+  goToDispositif() {
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
   }
 }

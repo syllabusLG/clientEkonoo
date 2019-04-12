@@ -84,6 +84,13 @@ import {VersementPonctuel3Component} from './versement-ponctuel3/versement-ponct
 import {VersementPonctuel4Component} from './versement-ponctuel4/versement-ponctuel4.component';
 import {VersementPonctuel5Component} from './versement-ponctuel5/versement-ponctuel5.component';
 import {MesProduitSettingComponent} from "./mes-produit-setting/mes-produit-setting.component";
+import {VersementRegulier1Component} from './versement-regulier1/versement-regulier1.component';
+import {VersementRegulier2Component} from './versement-regulier2/versement-regulier2.component';
+import {VersementRegulier3Component} from './versement-regulier3/versement-regulier3.component';
+import {VersementRegulier4Component} from './versement-regulier4/versement-regulier4.component';
+import {VersementRegulier5Component} from './versement-regulier5/versement-regulier5.component';
+import {VersementRegulierPreComponent} from './versement-regulier-pre/versement-regulier-pre.component';
+import {VersementPonctuelCarteComponent} from './versement-ponctuel-carte/versement-ponctuel-carte.component';
 
 const routes: Routes = [
   {
@@ -502,6 +509,41 @@ const routes: Routes = [
       {
         path: 'mes-produit-setting',
         component: MesProduitSettingComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementRegulier1',
+        component: VersementRegulier1Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementRegulier2',
+        component: VersementRegulier2Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementRegulier3',
+        component: VersementRegulier3Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementRegulier4',
+        component: VersementRegulier4Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementRegulier5',
+        component: VersementRegulier5Component,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementRegulierPre',
+        component: VersementRegulierPreComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'versementPonctuelCarte',
+        component: VersementPonctuelCarteComponent,
         outlet: 'contentOutlet'
       }
     ]

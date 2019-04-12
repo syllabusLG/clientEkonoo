@@ -22,4 +22,7 @@ export class Dispositif7Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
 
+  goToVerser(){
+    this.router.navigateByUrl('home/(contentOutlet:verser)');
+  }
 }

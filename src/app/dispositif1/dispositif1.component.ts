@@ -56,5 +56,8 @@ export class Dispositif1Component implements OnInit {
   returnToMenu(){
     this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
+  goToVerser(){
+    this.router.navigateByUrl('home/(contentOutlet:verser)');
+  }
 
 }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:820px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-project">
+  <!--<a (click)="returnToMyProjet()">
+    <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+  </a>-->
+  <p class="my-paragraphe1">
+    Versement Ponctuel
+  </p>
+  <div class="iconMenuAll">
+    <a (click)="returnToVersementPonctuel3()" href="" data-toggle="collapse" style="color: white">
+      <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
+    </a>
+  </div>
+  <input value="Vous préférez saisir les données" class="robot">
+  <input value="de votre carte ou la scanner ?" class="robot2">
+
+  <!--<h5 class="my-h3-login">Choisir votre type de versement</h5>-->
+  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToVersementPonctuel5()">Saisir ma carte</button><br>
+  <button class="btn btn-info btn-lg btn-block buttonGo2" (click)="goToVersementPonctuel5()">Scanner ma carte</button>
+  <div class="replaceRachat">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToRachat()"><b>Racheter</b></a>
+  </div>
+  <div class="replaceVerser">
+    <a href="" data-toggle="collapse" style="color: #7f3776"><b>Verser</b></a>
+  </div>
+  <div class="replaceLister">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToLister()"><b>Historique</b></a>
+  </div>
+  <div class="replaceTransferer">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToDispositif()"><b>Importer</b></a>
+  </div>
+
+
+</div>
+</body>
+</html>
+
+

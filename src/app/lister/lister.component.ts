@@ -23,5 +23,8 @@ export class ListerComponent implements OnInit {
   goToRachat(){
     this.router.navigateByUrl('home/(contentOutlet:rachat1)');
   }
+  goToVerser(){
+    this.router.navigateByUrl('home/(contentOutlet:verser)');
+  }
 
 }

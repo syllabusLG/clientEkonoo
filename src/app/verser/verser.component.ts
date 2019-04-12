@@ -19,5 +19,18 @@ export class VerserComponent implements OnInit {
   goToVersementPonctuel1(){
     this.router.navigateByUrl('home/(contentOutlet:versementPonctuel1)');
   }
+  goToVersementRegulier1(){
+    this.router.navigateByUrl('home/(contentOutlet:versementRegulier1)');
+  }
+
+  goToLister(){
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+  goToRachat(){
+    this.router.navigateByUrl('home/(contentOutlet:rachat1)');
+  }
+  goToDispositif(){
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
+  }
 
 }
