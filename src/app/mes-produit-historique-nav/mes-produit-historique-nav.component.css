@@ -19,7 +19,7 @@
   font-weight: 600;
 }
 .menu-items {
-  font-size: 21px;
+  font-size: 19px;
   position: fixed;
   font-weight: 500;
   margin-top: 75px;
@@ -30,7 +30,7 @@
   color: lightblue !important;
 }
 .menu-item {
-  margin-right: 28px;
+  margin-right: 18px;
 }
 
 .active > a:link {
