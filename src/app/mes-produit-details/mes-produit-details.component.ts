@@ -18,10 +18,10 @@ export class MesProduitDetailsComponent implements OnInit {
   }
 
   gotoObjectif() {
-    this.router.navigateByUrl('home/(contentOutlet:mes-produit-objectif)');
+    this.router.navigateByUrl('home/(contentOutlet:mes-produit-objectif/mes-produit)');
   }
   gotoHistoriqueNav() {
-    this.router.navigateByUrl('home/(contentOutlet:mes-produit-historique-nav)');
+    this.router.navigateByUrl('home/(contentOutlet:mes-produit-historique-nav/mes-produit)');
   }
 
 

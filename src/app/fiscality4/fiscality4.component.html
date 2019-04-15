@@ -18,21 +18,28 @@
     <mat-icon class="backIcon">keyboard_backspace</mat-icon>
   </a>
   <p class="robot">
-
-    Voilà, c'est fait !<br>
+    <b><i>Voilà, c'est fait !</i></b><br>
   </p>
-  <div class="fiscaliteLynk">
-    Votre <b>Taux Marginal d'imposition</b>(TMI) est <input type="text" value="30%" class="fiscaliteInput"><br>
-    votre plafond de déduction fiscale est <input type="text" value="32678 €" class="fiscaliteInput"><br>
-    Donc si vous investissez <input type="text" value="32678 €" class="fiscaliteInput">, cela ne vous coûtera<br>
-    réellement que <input type="text" value="22874,6 €" class="fiscaliteInput"><br>
-    Vous économisez donc: <input type="text" value="9803,4 €" class="fiscaliteInput"><br>
-    Si vous avez pour objectif d'acquérir une résidence<br>
-    principale, vous pourrez tout débloquer !
+  <div class="text-1">
+    Votre Taux Marginal d'imposition (TMI) est de <input type="text" value="30%">
   </div>
-
-  <button class="btn btn-info btn-lg btn-block btnDeclarant" >Modifier mon TMI</button><br>
-  <button class="btn btn-info btn-lg btn-block btnDeclarant2" (click)="returnToMenu()">Bien compris</button>
+  <div class="text-2">
+    votre plafond de déduction fiscale est de : <br/><input type="text" value="32 678 €">
+  </div>
+  <div class="text-3">
+    En investissant 32 678 €, cela vous coûtera réellement :
+  </div>
+  <div class="text-4">
+    Coûts réels : <input type="text" value="22 874,6 €">
+  </div>
+  <div class="text-5">
+    Économies : <input type="text" value="9 803,4 €">
+  </div>
+  <div class="text-6">
+    Si vous avez pur objectif d'acquérir une résidence principale, vous pourrez tout débloquer !
+  </div>
+  <button class="btn btn-info btn-lg btn-block my-button" (click)="returnToMenu()">Bien compris !</button>
+  <a class="my-link" [routerLink]="" (click)="doNothing()" >Modifier mon TMI</a>
 </div>
 </body>
 </html>

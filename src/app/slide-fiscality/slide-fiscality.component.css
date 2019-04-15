@@ -79,11 +79,12 @@
   box-shadow: 0 0 3px #a7bae8;
 }
 .btnCreerCompte{
-  background-color: #85c8ec;
+  background-color: transparent;
+  color: #007aff;
   border-radius: 4pt;
   width: 125pt;
   height: 45pt;
-  margin-top: 50px;
+  margin-top: 418px;
   margin-left: 80px;
 }
 .my-carousel-caption {

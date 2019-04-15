@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-mes-produit-historique-nav',
@@ -8,13 +8,17 @@ import {Router} from "@angular/router";
 })
 export class MesProduitHistoriqueNavComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router:Router, private route:ActivatedRoute) { }
 
   ngOnInit() {
   }
 
   goBack() {
-    this.router.navigateByUrl('home/(contentOutlet:mes-produit-details)');
+    if(this.route.snapshot.paramMap.get('component') == 'mes-produit') {
+      this.router.navigateByUrl('home/(contentOutlet:mes-produit-details)');
+    } else {
+      this.router.navigateByUrl('home/(contentOutlet:dispositif-item-details)');
+    }
   }
 
   doNothing() { }
