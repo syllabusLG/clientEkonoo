@@ -19,5 +19,11 @@ export class OnBoard1Component implements OnInit {
   goToMenu(){
     this.router.navigateByUrl("home/(contentOutlet:menu)");
   }
+  goToVersement(){
+    this.router.navigateByUrl('home/(contentOutlet:verser)');
+  }
+  goToImporter(){
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
+  }
 
 }

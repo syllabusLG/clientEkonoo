@@ -3,38 +3,45 @@
     color: white;
     background-size: cover;
   }
-  
+
 .my-menu-icon {
-    margin-top: 30px;
-    font-size: 35px;
+  margin-top: 30px;
+  font-size: 35px;
 }
 
 .my-clear-icon {
-    margin: 85px 0px 0px 310px;
-    color: #85c8ec;
-    position: fixed;
-    font-size: 30px;
+  margin: 85px 0px 0px 310px;
+  color: #85c8ec;
+  position: fixed;
+  font-size: 30px;
 }
 
 .my-button-group {
-    margin: 550px 0px 0px 0px;
-    text-align: center;
+  margin: 550px 0px 0px 0px;
+  text-align: center;
 }
 
 .btn1 {
-    width: 160px;
-    height: 140px;
-    border-color: #85c8ec;
-    margin-left: 20px;
-    background-image: url('../shared/images/onBoardButton2.png');
-    background-size: 160px 140px;
+  width: 160px;
+  height: 140px;
+  border-color: #85c8ec;
+  margin-left: 20px;
+  background-color: lightblue;
+  background-size: 160px 140px;
 }
 
 .btn2 {
-    width: 160px;
-    height: 140px;
-    border-color: #85c8ec;
-    margin-left: 20px;
-    background-image: url('../shared/images/onBoardButton1.png');
-    background-size: 160px 140px;
+  width: 160px;
+  height: 140px;
+  border-color: #85c8ec;
+  margin-left: 20px;
+  background-color: lightblue;
+  background-size: 160px 140px;
+}
+.button-image {
+  height: 35px;
+}
+.callImage{
+  background-image: url("../shared/images/euro.png");
+  background-image: url("../shared/images/arrows.png");
 }
