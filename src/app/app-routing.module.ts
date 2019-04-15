@@ -467,12 +467,12 @@ const routes: Routes = [
         outlet: 'contentOutlet'
       },
       {
-        path: 'mes-produit-objectif',
+        path: 'mes-produit-objectif/:component',
         component: MesProduitObjectifComponent,
         outlet: 'contentOutlet'
       },
       {
-        path: 'mes-produit-historique-nav',
+        path: 'mes-produit-historique-nav/:component',
         component: MesProduitHistoriqueNavComponent,
         outlet: 'contentOutlet'
       },

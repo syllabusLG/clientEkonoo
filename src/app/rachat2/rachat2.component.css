@@ -162,6 +162,24 @@ mat-grid-tile {
   color: white;
   width: 308pt;
 }
+.help-icon-1 {
+  margin-top: 390px;
+  margin-left: 7px;
+  color: lightblue;
+  position: fixed;
+}
+.help-icon-2 {
+  margin-top: 435px;
+  margin-left: 7px;
+  color: lightblue;
+  position: fixed;
+}
+.help-icon-3 {
+  margin-top: 480px;
+  margin-left: 7px;
+  color: lightblue;
+  position: fixed;
+}
 
 
 

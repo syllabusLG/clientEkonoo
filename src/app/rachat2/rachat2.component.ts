@@ -28,6 +28,8 @@ export class Rachat2Component implements OnInit {
   goToVerser(){
     this.router.navigateByUrl('home/(contentOutlet:verser)');
   }
+  openModal() {
 
+  }
 
 }

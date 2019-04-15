@@ -17,10 +17,10 @@ export class DispositifItemDetailsComponent implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:dispositif-details)');
   }
   gotoObjectif() {
-    this.router.navigateByUrl('home/(contentOutlet:mes-produit-objectif)');
+    this.router.navigateByUrl('home/(contentOutlet:mes-produit-objectif/dispositif)');
   }
   gotoHistoriqueNav() {
-    this.router.navigateByUrl('home/(contentOutlet:mes-produit-historique-nav)');
+    this.router.navigateByUrl('home/(contentOutlet:mes-produit-historique-nav/dispositif)');
   }
 
 }
