@@ -5,38 +5,53 @@
 }
 .robot {
   margin-left: 70px;
-  margin-top: 30px;
+  margin-top: 35px;
   color: black;
-  font-size: 16px;
-  font-family: Roboto;
+  font-size: 15px;
 }
 .projectTitle{
   margin-top: 120px;
   margin-left: 30px;
   margin-right: 30px;
   text-align: center;
-  font-family: Roboto;
-  font-size: 14pt;
+  font-family: inherit;
+  font-size: 15pt;
   color: white;
 }
-.fiscaliteLynk{
-  margin-top: 60px;
-  margin-left: 30px;
+.my-sub-heading {
+  position: fixed;
+  margin-top: 145px;
+}
+.sub-heading-1 {
+  margin-left: 75px;
+  font-size: 20px;
   margin-right: 30px;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 12pt;
-  color: white;
+  font-weight: 500;
 }
-.fiscaliteInfo{
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 12pt;
-  color: white;
+.sub-heading-2 {
+  font-size: 20px;
+  margin-right: 27px;
+  font-weight: 500;
+}
+.sub-heading-3 {
+  font-size: 20px;
+  font-weight: 500;
 }
 .menuIcon{
   margin-top: 50px;
+}
+.my-text-1 {
+  position: fixed;
+  margin-top: 190px;
+  margin-left: 30px;
+  width: 360px;
+  text-align: center;
+}
+.my-btn {
+  margin-top: 320px;
+  margin-left: 115px;
+  width: 45%;
+  background-color: #85c8ec;
+  color: white;
+  font-weight: 500;
 }

@@ -18,5 +18,7 @@ export class Fiscality4Component implements OnInit {
   returnToFiscality3(){
     this.router.navigateByUrl('home/(contentOutlet:fiscalite3)');
   }
+  doNothing() {
 
+  }
 }
