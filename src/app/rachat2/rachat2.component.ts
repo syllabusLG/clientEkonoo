@@ -7,6 +7,7 @@ import {Router} from '@angular/router';
   styleUrls: ['./rachat2.component.css']
 })
 export class Rachat2Component implements OnInit {
+  capitalValue = "0.0";
 
   constructor(private router: Router) { }
 
@@ -14,7 +15,7 @@ export class Rachat2Component implements OnInit {
   }
 
   goToRachatGraphe1(){
-    this.router.navigateByUrl('home/(contentOutlet:rachatGraphe1)');
+    this.router.navigateByUrl(`home/(contentOutlet:rachatGraphe1/${this.capitalValue})`);
   }
   goToDispositif(){
     this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
