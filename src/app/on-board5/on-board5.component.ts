@@ -19,5 +19,12 @@ export class OnBoard5Component implements OnInit {
   gotoRedeemComponent() {
     this.router.navigateByUrl("home/(contentOutlet:redeem)");
   }
+  goToVersement(){
+    this.router.navigateByUrl('home/(contentOutlet:verser)');
+  }
+  goToImporter(){
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
+  }
+
 
 }
