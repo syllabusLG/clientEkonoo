@@ -1,0 +1,131 @@
+.my-background-menu{
+  background-image: url('../shared/images/menu1.png');
+  color: white;
+  background-size: cover;
+}
+.my-title{
+  background-image: url('../shared/images/logo.png');
+  background-repeat: no-repeat;
+  position: center;
+  margin-left: 85pt;
+}
+.my-h3-login{
+  position: center;
+  width: 278pt;
+  height: 20.5pt;
+  padding-left: 100pt;
+  padding-top: 50pt;
+}
+.paragraphe{
+  position: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+}
+.buttonMenu {
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 172.5pt;
+  margin-top: 430pt;
+  margin-left: 65pt;
+  height: 45pt;
+}
+.my-lynk{
+  position: center;
+  padding-left: 180px;
+  color: white;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+
+}
+
+.example-full-width {
+  width: 100%;
+}
+.my-label{
+  color: #85c8ec;
+}
+.my-printFinger{
+  background-image: url('../shared/images/touchId.png');
+  background-repeat: no-repeat;
+  margin-left: 130pt;
+  margin-top: 10pt;
+}
+.icon-menu{
+  margin-top: 25pt;
+}
+.epargne-img{
+  margin-left: 20pt;
+}
+.menu-lynk{
+  margin-left: 10pt;
+  color: white;
+  font-family: "Arial Black";
+  font-size: 12px;
+}
+.menu-profil{
+  margin-left: 28pt;
+  color: white;
+  font-family: "Arial Black";
+  font-size: 12px;
+}
+.menu-logout{
+  margin-left: 28pt;
+  color: white;
+}
+.epargne{
+  font-family: Roboto;
+  padding-top: 160px;
+  margin-left: 30px;
+}
+.operation{
+  font-family: Roboto;
+  margin-left: 30px;
+}
+.support{
+  background-image: url("monepargne.png");
+  background-repeat: no-repeat;
+  /*  margin-left: 30px;*/
+  font-family: Roboto;
+}
+.support2{
+  background-image: url("mesoperations.png");
+  background-repeat: no-repeat;
+  /*  margin-left: 30px;*/
+}
+.support3{
+  background-image: url("mafiscalite.png");
+  background-repeat: no-repeat;
+  /*  margin-left: 30px;*/
+}
+.support4{
+  background-image: url("mesprojets.png");
+  background-repeat: no-repeat;
+  /*  margin-left: 30px;*/
+}
+.support5{
+  background-image: url("maperformance.png");
+  background-repeat: no-repeat;
+  /*  margin-left: 30px;*/
+}
+.support6{
+  background-image: url("messupports.png");
+  background-repeat: no-repeat;
+  /*  margin-left: 30px;*/
+}
+.support7{
+  background-image: url("dottedLine.png");
+  background-repeat: no-repeat;
+  /*  margin-left: 30px;*/
+}
+.leaveMenu{
+  color: lightgrey;
+  position: relative;
+  top: 120px;
+  left: 310px;
+
+}

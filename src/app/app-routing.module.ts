@@ -91,6 +91,7 @@ import {VersementRegulier4Component} from './versement-regulier4/versement-regul
 import {VersementRegulier5Component} from './versement-regulier5/versement-regulier5.component';
 import {VersementRegulierPreComponent} from './versement-regulier-pre/versement-regulier-pre.component';
 import {VersementPonctuelCarteComponent} from './versement-ponctuel-carte/versement-ponctuel-carte.component';
+import {Menu2Component} from './menu2/menu2.component';
 
 const routes: Routes = [
   {
@@ -129,6 +130,11 @@ const routes: Routes = [
       {
         path: 'menu',
         component:MenuComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'menu2',
+        component:Menu2Component,
         outlet: 'contentOutlet'
       },
       {

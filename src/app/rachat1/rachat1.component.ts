@@ -12,12 +12,12 @@ import {Router} from '@angular/router';
 })
 export class Rachat1Component implements OnInit {
 
-  position: string = 'blablablabla';
+  position: string = 'Liquidation dû au chomage long terme';
   myControl = new FormControl();
   options: Adresse[] = [
-    {name: 'Partir à la retraite'},
-    {name: 'blablablabla'},
-    {name: 'blablablabla'},
+    {name: 'Depart à la retraite'},
+    {name: 'Depart à la retraite anticipé'},
+    {name: 'Achat résidence principale'},
     {name: this.position}
   ];
   filteredOptions: Observable<Adresse[]>;
