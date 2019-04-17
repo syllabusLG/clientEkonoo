@@ -7,11 +7,12 @@ import {ActivatedRoute, Router} from '@angular/router';
   styleUrls: ['./rachat-graphe1.component.css']
 })
 export class RachatGraphe1Component implements OnInit {
+  private capitalValue : string;
 
   constructor(private router: Router, private route:ActivatedRoute) { }
 
   ngOnInit() {
-    console.log(this.route.snapshot.paramMap.get("capitalValue"));
+    this.capitalValue = this.route.snapshot.paramMap.get("capitalValue");
   }
 
   goToRachat3(){
