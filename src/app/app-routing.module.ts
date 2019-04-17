@@ -363,7 +363,7 @@ const routes: Routes = [
         outlet: 'contentOutlet'
       },
       {
-        path: 'rachatGraphe1',
+        path: 'rachatGraphe1/:capitalValue',
         component: RachatGraphe1Component,
         outlet: 'contentOutlet'
       },
