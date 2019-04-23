@@ -3,7 +3,67 @@
   color: white;
   background-size: cover;
 }
-
+.sidebar-separator{
+  border-bottom: 5px solid #85c8ec;
+}
+.maestroBackgroud{
+  background-image: url("../shared/images/maestro1.png");
+}
+.maestro{
+  position: absolute;
+  top: 420px;
+  left: 550px;
+}
+.mastercardBackgroud{
+  background-image: url("../shared/images/mastercard-512.png");
+}
+.mastercard{
+  position: absolute;
+  top: 470px;
+  left: 545px;
+}
+.idealBackground{
+  background-image: url("../shared/images/ideal.png");
+}
+.ideal{
+  position: absolute;
+  top: 570px;
+  left: 550px;
+}
+.creditBackground{
+  background-image: url("../shared/images/credit-card.png");
+}
+.credit{
+  position: absolute;
+  top: 615px;
+  left: 550px;
+}
+.paypalBackground{
+  background-image: url("../shared/images/paypal-logo.jpg");
+}
+.paypal{
+  position: absolute;
+  top: 670px;
+  left: 550px;
+}
+.arrowbackground{
+  background-image: url("../shared/images/arrowRight.png");
+}
+.arrow1{
+  position: absolute;
+  top: 3px;
+  left: 295px;
+}
+.arrow2{
+  position: absolute;
+  top: 6px;
+  left: 295px;
+}
+.arrow7{
+  position: absolute;
+  top: 650px;
+  left: 895px;
+}
 .my-project-choice-suite{
   margin-top: 50px;
   margin-left: 20px;
@@ -84,4 +144,19 @@ mat-grid-tile {
   padding-left: 40px;
   font-family: Roboto;
 }
-
+.my-h3-login2{
+  text-align: center;
+  width: 278pt;
+  height: 20.5pt;
+  padding-top: 110pt;
+  padding-left: 40px;
+  font-family: Roboto;
+}
+.my-h3-login-bis{
+  text-align: center;
+  width: 278pt;
+  height: 20.5pt;
+  padding-top: 130pt;
+  padding-left: 40px;
+  font-family: Roboto;
+}
