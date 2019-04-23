@@ -20,21 +20,21 @@
   <p class="my-paragraphe1">
     i
   </p>
-  <div class="replaceDiv1">{{capitalValue}} €</div>
+  <div class="replaceDiv1">{{oCapitalValue}} €</div>
   <div class="replaceDiv2">Capital à toucher<br> immédiatement</div>
   <div class="replaceDiv3">Montant en €</div>
-  <input type="text" [(ngModel)]="montant" class="replaceInput1" id="idMontant">
+  <input type="text" [(ngModel)]="oMontant" class="replaceInput1" id="idMontant" (keyup)="formatMontant($event)">
   <div *ngIf="!isMontantValid()" class="alert alert-danger replaceError1" >Montant saisi incoherent </div>
   <div class="replaceDiv4">Capital distribué en rentes</div>
   <div class="replaceDiv5">Rente viagère</div>
-  <input type="text" [(ngModel)]="renteViagere" class="replaceInput_2">
+  <input type="text" [(ngModel)]="oRenteViagere" class="replaceInput_2" (keyup)="formatRenteViagere($event)">
   <div *ngIf=" isMontantValid() && !isRenteViagereValid()" class="alert alert-danger replaceError2" >Rente viagère incoherente</div>
  <!-- <input type="text" value="75  %" class="replaceInput2">-->
   <div class="replaceInput2" *ngIf="isRenteViagereValid()">{{pourcentageViagere}} %</div>
   <!--<input type="text" value="280  €/mois" class="replaceInput3">-->
   <div class="replaceInput3" *ngIf="isRenteViagereGiven()">280  €/mois</div>
   <div class="replaceDiv6">Rente financière</div>
-  <input type="text" [(ngModel)]="renteFinanciere" class="replaceInput_3">
+  <input type="text" [(ngModel)]="oRenteFinanciere" class="replaceInput_3" (keyup)="formatRenteFinanciere($event)">
   <div *ngIf="isMontantValid() && !isRenteFinanciereValid()" class="alert alert-danger replaceError3" >Rente financière incoherente</div>
   <!--<input type="text" value="25  %" class="replaceInput4">-->
   <div class="replaceInput4" *ngIf="isRenteFinanciereValid()">{{pourcentageFinancier}} %</div>

@@ -17,8 +17,8 @@ export class RachatGraphe3Component implements OnInit {
   constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.capitalValue = this.route.snapshot.paramMap.get('capital');
-    this.montant = this.route.snapshot.paramMap.get('montant');
+    this.capitalValue = this.formatAmount(this.route.snapshot.paramMap.get('capital'));
+    this.montant = this.formatAmount(this.route.snapshot.paramMap.get('montant'));
     this.pourcentageMontant = this.route.snapshot.paramMap.get('pourcentageMontant')+'%';
     this.pourcentageViagere = this.route.snapshot.paramMap.get('pourcentageViagere')+'%';
     this.pourcentageFinancier = this.route.snapshot.paramMap.get('pourcentageFinanciere')+'%';
@@ -37,5 +37,32 @@ export class RachatGraphe3Component implements OnInit {
   }
   goToVerser(){
     this.router.navigateByUrl('home/(contentOutlet:verser)');
+  }
+  formatAmount (value) : string {
+    let result;
+    let temp;
+    let newTemp = [];
+    value = value.replace(/ /g,"");
+    let leftValue = value.split(".")[0];
+    let rightValue = value.split(".")[1];
+    if (leftValue.length > 2) {
+      temp = leftValue.toString().split("").reverse();
+      for(let i in temp) {
+        if(+i % 3 == 0 && leftValue.length != +i) {
+          newTemp.push(" ");
+        }
+        newTemp.push(temp[i]);
+        if(newTemp[0] == " ") {
+          newTemp = newTemp.slice(1, newTemp.length);
+        }
+      }
+      result = newTemp.reverse().toString().replace(/\,/g,"");
+      if(rightValue != undefined) {
+        result = result + "." + rightValue;
+      }
+
+      return result;
+    } else
+      return value;
   }
 }

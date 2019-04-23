@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>epargneMenu</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width: 30%;
+      height: 790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+
+<body>
+<div id="demo" class="my-background">
+  <div class="container">
+    <div class="replacePrudent">
+      <label class="container">
+        <input type="radio" name="legende" checked>
+        <span class="checkmark"></span>
+      </label>
+    </div>
+  </div>
+  <div class="my-heading-1">Credit card (Master Card)</div>
+  <mat-form-field class="card-number">
+    <mat-label class="my-label">Card number</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field class="expiration-date">
+    <mat-label class="my-label">Expiration Date</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field class="security-code">
+    <mat-label class="my-label">Security Code</mat-label>
+    <input matInput>
+  </mat-form-field>
+
+  <button class="btn btn-block my-btn">Pay {{amount}} €</button>
+
+  <div class="replaceRachat">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToRachat()"><b>Racheter</b></a>
+  </div>
+  <div class="replaceVerser">
+    <a href="" data-toggle="collapse" style="color: #7f3776"><b>Verser</b></a>
+  </div>
+  <div class="replaceLister">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToLister()"><b>Historique</b></a>
+  </div>
+  <div class="replaceTransferer">
+    <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToDispositif()"><b>Importer</b></a>
+  </div>
+</div>
+
+</body>
+
+</html>
