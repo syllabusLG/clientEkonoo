@@ -45,7 +45,7 @@ export class Dispositif6Component implements OnInit, AfterViewInit {
     this.router.navigateByUrl('home/(contentOutlet:rachat1)');
   }
   returnToMenu(){
-    this.router.navigateByUrl('home/(contentOutlet:menu)');
+    this.router.navigateByUrl('home/(contentOutlet:dispositif5)');
   }
   goToVerser(){
     this.router.navigateByUrl('home/(contentOutlet:verser)');

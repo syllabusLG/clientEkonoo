@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Menu</title>
+  <meta charset="utf-8">
+  <style>
+    #demo {
+      width:30%;
+      height:790px;
+      margin-top: 20px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="demo" class="container my-background-menu">
+  <!--<a class="leaveMenu">
+    <i (click)="goToLancementA()">click</i>
+  </a>-->
+  <div class="epargne">
+    <img class="support" src="monepargne.png"> <a href="" data-toggle="collapse" class="menu-lynk" (click)="goToEpargneMenu()">Mon épargne</a>
+  </div><br>
+  <div class="operation">
+    <img class="support2" src="mesoperations.png"><a href="" data-toggle="collapse" class="menu-lynk" (click)="goToRachat()">Mes opérations</a>
+  </div><br>
+  <div class="operation">
+    <img src="mafiscalite.png"><a href="" data-toggle="collapse" class="menu-lynk" (click)="goToFiscalite()">Ma fiscalité</a>
+  </div><br>
+  <div class="operation">
+    <img src="mesprojets.png"><a href="" class="menu-lynk">Mes projets</a>
+  </div><br>
+  <div class="operation">
+    <img src="maperformance.png"><a href="" class="menu-lynk">Ma performance</a>
+  </div><br>
+  <div class="operation">
+    <img src="messupports.png"><a [routerLink]="" class="menu-lynk" (click)="gotoMesProduits()">Mes produits</a>
+  </div><br>
+  <div class="operation">
+    <img src="dottedLine.png" class="menu-profil">
+  </div>
+  <div class="operation">
+    <a href="" class="menu-profil">Mon profil</a>
+  </div>
+  <div class="operation">
+    <img src="dottedLine.png" class="menu-profil">
+  </div>
+  <div class="operation">
+    <a href="" class="menu-profil" data-toggle="collapse" (click)="goToContact()">Contactez-nous</a>
+  </div>
+  <div class="operation">
+    <img src="dottedLine.png" class="menu-profil">
+  </div><br><br>
+  <div class="operation">
+    <a href="" class="menu-logout">Logout</a>
+  </div>
+</div>
+</body>
+</html>
+

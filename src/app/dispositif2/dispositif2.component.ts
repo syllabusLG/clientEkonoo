@@ -52,7 +52,7 @@ export class Dispositif2Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:rachat1)');
   }
   returnToMenu(){
-    this.router.navigateByUrl('home/(contentOutlet:menu)');
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
   }
   goToVerser(){
     this.router.navigateByUrl('home/(contentOutlet:verser)');

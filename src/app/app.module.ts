@@ -115,6 +115,7 @@ import { VersementRegulier4Component } from './versement-regulier4/versement-reg
 import { VersementRegulier5Component } from './versement-regulier5/versement-regulier5.component';
 import { VersementRegulierPreComponent } from './versement-regulier-pre/versement-regulier-pre.component';
 import { VersementPonctuelCarteComponent } from './versement-ponctuel-carte/versement-ponctuel-carte.component';
+import { Menu2Component } from './menu2/menu2.component';
 
 @NgModule({
   declarations: [
@@ -217,7 +218,8 @@ import { VersementPonctuelCarteComponent } from './versement-ponctuel-carte/vers
     VersementRegulier4Component,
     VersementRegulier5Component,
     VersementRegulierPreComponent,
-    VersementPonctuelCarteComponent
+    VersementPonctuelCarteComponent,
+    Menu2Component
   ],
   imports: [
     BrowserModule,

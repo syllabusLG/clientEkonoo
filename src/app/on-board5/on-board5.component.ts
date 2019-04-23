@@ -13,7 +13,7 @@ export class OnBoard5Component implements OnInit {
   ngOnInit() {
   }
   goToMenu(){
-    this.router.navigateByUrl("home/(contentOutlet:menu)");
+    this.router.navigateByUrl("home/(contentOutlet:menu2)");
   }
 
   gotoRedeemComponent() {
