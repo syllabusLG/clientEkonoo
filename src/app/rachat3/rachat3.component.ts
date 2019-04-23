@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-rachat3',
@@ -8,9 +8,12 @@ import {Router} from '@angular/router';
 })
 export class Rachat3Component implements OnInit {
 
-  constructor(private router: Router) { }
+  private capitalValue: string;
+
+  constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.capitalValue = this.route.snapshot.paramMap.get('capitalValue');
   }
 
   goToDispositif(){
@@ -19,12 +22,13 @@ export class Rachat3Component implements OnInit {
   goToLister(){
     this.router.navigateByUrl('home/(contentOutlet:lister)');
   }
-  returnToMenu(){
-    this.router.navigateByUrl('home/(contentOutlet:menu)');
+  returnToRachatGraphe1(){
+    this.router.navigateByUrl(`home/(contentOutlet:rachatGraphe1/${this.capitalValue})`);
   }
   goToVerser(){
     this.router.navigateByUrl('home/(contentOutlet:verser)');
   }
-
-
+  returnToMenu(){
+    this.router.navigateByUrl('home/(contentOutlet:menu)');
+  }
 }

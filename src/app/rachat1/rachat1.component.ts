@@ -15,8 +15,8 @@ export class Rachat1Component implements OnInit {
   position: string = 'Liquidation dû au chomage long terme';
   myControl = new FormControl();
   options: Adresse[] = [
-    {name: 'Depart à la retraite'},
-    {name: 'Depart à la retraite anticipé'},
+    {name: 'Départ à la retraite'},
+    {name: 'Départ à la retraite anticipé'},
     {name: 'Achat résidence principale'},
     {name: this.position}
   ];

@@ -16,11 +16,11 @@ export class RachatGraphe1Component implements OnInit {
   }
 
   goToRachat3(){
-    this.router.navigateByUrl('home/(contentOutlet:rachat3)');
+    this.router.navigateByUrl(`home/(contentOutlet:rachat3/${this.capitalValue})`);
   }
 
   goToRachatGraphe2(){
-    this.router.navigateByUrl('home/(contentOutlet:rachatGraphe2)');
+    this.router.navigateByUrl(`home/(contentOutlet:rachatGraphe2/${this.capitalValue})`);
   }
   goToDispositif(){
     this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
@@ -30,7 +30,7 @@ export class RachatGraphe1Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:lister)');
   }
   returnToMenu(){
-    this.router.navigateByUrl('home/(contentOutlet:menu)');
+    this.router.navigateByUrl('home/(contentOutlet:rachat2)');
   }
   goToVerser(){
     this.router.navigateByUrl('home/(contentOutlet:verser)');

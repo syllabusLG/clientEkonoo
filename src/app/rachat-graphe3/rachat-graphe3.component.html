@@ -22,14 +22,17 @@
   </p>
   <div class="iconMenu">
     <a (click)="returnToMenu()" href="" data-toggle="collapse" style="color: white">
-      <mat-icon class="icon-preccedent">menu</mat-icon>
+      <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
     </a>
   </div>
-  <div class="replaceEditBtn">
-    <button class="btn btn-outline-info btnEdit" (click)="goToRachatGraphe2()">Editer</button>
-  </div>
+  <div class="replaceDiv1">{{capitalValue}} €</div>
+  <div class="replaceDiv2">Capital</div>
+  <div class="replaceDiv3">{{montant}} €</div>
+  <div class="replaceDiv4">{{pourcentageMontant}}</div>
+  <div class="replaceDiv5">{{pourcentageViagere}}</div>
+  <div class="replaceDiv6">{{pourcentageFinancier}}</div>
   <input type="text" value="Capital" class="replaceCapital">
-  <input type="text" value="50%" class="replaceMontantCapital">
+  <input type="text" [(ngModel)]="pourcentageMontant" class="replaceMontantCapital">
   <input type="text" value="Rente viagère" class="replaceViagere">
   <input type="text" value="280 €/mois" class="replaceMontantViagere">
   <input type="text" value="Rente financière" class="replaceFinanciere">

@@ -20,15 +20,7 @@
 mat-grid-tile {
   background: lightblue;
 }
-.buttonLancementA {
-  position: center;
-  background-color: #85c8ec;
-  border-radius: 4pt;
-  width: 172.5pt;
-  margin-top: 400pt;
-  margin-left: 65pt;
-  height: 45pt;
-}
+
 .buttonGo {
   position: center;
   background-color: #85c8ec;

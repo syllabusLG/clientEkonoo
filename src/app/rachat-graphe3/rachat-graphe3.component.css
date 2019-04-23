@@ -47,6 +47,60 @@ mat-grid-tile {
   background-color: #85c8ec!important;
 
 }
+.replaceDiv1{
+  font-family: Roboto;
+  font-size: 12pt;
+  text-align: left;
+  position: absolute;
+  top: 152px;
+  left: 750px;
+  color: white;
+}
+.replaceDiv2{
+  font-family: Roboto;
+  font-size: 14pt;
+  text-align: center;
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  color: white;
+}
+.replaceDiv3{
+  font-family: Roboto;
+  font-size: 30pt;
+  text-align: center;
+  position: absolute;
+  top: 300px;
+  left: 640px;
+  color: white;
+}
+.replaceDiv4{
+  font-family: Roboto;
+  font-size: 14pt;
+  text-align: center;
+  position: absolute;
+  top: 360px;
+  left: 710px;
+  color: white;
+}
+.replaceDiv5{
+  font-family: Roboto;
+  font-size: 14pt;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 850px;
+  color: white;
+}
+.replaceDiv6{
+  font-family: Roboto;
+  font-size: 14pt;
+  text-align: center;
+  position: absolute;
+  top: 400px;
+  left: 870px;
+  color: white;
+}
 .replaceInput1{
   border: 0;
   background: transparent;

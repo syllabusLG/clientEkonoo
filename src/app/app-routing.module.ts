@@ -358,7 +358,7 @@ const routes: Routes = [
         outlet: 'contentOutlet'
       },
       {
-        path: 'rachat3',
+        path: 'rachat3/:capitalValue',
         component: Rachat3Component,
         outlet: 'contentOutlet'
       },
@@ -368,12 +368,12 @@ const routes: Routes = [
         outlet: 'contentOutlet'
       },
       {
-        path: 'rachatGraphe2',
+        path: 'rachatGraphe2/:value',
         component: RachatGraphe2Component,
         outlet: 'contentOutlet'
       },
       {
-        path: 'rachatGraphe3',
+        path: 'rachatGraphe3/:capital/:montant/:pourcentageMontant/:pourcentageViagere/:pourcentageFinanciere',
         component: RachatGraphe3Component,
         outlet: 'contentOutlet'
       },
