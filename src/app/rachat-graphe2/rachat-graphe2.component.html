@@ -29,14 +29,19 @@
   <div class="replaceDiv5">Rente viagère</div>
   <input type="text" [(ngModel)]="renteViagere" class="replaceInput_2">
   <div *ngIf=" isMontantValid() && !isRenteViagereValid()" class="alert alert-danger replaceError2" >Rente viagère incoherente</div>
-  <input type="text" value="75  %" class="replaceInput2">
-  <input type="text" value="280  €/mois" class="replaceInput3">
+ <!-- <input type="text" value="75  %" class="replaceInput2">-->
+  <div class="replaceInput2" *ngIf="isRenteViagereValid()">{{pourcentageViagere}} %</div>
+  <!--<input type="text" value="280  €/mois" class="replaceInput3">-->
+  <div class="replaceInput3" *ngIf="isRenteViagereGiven()">280  €/mois</div>
   <div class="replaceDiv6">Rente financière</div>
   <input type="text" [(ngModel)]="renteFinanciere" class="replaceInput_3">
   <div *ngIf="isMontantValid() && !isRenteFinanciereValid()" class="alert alert-danger replaceError3" >Rente financière incoherente</div>
-  <input type="text" value="25  %" class="replaceInput4">
-  <input type="text" value="1000  €/mois" class="replaceInput5">
-  <input type="text" value="sur 160 mois" class="replaceInput6">
+  <!--<input type="text" value="25  %" class="replaceInput4">-->
+  <div class="replaceInput4" *ngIf="isRenteFinanciereValid()">{{pourcentageFinancier}} %</div>
+<!--  <input type="text" value="1000  €/mois" class="replaceInput5">-->
+  <div class="replaceInput5" *ngIf="isRenteFinanciereGiven()">1000  €/mois</div>
+<!--  <input type="text" value="sur 160 mois" class="replaceInput6">-->
+  <div class="replaceInput6" *ngIf="isRenteFinanciereGiven()">sur 160 mois</div>
   <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToRachatGraphe3()">C'est bien ça!</button>
   <!--<div class="replaceRachat">
     <a href="" data-toggle="collapse" style="color: #7f3776"><b>Racheter</b></a>

@@ -138,7 +138,7 @@ mat-grid-tile {
   text-align: center;
   font-size: 16pt;
   position: absolute;
-  top: 360px;
+  top: 385px;
   left: 620px;
   color: #7f3776;
   width: 200px;
@@ -150,7 +150,7 @@ mat-grid-tile {
   text-align: center;
   font-size: 16pt;
   position: absolute;
-  top: 505px;
+  top: 520px;
   left: 620px;
   color: #7f3776;
   width: 200px;
@@ -163,7 +163,7 @@ mat-grid-tile {
   font-size: 16pt;
   text-align: center;
   position: absolute;
-  top: 443px;
+  top: 430px;
   left: 610px;
   color: #7f3776;
   width: 100px;
@@ -176,7 +176,7 @@ mat-grid-tile {
   font-size: 16pt;
   text-align: center;
   position: absolute;
-  top: 443px;
+  top: 430px;
   left: 730px;
   color: #7f3776;
   width: 150px;

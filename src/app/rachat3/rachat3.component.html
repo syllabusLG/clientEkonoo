@@ -59,7 +59,7 @@
     <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToDispositif()"><b>Importer</b></a>
   </div>
 
-  <div ngDraggable class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div ngDraggable class="modal fade dialogWidth" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
     <div class="modal-dialog" class="modal-dialog modal-dialog-centered"  role="document">
       <div class="modal-content">
         <div class="modal-header" style="background-color: #7a3978;cursor:move;" >
@@ -71,7 +71,7 @@
         <div class="modal-body">
           <div class="card-body">
             <h4 style="color: #85c8ec">Opération éffectuée avec succès</h4>
-            <button class="btn btn-info" data-dismiss="modal"
+            <button class="btn btn-info btn-lg btn-block buttonLancementA" data-dismiss="modal"
                       (click)="returnToMenu()">
                Parfait
               </button>

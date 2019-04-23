@@ -52,9 +52,22 @@ export class RachatGraphe2Component implements OnInit {
     return true;
   }
   isRenteFinanciereValid(){
+    this.calculPourcentage();
     if((Number(this.capitalValue) - Number(this.montant)) - (Number(this.renteViagere)+ Number(this.renteFinanciere)) < 0){
       return false;
     }
     return true;
+  }
+  isRenteViagereGiven(){
+    if(this.renteViagere !== '0.0'){
+      return true;
+    }
+    return false;
+  }
+  isRenteFinanciereGiven(){
+    if(this.renteFinanciere !== '0.0'){
+      return true;
+    }
+    return false;
   }
 }
