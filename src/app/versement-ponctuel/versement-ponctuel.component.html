@@ -32,7 +32,7 @@
   <h5 class="my-h3-login">Montant à verser</h5>
   <mat-form-field class="example-full-width-adresse">
     <mat-label class="my-label-data">Montant</mat-label>
-    <input matInput type="text" value="3500 €">
+    <input matInput [(ngModel)]="montantValue" type="text">
   </mat-form-field>
   <button class="btn btn-info btn-lg btn-block buttonGo" (click)="goToVersementPonctuel2()">Suivant</button>
   <div class="replaceRachat">

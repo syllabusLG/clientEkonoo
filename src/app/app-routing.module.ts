@@ -487,22 +487,22 @@ const routes: Routes = [
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementPonctuel2',
+        path: 'versementPonctuel2/:montantValue',
         component: VersementPonctuel2Component,
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementPonctuel3',
+        path: 'versementPonctuel3/:montantValue',
         component: VersementPonctuel3Component,
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementPonctuel4',
+        path: 'versementPonctuel4/:montantValue',
         component: VersementPonctuel4Component,
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementPonctuel5',
+        path: 'versementPonctuel5/:montantValue',
         component: VersementPonctuel5Component,
         outlet: 'contentOutlet'
       },
