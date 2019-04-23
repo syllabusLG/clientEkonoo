@@ -151,3 +151,6 @@ $theme: mat-light-theme($primary, $accent);
 .icon-preccedent-global{
   margin-top: 25pt;
 }
+::ng-deep .mat-form-field-underline {
+  background-color: #85c8ec!important;
+}

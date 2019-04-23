@@ -92,6 +92,7 @@ import {VersementRegulier5Component} from './versement-regulier5/versement-regul
 import {VersementRegulierPreComponent} from './versement-regulier-pre/versement-regulier-pre.component';
 import {VersementPonctuelCarteComponent} from './versement-ponctuel-carte/versement-ponctuel-carte.component';
 import {Menu2Component} from './menu2/menu2.component';
+import {PaymentComponent} from "./payment/payment.component";
 
 const routes: Routes = [
   {
@@ -550,6 +551,11 @@ const routes: Routes = [
       {
         path: 'versementPonctuelCarte',
         component: VersementPonctuelCarteComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'payment',
+        component: PaymentComponent,
         outlet: 'contentOutlet'
       }
     ]

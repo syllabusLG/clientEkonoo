@@ -1,0 +1,117 @@
+.my-background{
+  background-image: url('../shared/images/verser6.png');
+  color: white;
+  background-size: cover;
+}
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #4fd7b9;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.replacePrudent{
+  position: absolute;
+  top: 355px;
+  left: 50px;
+}
+
+.my-heading-1 {
+  margin-top: 355px;
+  margin-left: 90px;
+  position: fixed;
+  font-size: 21px;
+}
+.my-label {
+  color: #85c8ec;
+}
+.card-number {
+  position: fixed;
+  margin-top: 390px;
+  margin-left: 63px;
+  width: 325px;
+  font-size: 19px;
+}
+.expiration-date {
+  position: fixed;
+  margin-top: 450px;
+  margin-left: 62px;
+  width: 150px;
+  font-size: 19px;
+}
+.security-code {
+  position: fixed;
+  margin-top: 450px;
+  margin-left: 258px;
+  width: 130px;
+  font-size: 19px;
+}
+.my-btn {
+  position: fixed;
+  margin-top: 645px;
+  margin-left: 115px;
+  width: 15%;
+  background-color: #85c8ec;
+  color: white;
+  font-weight: 500;
+  height: 55px;
+}
