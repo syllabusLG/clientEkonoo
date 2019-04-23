@@ -14,17 +14,17 @@
 </head>
 <body>
 <div id="demo" class="container my-background-project">
-  <!--<a (click)="returnToMyProjet()">
+  <a (click)="goBack()">
     <mat-icon class="icon-preccedent">keyboard_backspace</mat-icon>
-  </a>-->
+  </a>
   <p class="my-paragraphe1">
     Versement Ponctuel
   </p>
-  <div class="iconMenuAll">
+  <!-- <div class="iconMenuAll">
     <a (click)="returnToMenu()" href="" data-toggle="collapse" style="color: white">
       <mat-icon class="icon-preccedent">menu</mat-icon>
     </a>
-  </div>
+  </div> -->
   <input value="Parfait, votre compte bancaire sera" class="robot">
   <input value="débité dans les deux prochains jours." class="robot2">
   <input value="Les montants seront investis aussitôt" class="robot2">
@@ -32,12 +32,12 @@
 
   <div class="versementFinal">
     Pour information:<br><br>
-    <span class="versement1">Votre versement de <input type="text" value="3500 €" class="verserInput"></span> <br>
+    <span class="versement1">Votre versement de {{montantValue}} €</span> <br>
     <span class="versement2">abaissera votre impôt de <input type="text" value="1050 €" class="verserInput"></span><br><br>
     <span>Dans les limites de votre <i style="text-decoration: underline">enveloppe fiscale disponible</i></span>
   </div>
   <!--<h5 class="my-h3-login">Choisir votre type de versement</h5>-->
-  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="returnToVerser()">Retour à l'accueil</button><br>
+  <button class="btn btn-info btn-lg btn-block buttonGo" (click)="returnToMenu()">Retour à l'accueil</button><br>
   <div class="replaceRachat">
     <a href="" data-toggle="collapse" style="color: #85c8ec" (click)="goToRachat()"><b>Racheter</b></a>
   </div>

@@ -7,6 +7,7 @@ import {Router} from '@angular/router';
   styleUrls: ['./versement-ponctuel.component.css']
 })
 export class VersementPonctuelComponent implements OnInit {
+  private montantValue : string;
 
   constructor(private router: Router) {
   }
@@ -19,7 +20,7 @@ export class VersementPonctuelComponent implements OnInit {
   }
 
   goToVersementPonctuel2() {
-    this.router.navigateByUrl('home/(contentOutlet:versementPonctuel2)');
+    this.router.navigateByUrl(`home/(contentOutlet:versementPonctuel2/${this.montantValue})`);
   }
 
   goToLister() {

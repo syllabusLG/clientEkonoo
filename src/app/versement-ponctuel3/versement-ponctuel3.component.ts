@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-versement-ponctuel3',
@@ -8,20 +8,22 @@ import {Router} from '@angular/router';
 })
 export class VersementPonctuel3Component implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private route:ActivatedRoute) { }
 
   ngOnInit() {
   }
   returnToVersementPonctuel2(){
-    this.router.navigateByUrl('home/(contentOutlet:versementPonctuel2)');
+    this.router.navigateByUrl(`home/(contentOutlet:versementPonctuel2/${this.route.snapshot.paramMap.get("montantValue")})`);
   }
   goToVersementPonctuel4(){
-    this.router.navigateByUrl('home/(contentOutlet:versementPonctuel4)');
+    this.router.navigateByUrl(`home/(contentOutlet:versementPonctuel4/${this.route.snapshot.paramMap.get("montantValue")})`);
   }
   goToVersementPonctuelCarte(){
     this.router.navigateByUrl('home/(contentOutlet:versementPonctuelCarte)');
   }
-
+  goBack() {
+    this.router.navigateByUrl(`home/(contentOutlet:versementPonctuel2/${this.route.snapshot.paramMap.get("montantValue")}))`);
+  }
   goToLister() {
     this.router.navigateByUrl('home/(contentOutlet:lister)');
   }
