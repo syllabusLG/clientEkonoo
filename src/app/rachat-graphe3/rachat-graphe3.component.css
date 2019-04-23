@@ -73,6 +73,8 @@ mat-grid-tile {
   top: 300px;
   left: 640px;
   color: white;
+  width: 200px;
+  text-align: center;
 }
 .replaceDiv4{
   font-family: Roboto;
