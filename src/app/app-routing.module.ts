@@ -549,12 +549,12 @@ const routes: Routes = [
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementPonctuelCarte',
+        path: 'versementPonctuelCarte/:montantValue',
         component: VersementPonctuelCarteComponent,
         outlet: 'contentOutlet'
       },
       {
-        path: 'payment',
+        path: 'payment/:paymentType/:montantValue',
         component: PaymentComponent,
         outlet: 'contentOutlet'
       }

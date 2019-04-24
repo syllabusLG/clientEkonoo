@@ -28,5 +28,13 @@ export class MenuComponent implements OnInit {
   gotoMesProduits() {
     this.router.navigateByUrl('home/(contentOutlet:mes-produits)');
   }
-
+  gotoHistorique() {
+    this.router.navigateByUrl('home/(contentOutlet:lister)');
+  }
+  gotoVerser() {
+    this.router.navigateByUrl('home/(contentOutlet:verser)');
+  }
+  gotoImporter() {
+    this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
+  }
 }

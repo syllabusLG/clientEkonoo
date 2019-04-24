@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-payment',
@@ -7,15 +7,21 @@ import {Router} from "@angular/router";
   styleUrls: ['./payment.component.css']
 })
 export class PaymentComponent implements OnInit {
-  amount = 0.0;
+  amount = "0.0";
+  paymentType = "";
 
-  constructor(private router:Router) { }
+  constructor(private router:Router, private route:ActivatedRoute) { }
 
   ngOnInit() {
+    this.amount = this.route.snapshot.paramMap.get("montantValue");
+    this.paymentType = this.route.snapshot.paramMap.get("paymentType");
   }
 
   goToVersementPonctuel() {
     this.router.navigateByUrl(`home/(contentOutlet:versementPonctuel1`);
+  }
+  goToVersementPonctuel5() {
+    this.router.navigateByUrl(`home/(contentOutlet:versementPonctuel5/${this.amount}`);
   }
 
   goToLister() {
@@ -28,5 +34,35 @@ export class PaymentComponent implements OnInit {
 
   goToDispositif() {
     this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
-  }v
+  }
+  goBack() {
+    this.router.navigateByUrl(`home/(contentOutlet:versementPonctuelCarte/${this.amount}`);
+  }
+  formatAmount (value) : string {
+    let result;
+    let temp;
+    let newTemp = [];
+    value = value.replace(/ /g,"");
+    let leftValue = value.split(".")[0];
+    let rightValue = value.split(".")[1];
+    if (leftValue.length > 2) {
+      temp = leftValue.toString().split("").reverse();
+      for(let i in temp) {
+        if(+i % 3 == 0 && leftValue.length != +i) {
+          newTemp.push(" ");
+        }
+        newTemp.push(temp[i]);
+        if(newTemp[0] == " ") {
+          newTemp = newTemp.slice(1, newTemp.length);
+        }
+      }
+      result = newTemp.reverse().toString().replace(/\,/g,"");
+      if(rightValue != undefined) {
+        result = result + "." + rightValue;
+      }
+
+      return result;
+    } else
+      return value;
+  }
 }

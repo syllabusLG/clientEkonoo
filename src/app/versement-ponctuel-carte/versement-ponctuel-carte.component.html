@@ -30,15 +30,15 @@
   <input value="de paiement" class="robot2">
 
  <h5 class="my-h3-login">Méthodes de paiement</h5>
- <a class="maestro"><img src="maestro1.png " width="50" height="40"><b style="margin-left: 10px">**********</b>4448</a>
-  <a class="mastercard"><img src="mastercard-512.png" width="60" height="40"><b style="margin-left: 5px">**********</b>4449</a>
+ <a class="maestro" (click)="gotToPayment('maestro')"><img src="maestro1.png " width="50" height="40"><b style="margin-left: 10px">**********</b>4448</a>
+  <a class="mastercard" (click)="gotToPayment('mastercard')"><img src="mastercard-512.png" width="60" height="40"><b style="margin-left: 5px">**********</b>4449</a>
   <h5 class="my-h3-login2">Sélectionner une autre méthode</h5>
   <a class="ideal">
     <img src="ideal.png" width="50" height="40">
     <span style="margin-left: 10px">iDEAL</span>
     <img src="arrowRight.png" alt="ok" class="arrow1">
   </a>
-  <a class="credit"><img src="credit-card.png" width="50" height="40">
+  <a class="credit" (click)="gotToPayment('creditcard')"><img src="credit-card.png" width="50" height="40">
     <span style="margin-left: 10px">Credit Card</span>
     <img src="arrowRight.png" alt="ok" class="arrow2">
   </a>

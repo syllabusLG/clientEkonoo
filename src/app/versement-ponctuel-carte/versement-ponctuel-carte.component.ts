@@ -31,5 +31,8 @@ export class VersementPonctuelCarteComponent implements OnInit {
   goToDispositif() {
     this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
   }
+  gotToPayment(paymentType:string) {
+    this.router.navigateByUrl(`home/(contentOutlet:payment/${paymentType}/${this.route.snapshot.paramMap.get("montantValue")}))`);
+  }
 
 }
