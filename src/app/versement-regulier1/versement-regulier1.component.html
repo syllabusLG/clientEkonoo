@@ -32,7 +32,7 @@
 <!--  <h5 class="my-h3-login">Montant à verser</h5>-->
   <mat-form-field class="example-full-width-adresse">
     <mat-label class="my-label-data">Montant</mat-label>
-    <input matInput type="text" value="150 €">
+    <input matInput type="text" [(ngModel)]="montantValue" (keyup)="formatMontant($event)">
   </mat-form-field>
   <mat-form-field class="example-full-width-adresse2">
     <mat-label class="my-label-adresse">Périodicité</mat-label>

@@ -93,6 +93,7 @@ import {VersementRegulierPreComponent} from './versement-regulier-pre/versement-
 import {VersementPonctuelCarteComponent} from './versement-ponctuel-carte/versement-ponctuel-carte.component';
 import {Menu2Component} from './menu2/menu2.component';
 import {PaymentComponent} from "./payment/payment.component";
+import {PaymentRegulierComponent} from "./payment-regulier/payment-regulier.component";
 
 const routes: Routes = [
   {
@@ -524,27 +525,27 @@ const routes: Routes = [
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementRegulier2',
+        path: 'versementRegulier2/:montantValue',
         component: VersementRegulier2Component,
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementRegulier3',
+        path: 'versementRegulier3/:montantValue',
         component: VersementRegulier3Component,
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementRegulier4',
+        path: 'versementRegulier4/:montantValue',
         component: VersementRegulier4Component,
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementRegulier5',
+        path: 'versementRegulier5/:montantValue',
         component: VersementRegulier5Component,
         outlet: 'contentOutlet'
       },
       {
-        path: 'versementRegulierPre',
+        path: 'versementRegulierPre/:montantValue',
         component: VersementRegulierPreComponent,
         outlet: 'contentOutlet'
       },
@@ -556,6 +557,11 @@ const routes: Routes = [
       {
         path: 'payment/:paymentType/:montantValue',
         component: PaymentComponent,
+        outlet: 'contentOutlet'
+      },
+      {
+        path: 'paymentRegulier/:paymentType/:montantValue',
+        component: PaymentRegulierComponent,
         outlet: 'contentOutlet'
       }
     ]

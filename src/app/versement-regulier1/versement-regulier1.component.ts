@@ -12,6 +12,7 @@ import {Router} from '@angular/router';
 })
 export class VersementRegulier1Component implements OnInit {
 
+  montantValue = "";
   position: string = 'Annuelle';
   myControl = new FormControl();
   options: Adresse[] = [
@@ -46,7 +47,7 @@ export class VersementRegulier1Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:verser)');
   }
   goToVersementRegulier2(){
-    this.router.navigateByUrl('home/(contentOutlet:versementRegulier2)');
+    this.router.navigateByUrl(`home/(contentOutlet:versementRegulier2/${this.montantValue})`);
   }
   goToLister() {
     this.router.navigateByUrl('home/(contentOutlet:lister)');
@@ -59,5 +60,34 @@ export class VersementRegulier1Component implements OnInit {
   goToDispositif() {
     this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
   }
+  formatMontant(event) {
+    this.montantValue = this.formatAmount(event.target.value);
+  }
+  formatAmount (value) : string {
+    let result;
+    let temp;
+    let newTemp = [];
+    value = value.replace(/ /g,"");
+    let leftValue = value.split(".")[0];
+    let rightValue = value.split(".")[1];
+    if (leftValue.length > 2) {
+      temp = leftValue.toString().split("").reverse();
+      for(let i in temp) {
+        if(+i % 3 == 0 && leftValue.length != +i) {
+          newTemp.push(" ");
+        }
+        newTemp.push(temp[i]);
+        if(newTemp[0] == " ") {
+          newTemp = newTemp.slice(1, newTemp.length);
+        }
+      }
+      result = newTemp.reverse().toString().replace(/\,/g,"");
+      if(rightValue != undefined) {
+        result = result + "." + rightValue;
+      }
 
+      return result;
+    } else
+      return value;
+  }
 }

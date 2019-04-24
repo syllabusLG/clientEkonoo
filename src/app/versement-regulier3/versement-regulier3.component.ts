@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-versement-regulier3',
@@ -8,18 +8,18 @@ import {Router} from '@angular/router';
 })
 export class VersementRegulier3Component implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private route:ActivatedRoute) { }
 
   ngOnInit() {
   }
   returnToVersementRegulier2(){
-    this.router.navigateByUrl('home/(contentOutlet:versementRegulier2)');
+    this.router.navigateByUrl(`home/(contentOutlet:versementRegulier2/${this.route.snapshot.paramMap.get("montantValue")})`);
   }
   goToVersementRegulier4(){
-    this.router.navigateByUrl('home/(contentOutlet:versementRegulier4)');
+    this.router.navigateByUrl(`home/(contentOutlet:versementRegulier4/${this.route.snapshot.paramMap.get("montantValue")})`);
   }
   goToVersementRegulierPre(){
-    this.router.navigateByUrl('home/(contentOutlet:versementRegulierPre)');
+    this.router.navigateByUrl(`home/(contentOutlet:versementRegulierPre/${this.route.snapshot.paramMap.get("montantValue")})`);
   }
   goToLister() {
     this.router.navigateByUrl('home/(contentOutlet:lister)');

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-versement-regulier2',
@@ -8,7 +8,7 @@ import {Router} from '@angular/router';
 })
 export class VersementRegulier2Component implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private route:ActivatedRoute) { }
 
   ngOnInit() {
   }
@@ -17,7 +17,7 @@ export class VersementRegulier2Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:versementRegulier1)');
   }
   goToVersementRegulier3(){
-    this.router.navigateByUrl('home/(contentOutlet:versementRegulier3)');
+    this.router.navigateByUrl(`home/(contentOutlet:versementRegulier3/${this.route.snapshot.paramMap.get("montantValue")})`);
   }
   goToLister() {
     this.router.navigateByUrl('home/(contentOutlet:lister)');

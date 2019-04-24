@@ -100,7 +100,9 @@ mat-grid-tile {
   width: 100px;
 }
 .versement1{
-  margin-left: 50px;
+  position: absolute;
+  left: 617px;
+  top: 438px;
 }
 .versement2{
   margin-left: 40px;
