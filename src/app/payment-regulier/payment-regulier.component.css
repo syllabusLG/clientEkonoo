@@ -149,7 +149,7 @@
 }
 .replaceRachat{
   position: absolute;
-  top: 785px;
+  top: 795px;
   left: 760px;
   color: #7f3776;
   font-family: Roboto;
@@ -157,7 +157,7 @@
 }
 .replaceVerser{
   position: absolute;
-  top: 785px;
+  top: 795px;
   left: 640px;
   color: #7f3776;
   font-family: Roboto;
@@ -165,7 +165,7 @@
 }
 .replaceLister{
   position: absolute;
-  top: 785px;
+  top: 795px;
   left: 510px;
   color: #7f3776;
   font-family: Roboto;
@@ -173,9 +173,32 @@
 }
 .replaceTransferer{
   position: absolute;
-  top: 785px;
+  top: 795px;
   left: 870px;
   color: #7f3776;
   font-family: Roboto;
   font-size: 14px;
+}
+.robot {
+  border: 0;
+  font-family: Roboto;
+  font-size: 12pt;
+  background: transparent;
+  position: absolute;
+  left: 650px;
+  top: 180px;
+  width: 100%;
+}
+.dialogWidth{
+  position: absolute;
+  left: 505px;
+  width: 440px;
+}
+.buttonLancementA {
+  position: center;
+  background-color: #85c8ec;
+  border-radius: 4pt;
+  width: 172.5pt;
+  margin-left: 50pt;
+  height: 45pt;
 }
