@@ -10,6 +10,8 @@ export class PaymentRegulierComponent implements OnInit {
 
   amount = "0.0";
   paymentType = "";
+  ccNumber : string;
+  expiryDate : string;
 
   constructor(private router:Router, private route:ActivatedRoute) { }
 
@@ -65,6 +67,39 @@ export class PaymentRegulierComponent implements OnInit {
       return result;
     } else
       return value;
+  }
+
+  validateCCNumber(event) {
+    const value = event.target.value.replace(/ /g,"");
+    let temp;
+    let newTemp = [];
+
+    if (value.length > 3) {
+      temp = value.toString().split("");
+      for(let i in temp) {
+        if(+i % 4 == 0 && +i != 0) {
+          newTemp.push(" ");
+        }
+        newTemp.push(temp[i]);
+      }
+      this.ccNumber = newTemp.toString().replace(/\,/g,"");
+    }
+  }
+
+  validateExpiryDate(event) {
+    let temp;
+    let newTemp = [];
+    const value = event.target.value.replace(/\//g,"");
+    if(value.length > 1){
+      temp = value.toString().split("");
+      for(let i in temp) {
+        if(+i % 2 == 0 && +i != 0) {
+          newTemp.push("/");
+        }
+        newTemp.push(temp[i]);
+      }
+      this.expiryDate = newTemp.toString().replace(/\,/g,"");
+    }
   }
 
 }

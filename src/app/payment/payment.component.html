@@ -64,15 +64,15 @@
     <img class="creditcard" src="credit-card.png" width="60" height="40">
     <mat-form-field class="card-number">
       <mat-label class="my-label">Card number</mat-label>
-      <input matInput>
+      <input matInput [(ngModel)]="ccNumber" type="text" (keyup)="validateCCNumber($event)" maxlength="19">
     </mat-form-field>
     <mat-form-field class="expiration-date">
       <mat-label class="my-label">Expiration Date</mat-label>
-      <input matInput>
+      <input matInput [(ngModel)]="expiryDate" type="text" (keyup)="validateExpiryDate($event)" maxlength="5">
     </mat-form-field>
     <mat-form-field class="security-code">
       <mat-label class="my-label">Security Code</mat-label>
-      <input matInput type="password">
+      <input matInput type="password" maxlength="3">
     </mat-form-field>
   </div>
   <button class="btn btn-block my-btn" (click)="goToVersementPonctuel5()">Pay {{formatAmount(amount)}} €</button>
