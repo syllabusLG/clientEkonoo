@@ -19,7 +19,7 @@ export class Dispositif7Component implements OnInit {
     this.router.navigateByUrl('home/(contentOutlet:rachat1)');
   }
   returnToMenu(){
-    this.router.navigateByUrl('home/(contentOutlet:dispositif6)');
+    this.router.navigateByUrl('home/(contentOutlet:menu)');
   }
 
   goToVerser(){
