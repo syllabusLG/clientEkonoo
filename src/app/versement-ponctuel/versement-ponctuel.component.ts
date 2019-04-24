@@ -34,4 +34,34 @@ export class VersementPonctuelComponent implements OnInit {
   goToDispositif() {
     this.router.navigateByUrl('home/(contentOutlet:dispositif1)');
   }
+  formatMontant(event) {
+    this.montantValue = this.formatAmount(event.target.value);
+  }
+  formatAmount (value) : string {
+    let result;
+    let temp;
+    let newTemp = [];
+    value = value.replace(/ /g,"");
+    let leftValue = value.split(".")[0];
+    let rightValue = value.split(".")[1];
+    if (leftValue.length > 2) {
+      temp = leftValue.toString().split("").reverse();
+      for(let i in temp) {
+        if(+i % 3 == 0 && leftValue.length != +i) {
+          newTemp.push(" ");
+        }
+        newTemp.push(temp[i]);
+        if(newTemp[0] == " ") {
+          newTemp = newTemp.slice(1, newTemp.length);
+        }
+      }
+      result = newTemp.reverse().toString().replace(/\,/g,"");
+      if(rightValue != undefined) {
+        result = result + "." + rightValue;
+      }
+
+      return result;
+    } else
+      return value;
+  }
 }

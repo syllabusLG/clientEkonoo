@@ -1,5 +1,5 @@
 .my-background{
-  background-image: url('../shared/images/verser6.png');
+  background-image: url('../shared/images/verser5.png');
   color: white;
   background-size: cover;
 }
@@ -114,4 +114,68 @@
   color: white;
   font-weight: 500;
   height: 55px;
+}
+.maestroBackground{
+  background-image: url("../shared/images/maestro1.png");
+}
+.mastercardBackground{
+  background-image: url("../shared/images/mastercard-512.png");
+}
+.creditcardBackground{
+  background-image: url("../shared/images/credit-card.png");
+}
+.maestro {
+  position: fixed;
+  top: 373px;
+  left: 840px;
+}
+.mastercard {
+  position: fixed;
+  top: 373px;
+  left: 840px;
+}
+.creditcard {
+  position: fixed;
+  top: 373px;
+  left: 840px;
+}
+.icon-back {
+  margin-top: 35px;
+  margin-left: 12px;
+  position: fixed;
+  color: white;
+  background-color: transparent;
+  font-size: 30px;
+}
+.replaceRachat{
+  position: absolute;
+  top: 785px;
+  left: 760px;
+  color: #7f3776;
+  font-family: Roboto;
+  font-size: 13px;
+}
+.replaceVerser{
+  position: absolute;
+  top: 785px;
+  left: 640px;
+  color: #7f3776;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.replaceLister{
+  position: absolute;
+  top: 785px;
+  left: 510px;
+  color: #7f3776;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.replaceTransferer{
+  position: absolute;
+  top: 785px;
+  left: 870px;
+  color: #7f3776;
+  font-family: Roboto;
+  font-size: 14px;
 }

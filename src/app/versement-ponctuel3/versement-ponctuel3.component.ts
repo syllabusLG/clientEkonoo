@@ -19,7 +19,7 @@ export class VersementPonctuel3Component implements OnInit {
     this.router.navigateByUrl(`home/(contentOutlet:versementPonctuel4/${this.route.snapshot.paramMap.get("montantValue")})`);
   }
   goToVersementPonctuelCarte(){
-    this.router.navigateByUrl('home/(contentOutlet:versementPonctuelCarte)');
+    this.router.navigateByUrl(`home/(contentOutlet:versementPonctuelCarte/${this.route.snapshot.paramMap.get("montantValue")}))`);
   }
   goBack() {
     this.router.navigateByUrl(`home/(contentOutlet:versementPonctuel2/${this.route.snapshot.paramMap.get("montantValue")}))`);
